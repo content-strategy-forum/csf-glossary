@@ -1,9 +1,14 @@
 # The Content Glossary
 
-This repository serves as the new (and final) collaboration platform for drafting and discussing the content glossary articles destined for the production glossary. This README file provides complete details about the glossary's scope and collaborative approach.
+The glossary is an open, collaborative project coordinated by CSF. This is an ongoing initiative — a _rolling_ glossary. The goal is to create a core set of common, practical terms that benefit collaborators across borders/cultures and user experience professions (content strategy, information architecture, interaction design, and so forth). The words "core" and "common" should be a clue to the scale. While we don't put any limit on the number of terms, neither is the goal to create a comprehensive dictionary of every concievable content-related word. Nor should the result be overly biased to a given discipline, like technical communication or content marketing. Beyond that we'll let the collaborative process of building the glossary work the remaining details out. 
 
-**Note to previous contributors:** 
-We apologize for the inconvenience of changing the platform. The previous process of using Google Drive was unproductive and cumbersome our scale (dozens of individual documents). By using GitHub, we add a much needed layer of versioning control, as well as improved collaboration tools like a dedicated [Issues](https://github.com/content-strategy-forum/csf-glossary/issues) tracker (see link in menu above), a contributor team list, and the ability to create Trello-like subproject management should a clear need arise for a specific focus. If you made writing/editing conributions in the past, we know who you are and you will still get recognition on the production glossary. Any further writing/editing contributions, however, will require having a GitHub account.
+As far as the "build" aspect of this glossary goes, anyone working or studying in the content-as-service professions is ideal for pitching in. We especially encourage all such writers who have avoided GitHub to date to let down your guard and give it a try. This project gives you a great excuse to do it in the company of your own people — writers and editors — without the worry of knowing code beyond formatting basics in Markdown. And if you've not used Markdown before, then it's a double win; you'll add that to your skills box too.
+
+***
+
+**Note to previous contributors:** We apologize for the inconvenience of changing the platform. The previous process of using Google Drive was unproductive and cumbersome for our scale (dozens of individual documents). By using GitHub, we add a much needed layer of versioning control, as well as improved collaboration tools like a dedicated [Issues](https://github.com/content-strategy-forum/csf-glossary/issues) tracker (the link is always in the menu above), an [editors team list](https://github.com/orgs/content-strategy-forum/teams/glossers), and the ability to create Trello-like sub-projects should a clear need arise for a specific focus. If you made writing/editing conributions in the past, we know who you are and you'll still get credit in the production launch. Any further writing/editing contributions for credit, however, will require having a GitHub account.
+
+The rest of this README provides instruction for getting started.
 
 ## Collaboration hierarchy
 
