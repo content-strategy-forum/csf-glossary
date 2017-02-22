@@ -12,9 +12,7 @@ As far as the collaborative drafting side of this glossary goes, anyone working 
 
 ***
 
-The rest of this README provides overview of the collaborative hierarchy and forseen project evolution from development to production. 
-
-You should also see the [wiki for this project](https://github.com/content-strategy-forum/csf-glossary/wiki), which provides a lot of guideance for using GitHub, collaboration protocols, and style guidelines for definitions. We're writing the wiki docs as we go, so expect content to chunk and move as we refine it for improved usability.
+The rest of this README provides overview of the collaborative hierarchy and forseen project evolution from development to production. You should also see the [wiki for this project](https://github.com/content-strategy-forum/csf-glossary/wiki), which provides a lot of guideance for using GitHub, collaboration protocols, and style guidelines for definitions. We're writing the wiki docs as we go, so expect content to chunk and move as we refine it for improved usability.
 
 ## Collaboration hierarchy
 
