@@ -1,14 +1,18 @@
 # The Content Glossary
 
-The glossary is an open, collaborative project coordinated by CSF. This is an ongoing initiative — a _rolling_ glossary. The goal is to create a core set of common, practical terms that benefit collaborators across borders/cultures and user experience professions (content strategy, information architecture, interaction design, and so forth). The words "core" and "common" should be a clue to the scale. While we don't put any limit on the number of terms, neither is the goal to create a comprehensive dictionary of every concievable content-related word. Nor should the result be overly biased to a given discipline, like technical communication or content marketing. Beyond that we'll let the collaborative process of building the glossary work the remaining details out. 
+The glossary is an open, collaborative project coordinated by CSF. This is an ongoing initiative — a _rolling_ glossary. The goal is to create a core set of common, practical terms that benefit collaborators across borders/cultures and user experience professions (content strategy, information architecture, interaction design, and so forth). 
 
-As far as the "build" aspect of this glossary goes, anyone working or studying in the content-as-service professions is ideal for pitching in. We especially encourage all such writers who have avoided GitHub to date to let down your guard and give it a try. This project gives you a great excuse to do it in the company of your own people — writers and editors — without the worry of knowing code beyond formatting basics in Markdown. And if you've not used Markdown before, then it's a double win; you'll add that to your skills box too.
+The words "core" and "common" should be a clue to the scale of the glossary. While we don't put any limit on the number of terms, neither is the goal to create a comprehensive dictionary of every concievable content-related word. Nor should the result be overly biased to a given discipline, like technical communication or content marketing. Beyond that we'll let the collaborative process of building the glossary work the remaining details out. 
+
+As far as the collaborative drafting side of this glossary goes, anyone working or studying in the content-as-service professions are welcome to pitch in (i.e. novelists, poets, songwriters, and the groovy like are probably outside of our domain scope). We especially encourage all such writers who have avoided GitHub to date to let down your guard and give it a try. This project gives you a great excuse to do it in the company of your own people without the worry of knowing code beyond a little Markdown formatting syntax. And if you've not used Markdown before, then it's a double win; you'll add that to your skills box too.
 
 ***
 
 **Note to previous contributors:** We apologize for the inconvenience of changing the platform. The previous process of using Google Drive was unproductive and cumbersome for our scale (dozens of individual documents). By using GitHub, we add a much needed layer of versioning control, as well as improved collaboration tools like a dedicated [Issues](https://github.com/content-strategy-forum/csf-glossary/issues) tracker (the link is always in the menu above), an [editors team list](https://github.com/orgs/content-strategy-forum/teams/glossers), and the ability to create Trello-like sub-projects should a clear need arise for a specific focus. If you made writing/editing conributions in the past, we know who you are and you'll still get credit in the production launch. Any further writing/editing contributions for credit, however, will require having a GitHub account.
 
-The rest of this README provides instruction for getting started.
+***
+
+The rest of this README provides instruction for getting started. You should also see the [wiki for this project](https://github.com/content-strategy-forum/csf-glossary/wiki), which provides a lot of guideance about collaboration protocols and using GitHub. We're writing the help docs as we go, so expect content to chunk and move as we refine it for improved usability in the wiki.
 
 ## Collaboration hierarchy
 
