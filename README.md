@@ -4,7 +4,7 @@ The glossary is an open, collaborative, and _rolling_ project for UX content str
 
 See the **[wiki documentation](https://github.com/content-strategy-forum/csf-glossary/wiki)** for complete details about 1) getting started, 2) the collaboration process, and 3) using GitHub (if you're new).
 
-The production location will be `https://glossary.csf.community`, but it won't launch until at least 50 definitions are ready.
+The production location will be `https://glossary.csf.community`. But we're not worried about that right now. We've got some synthesizing and writing to do!
 
 ***
 
