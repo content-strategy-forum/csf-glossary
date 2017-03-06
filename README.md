@@ -1,8 +1,8 @@
 # The UX Content Glossary
 
-The glossary is an open, collaborative, and _rolling_ project for UX content strategists and other concerned individuals. "Rolling" meaning there is no end point to refining the definitions. The goal is to create a core set of common, practical terms that benefit collaborators across UX professions and cultural borders. 
+The glossary is an open, collaborative, and _rolling_ project for people working with content in UX fields. The goal is to create a core set of common, practical terms that benefit collaborators across borders and UX professions. "Rolling" meaning there is no end point to refining the definitions (but changes must be made following collaboration protocols). 
 
-See the **[wiki documentation](https://github.com/content-strategy-forum/csf-glossary/wiki)** for complete details about 1) getting started, 2) the collaboration process, and 3) using GitHub (if you're new).
+See the **[wiki documentation](https://github.com/content-strategy-forum/csf-glossary/wiki)** for complete details about 1) the overall project, 2) how to contribute, and 3) using GitHub (if you're new).
 
 The production location will be `https://glossary.csf.community`. But we're not worried about that right now. We've got some synthesizing and writing to do!
 
