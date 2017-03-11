@@ -1600,7 +1600,7 @@ Glossary website\
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{67, 497}, {260, 60}}</string>
+			<string>{{10, 493}, {260, 60}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1885,7 +1885,7 @@ Writers model: Clone, branch, then pull request}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{254, 223.5000057220459}, {239, 45}}</string>
+			<string>{{307, 223.5000057220459}, {239, 45}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -2853,8 +2853,8 @@ sync}</string>
 			<integer>1</integer>
 			<key>Points</key>
 			<array>
-				<string>{311, 209}</string>
-				<string>{312, 584}</string>
+				<string>{294, 209}</string>
+				<string>{295, 584}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -5913,7 +5913,7 @@ website\
 			<key>Print</key>
 			<string>YES</string>
 			<key>View</key>
-			<string>NO</string>
+			<string>YES</string>
 		</dict>
 		<dict>
 			<key>Lock</key>
@@ -5923,7 +5923,7 @@ website\
 			<key>Print</key>
 			<string>YES</string>
 			<key>View</key>
-			<string>YES</string>
+			<string>NO</string>
 		</dict>
 		<dict>
 			<key>Lock</key>
@@ -5968,7 +5968,7 @@ website\
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2017-03-11 15:31:25 +0000</string>
+	<string>2017-03-11 16:30:06 +0000</string>
 	<key>Modifier</key>
 	<string>Destry Wion</string>
 	<key>NotesVisible</key>
