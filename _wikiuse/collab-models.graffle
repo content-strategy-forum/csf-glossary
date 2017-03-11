@@ -249,7 +249,7 @@ push (commit) up}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{116.83198576843154, 213.99999280245049}, {113.95737457275391, 40}}</string>
+			<string>{{125.83198576843154, 213.99999280245049}, {113.95737457275391, 40}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -362,19 +362,6 @@ push (commit) up}</string>
 			<dict>
 				<key>fill</key>
 				<dict>
-					<key>Color</key>
-					<dict>
-						<key>a</key>
-						<string>0</string>
-						<key>b</key>
-						<string>1</string>
-						<key>g</key>
-						<string>1</string>
-						<key>r</key>
-						<string>1</string>
-					</dict>
-					<key>Draws</key>
-					<string>NO</string>
 					<key>FillType</key>
 					<integer>2</integer>
 					<key>GradientAngle</key>
@@ -631,7 +618,7 @@ Editors model: Clone, edit, and push}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{254, 223.5000057220459}, {239, 45}}</string>
+			<string>{{307, 223.5000057220459}, {239, 45}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1070,8 +1057,8 @@ sync down}</string>
 			<integer>0</integer>
 			<key>Points</key>
 			<array>
-				<string>{311, 209}</string>
-				<string>{310, 468}</string>
+				<string>{293, 209}</string>
+				<string>{292, 468}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1545,7 +1532,7 @@ Glossary website\
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{116.83198576843154, 213.99999280245049}, {113.95737457275391, 40}}</string>
+			<string>{{125.83198576843154, 213.99999280245049}, {113.95737457275391, 40}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -5913,7 +5900,7 @@ website\
 			<key>Print</key>
 			<string>YES</string>
 			<key>View</key>
-			<string>YES</string>
+			<string>NO</string>
 		</dict>
 		<dict>
 			<key>Lock</key>
@@ -5923,7 +5910,7 @@ website\
 			<key>Print</key>
 			<string>YES</string>
 			<key>View</key>
-			<string>NO</string>
+			<string>YES</string>
 		</dict>
 		<dict>
 			<key>Lock</key>
@@ -5968,7 +5955,7 @@ website\
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2017-03-11 16:30:06 +0000</string>
+	<string>2017-03-11 17:43:37 +0000</string>
 	<key>Modifier</key>
 	<string>Destry Wion</string>
 	<key>NotesVisible</key>
@@ -6063,7 +6050,7 @@ website\
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>VisibleRegion</key>
-		<string>{{-124, 46}, {807, 587}}</string>
+		<string>{{-124, 3}, {807, 587}}</string>
 		<key>Zoom</key>
 		<real>1</real>
 		<key>ZoomValues</key>
