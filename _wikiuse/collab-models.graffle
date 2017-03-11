@@ -1071,7 +1071,7 @@ sync down}</string>
 			<key>Points</key>
 			<array>
 				<string>{311, 209}</string>
-				<string>{312, 552}</string>
+				<string>{310, 468}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -2854,7 +2854,7 @@ sync}</string>
 			<key>Points</key>
 			<array>
 				<string>{311, 209}</string>
-				<string>{312, 552}</string>
+				<string>{312, 584}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -5913,7 +5913,7 @@ website\
 			<key>Print</key>
 			<string>YES</string>
 			<key>View</key>
-			<string>YES</string>
+			<string>NO</string>
 		</dict>
 		<dict>
 			<key>Lock</key>
@@ -5923,7 +5923,7 @@ website\
 			<key>Print</key>
 			<string>YES</string>
 			<key>View</key>
-			<string>NO</string>
+			<string>YES</string>
 		</dict>
 		<dict>
 			<key>Lock</key>
@@ -5968,7 +5968,7 @@ website\
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2017-03-11 13:48:08 +0000</string>
+	<string>2017-03-11 15:31:25 +0000</string>
 	<key>Modifier</key>
 	<string>Destry Wion</string>
 	<key>NotesVisible</key>
@@ -6063,7 +6063,7 @@ website\
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>VisibleRegion</key>
-		<string>{{-124, 9}, {807, 587}}</string>
+		<string>{{-124, 46}, {807, 587}}</string>
 		<key>Zoom</key>
 		<real>1</real>
 		<key>ZoomValues</key>
