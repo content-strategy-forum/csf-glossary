@@ -53,7 +53,7 @@
 	<array>
 		<dict>
 			<key>Bounds</key>
-			<string>{{221, 411}, {142.95736694335938, 16}}</string>
+			<string>{{221, 412.0000057220459}, {142.95736694335938, 16}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -218,8 +218,8 @@ push (commit) up}</string>
 			<integer>0</integer>
 			<key>Points</key>
 			<array>
-				<string>{367, 406}</string>
-				<string>{220, 406}</string>
+				<string>{367, 384}</string>
+				<string>{220, 384}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -249,7 +249,7 @@ push (commit) up}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{147.04261809265029, 255.99999280245049}, {113.95737457275391, 40}}</string>
+			<string>{{297.71580517292023, 259.05861306190491}, {113.95737457275391, 40}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -268,6 +268,15 @@ push (commit) up}</string>
 			<integer>94</integer>
 			<key>Layer</key>
 			<integer>0</integer>
+			<key>Line</key>
+			<dict>
+				<key>ID</key>
+				<integer>81</integer>
+				<key>Position</key>
+				<real>0.48179396986961365</real>
+				<key>RotationType</key>
+				<integer>0</integer>
+			</dict>
 			<key>Shape</key>
 			<string>Circle</string>
 			<key>Style</key>
@@ -460,7 +469,7 @@ Collaborator setup}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{307, 264.0000114440918}, {239, 60}}</string>
+			<string>{{10, 267.9999885559082}, {239, 60}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -588,7 +597,7 @@ Collaborator has
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{220, 367.75000381469727}, {143.95736694335938, 16}}</string>
+			<string>{{220, 363.50000286102295}, {143.95736694335938, 16}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -754,8 +763,8 @@ sync down}</string>
 			<integer>0</integer>
 			<key>Points</key>
 			<array>
-				<string>{216.95737457275391, 390}</string>
-				<string>{363.95736694335938, 390}</string>
+				<string>{216.95737457275391, 408}</string>
+				<string>{363.95736694335938, 408}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -832,19 +841,19 @@ sync down}</string>
 				<data>
 				BAtzdHJlYW10eXBlZIHoA4QBQISEhBJOU0F0dHJpYnV0
 				ZWRTdHJpbmcAhIQITlNPYmplY3QAhZKEhIQITlNTdHJp
-				bmcBlIQBKwVjbG9uZYaEAmlJAQWShISEDE5TRGljdGlv
-				bmFyeQCUhAFpA5KElpYHTlNDb2xvcoaShISEB05TQ29s
-				b3IAlIQBYwGEBGZmZmYBAQEBhpKElpYQTlNQYXJhZ3Jh
-				cGhTdHlsZYaShISEF05TTXV0YWJsZVBhcmFncmFwaFN0
-				eWxlAISEEE5TUGFyYWdyYXBoU3R5bGUAlIQEQ0NAUwIA
-				hISEB05TQXJyYXkAlJkMkoSEhAlOU1RleHRUYWIAlIQC
-				Q2YAHIaShKOiADiGkoSjogBUhpKEo6IAcIaShKOiAIGM
-				AIaShKOiAIGoAIaShKOiAIHEAIaShKOiAIHgAIaShKOi
-				AIH8AIaShKOiAIEYAYaShKOiAIE0AYaShKOiAIFQAYaG
-				gQAIhARbMWZdg83MTD2GkoSWlgZOU0ZvbnSGkoSEhAZO
-				U0ZvbnQelJkkhAVbMzZjXQYAAAAaAAAA//5WAGUAcgBk
-				AGEAbgBhAC0AQgBvAGwAZAAAAIQBZg+bAJsBmwCbAIaG
-				hg==
+				bmcBlIQBKw9tYXN0ZXIKKHNvdXJjZSmGhAJpSQEPkoSE
+				hAxOU0RpY3Rpb25hcnkAlIQBaQOShJaWB05TQ29sb3KG
+				koSEhAdOU0NvbG9yAJSEAWMBhARmZmZmAQEBAYaShJaW
+				EE5TUGFyYWdyYXBoU3R5bGWGkoSEhBdOU011dGFibGVQ
+				YXJhZ3JhcGhTdHlsZQCEhBBOU1BhcmFncmFwaFN0eWxl
+				AJSEBENDQFMCAISEhAdOU0FycmF5AJSZDJKEhIQJTlNU
+				ZXh0VGFiAJSEAkNmAByGkoSjogA4hpKEo6IAVIaShKOi
+				AHCGkoSjogCBjACGkoSjogCBqACGkoSjogCBxACGkoSj
+				ogCB4ACGkoSjogCB/ACGkoSjogCBGAGGkoSjogCBNAGG
+				koSjogCBUAGGhoEACIQEWzFmXYPNzEw9hpKElpYGTlNG
+				b250hpKEhIQGTlNGb250HpSZJIQFWzM2Y10GAAAAGgAA
+				AP/+VgBlAHIAZABhAG4AYQAtAEIAbwBsAGQAAACEAWYP
+				mwCbAZsAmwCGhoY=
 				</data>
 				<key>Text</key>
 				<string>{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf810
@@ -853,7 +862,8 @@ sync down}</string>
 {\*\expandedcolortbl;;\csgenericrgb\c100000\c100000\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\b\fs30 \cf2 clone}</string>
+\f0\b\fs30 \cf2 master\
+(source)}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -865,8 +875,8 @@ sync down}</string>
 			<integer>0</integer>
 			<key>Points</key>
 			<array>
-				<string>{156, 357}</string>
-				<string>{266, 192}</string>
+				<string>{426, 360}</string>
+				<string>{278, 192}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -899,8 +909,8 @@ sync down}</string>
 			<integer>0</integer>
 			<key>Points</key>
 			<array>
-				<string>{293, 235}</string>
-				<string>{292, 471}</string>
+				<string>{292, 235}</string>
+				<string>{291, 471}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1061,14 +1071,14 @@ sync down}</string>
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qr
 
 \f0\b\fs30 \cf2 \expnd0\expndtw0\kerning0
-Local computer}</string>
+GitHub}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{10, 215}, {90, 20}}</string>
+			<string>{{10, 215}, {154, 20}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1201,7 +1211,7 @@ Local computer}</string>
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\b\fs30 \cf2 \expnd0\expndtw0\kerning0
-GitHub}</string>
+Local computer}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
@@ -1311,19 +1321,19 @@ Glossary website\
 				<data>
 				BAtzdHJlYW10eXBlZIHoA4QBQISEhBJOU0F0dHJpYnV0
 				ZWRTdHJpbmcAhIQITlNPYmplY3QAhZKEhIQITlNTdHJp
-				bmcBlIQBKw9tYXN0ZXIKKHNvdXJjZSmGhAJpSQEPkoSE
-				hAxOU0RpY3Rpb25hcnkAlIQBaQOShJaWB05TQ29sb3KG
-				koSEhAdOU0NvbG9yAJSEAWMBhARmZmZmAQEBAYaShJaW
-				EE5TUGFyYWdyYXBoU3R5bGWGkoSEhBdOU011dGFibGVQ
-				YXJhZ3JhcGhTdHlsZQCEhBBOU1BhcmFncmFwaFN0eWxl
-				AJSEBENDQFMCAISEhAdOU0FycmF5AJSZDJKEhIQJTlNU
-				ZXh0VGFiAJSEAkNmAByGkoSjogA4hpKEo6IAVIaShKOi
-				AHCGkoSjogCBjACGkoSjogCBqACGkoSjogCBxACGkoSj
-				ogCB4ACGkoSjogCB/ACGkoSjogCBGAGGkoSjogCBNAGG
-				koSjogCBUAGGhoEACIQEWzFmXYPNzEw9hpKElpYGTlNG
-				b250hpKEhIQGTlNGb250HpSZJIQFWzM2Y10GAAAAGgAA
-				AP/+VgBlAHIAZABhAG4AYQAtAEIAbwBsAGQAAACEAWYP
-				mwCbAZsAmwCGhoY=
+				bmcBlIQBKwVjbG9uZYaEAmlJAQWShISEDE5TRGljdGlv
+				bmFyeQCUhAFpA5KElpYHTlNDb2xvcoaShISEB05TQ29s
+				b3IAlIQBYwGEBGZmZmYBAQEBhpKElpYQTlNQYXJhZ3Jh
+				cGhTdHlsZYaShISEF05TTXV0YWJsZVBhcmFncmFwaFN0
+				eWxlAISEEE5TUGFyYWdyYXBoU3R5bGUAlIQEQ0NAUwIA
+				hISEB05TQXJyYXkAlJkMkoSEhAlOU1RleHRUYWIAlIQC
+				Q2YAHIaShKOiADiGkoSjogBUhpKEo6IAcIaShKOiAIGM
+				AIaShKOiAIGoAIaShKOiAIHEAIaShKOiAIHgAIaShKOi
+				AIH8AIaShKOiAIEYAYaShKOiAIE0AYaShKOiAIFQAYaG
+				gQAIhARbMWZdg83MTD2GkoSWlgZOU0ZvbnSGkoSEhAZO
+				U0ZvbnQelJkkhAVbMzZjXQYAAAAaAAAA//5WAGUAcgBk
+				AGEAbgBhAC0AQgBvAGwAZAAAAIQBZg+bAJsBmwCbAIaG
+				hg==
 				</data>
 				<key>Text</key>
 				<string>{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf810
@@ -1332,8 +1342,7 @@ Glossary website\
 {\*\expandedcolortbl;;\csgenericrgb\c100000\c100000\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\b\fs30 \cf2 master\
-(source)}</string>
+\f0\b\fs30 \cf2 clone}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -5630,7 +5639,7 @@ website\
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2017-03-13 13:28:21 +0000</string>
+	<string>2017-03-13 13:36:12 +0000</string>
 	<key>Modifier</key>
 	<string>Destry Wion</string>
 	<key>NotesVisible</key>
@@ -5725,7 +5734,7 @@ website\
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>VisibleRegion</key>
-		<string>{{-124, 0}, {807, 587}}</string>
+		<string>{{-124, 5}, {807, 587}}</string>
 		<key>Zoom</key>
 		<real>1</real>
 		<key>ZoomValues</key>
