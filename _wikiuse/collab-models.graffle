@@ -53,7 +53,7 @@
 	<array>
 		<dict>
 			<key>Bounds</key>
-			<string>{{221, 412.0000057220459}, {142.95736694335938, 16}}</string>
+			<string>{{221, 421.0000057220459}, {142.95736694335938, 16}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -93,49 +93,8 @@
 			<dict>
 				<key>fill</key>
 				<dict>
-					<key>Color</key>
-					<dict>
-						<key>a</key>
-						<string>0</string>
-						<key>b</key>
-						<string>1</string>
-						<key>g</key>
-						<string>1</string>
-						<key>r</key>
-						<string>1</string>
-					</dict>
-					<key>Draws</key>
-					<string>NO</string>
-					<key>FillType</key>
-					<integer>2</integer>
-					<key>GradientAngle</key>
-					<real>56</real>
-					<key>GradientColor</key>
-					<dict>
-						<key>a</key>
-						<string>0</string>
-						<key>b</key>
-						<string>0.901961</string>
-						<key>g</key>
-						<string>0.901961</string>
-						<key>r</key>
-						<string>0.901961</string>
-					</dict>
-					<key>MiddleColor</key>
-					<dict>
-						<key>a</key>
-						<string>0.9</string>
-						<key>b</key>
-						<string>1</string>
-						<key>g</key>
-						<string>1</string>
-						<key>r</key>
-						<string>1</string>
-					</dict>
 					<key>MiddleFraction</key>
 					<real>0.3125</real>
-					<key>TrippleBlend</key>
-					<string>YES</string>
 				</dict>
 				<key>shadow</key>
 				<dict>
@@ -164,11 +123,11 @@
 					<key>Color</key>
 					<dict>
 						<key>b</key>
-						<string>0.2</string>
+						<string>0.501961</string>
 						<key>g</key>
-						<string>0.2</string>
+						<string>0</string>
 						<key>r</key>
-						<string>0.2</string>
+						<string>0.501961</string>
 					</dict>
 					<key>Draws</key>
 					<string>NO</string>
@@ -212,19 +171,26 @@ push (commit) up}</string>
 		<dict>
 			<key>Class</key>
 			<string>LineGraphic</string>
+			<key>ControlPoints</key>
+			<array>
+				<string>{-17, -10}</string>
+				<string>{69, -30}</string>
+			</array>
 			<key>ID</key>
 			<integer>96</integer>
 			<key>Layer</key>
 			<integer>0</integer>
 			<key>Points</key>
 			<array>
-				<string>{367, 384}</string>
-				<string>{220, 384}</string>
+				<string>{366, 391}</string>
+				<string>{218, 392}</string>
 			</array>
 			<key>Style</key>
 			<dict>
 				<key>stroke</key>
 				<dict>
+					<key>Bezier</key>
+					<true/>
 					<key>Color</key>
 					<dict>
 						<key>b</key>
@@ -241,9 +207,9 @@ push (commit) up}</string>
 					<key>LineType</key>
 					<integer>1</integer>
 					<key>TailArrow</key>
-					<string>SharpBackArrow</string>
+					<string>0</string>
 					<key>Width</key>
-					<real>2</real>
+					<real>4</real>
 				</dict>
 			</dict>
 		</dict>
@@ -597,7 +563,7 @@ Collaborator has
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{220, 363.50000286102295}, {143.95736694335938, 16}}</string>
+			<string>{{220, 355.50000286102295}, {143.95736694335938, 16}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -637,49 +603,8 @@ Collaborator has
 			<dict>
 				<key>fill</key>
 				<dict>
-					<key>Color</key>
-					<dict>
-						<key>a</key>
-						<string>0</string>
-						<key>b</key>
-						<string>1</string>
-						<key>g</key>
-						<string>1</string>
-						<key>r</key>
-						<string>1</string>
-					</dict>
-					<key>Draws</key>
-					<string>NO</string>
-					<key>FillType</key>
-					<integer>2</integer>
-					<key>GradientAngle</key>
-					<real>56</real>
-					<key>GradientColor</key>
-					<dict>
-						<key>a</key>
-						<string>0</string>
-						<key>b</key>
-						<string>0.901961</string>
-						<key>g</key>
-						<string>0.901961</string>
-						<key>r</key>
-						<string>0.901961</string>
-					</dict>
-					<key>MiddleColor</key>
-					<dict>
-						<key>a</key>
-						<string>0.9</string>
-						<key>b</key>
-						<string>1</string>
-						<key>g</key>
-						<string>1</string>
-						<key>r</key>
-						<string>1</string>
-					</dict>
 					<key>MiddleFraction</key>
 					<real>0.3125</real>
-					<key>TrippleBlend</key>
-					<string>YES</string>
 				</dict>
 				<key>shadow</key>
 				<dict>
@@ -708,11 +633,11 @@ Collaborator has
 					<key>Color</key>
 					<dict>
 						<key>b</key>
-						<string>0.2</string>
+						<string>0.501961</string>
 						<key>g</key>
-						<string>0.2</string>
+						<string>0</string>
 						<key>r</key>
-						<string>0.2</string>
+						<string>0.501961</string>
 					</dict>
 					<key>Draws</key>
 					<string>NO</string>
@@ -757,19 +682,26 @@ sync down}</string>
 		<dict>
 			<key>Class</key>
 			<string>LineGraphic</string>
+			<key>ControlPoints</key>
+			<array>
+				<string>{73.042625427246094, 20}</string>
+				<string>{-43.957366943359375, 11}</string>
+			</array>
 			<key>ID</key>
 			<integer>84</integer>
 			<key>Layer</key>
 			<integer>0</integer>
 			<key>Points</key>
 			<array>
-				<string>{216.95737457275391, 408}</string>
-				<string>{363.95736694335938, 408}</string>
+				<string>{216.95737457275391, 405}</string>
+				<string>{366.95736694335938, 405}</string>
 			</array>
 			<key>Style</key>
 			<dict>
 				<key>stroke</key>
 				<dict>
+					<key>Bezier</key>
+					<true/>
 					<key>Color</key>
 					<dict>
 						<key>b</key>
@@ -786,7 +718,7 @@ sync down}</string>
 					<key>LineType</key>
 					<integer>1</integer>
 					<key>TailArrow</key>
-					<string>SharpBackArrow</string>
+					<string>0</string>
 					<key>Width</key>
 					<real>2</real>
 				</dict>
@@ -910,7 +842,7 @@ sync down}</string>
 			<key>Points</key>
 			<array>
 				<string>{292, 235}</string>
-				<string>{291, 471}</string>
+				<string>{293, 486}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -5639,7 +5571,7 @@ website\
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2017-03-13 13:36:12 +0000</string>
+	<string>2017-03-13 21:44:15 +0000</string>
 	<key>Modifier</key>
 	<string>Destry Wion</string>
 	<key>NotesVisible</key>
