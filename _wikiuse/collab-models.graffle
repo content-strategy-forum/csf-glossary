@@ -53,7 +53,7 @@
 	<array>
 		<dict>
 			<key>Bounds</key>
-			<string>{{221, 350}, {142.95736694335938, 16}}</string>
+			<string>{{221, 411}, {142.95736694335938, 16}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -218,8 +218,8 @@ push (commit) up}</string>
 			<integer>0</integer>
 			<key>Points</key>
 			<array>
-				<string>{367, 345}</string>
-				<string>{220, 345}</string>
+				<string>{367, 406}</string>
+				<string>{220, 406}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -249,7 +249,7 @@ push (commit) up}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{125.83198576843154, 213.99999280245049}, {113.95737457275391, 40}}</string>
+			<string>{{147.04261809265029, 255.99999280245049}, {113.95737457275391, 40}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -319,164 +319,6 @@ push (commit) up}</string>
 
 \f0\b\fs24 \cf2 live update}</string>
 			</dict>
-		</dict>
-		<dict>
-			<key>Bounds</key>
-			<string>{{141.99998474121094, 409.99999237060547}, {303, 30}}</string>
-			<key>Class</key>
-			<string>ShapedGraphic</string>
-			<key>FitText</key>
-			<string>YES</string>
-			<key>Flow</key>
-			<string>Resize</string>
-			<key>FontInfo</key>
-			<dict>
-				<key>Color</key>
-				<dict>
-					<key>b</key>
-					<string>0.2</string>
-					<key>g</key>
-					<string>0.2</string>
-					<key>r</key>
-					<string>0.2</string>
-				</dict>
-				<key>Font</key>
-				<string>Verdana</string>
-				<key>NSKern</key>
-				<real>0.0</real>
-				<key>Size</key>
-				<real>15</real>
-			</dict>
-			<key>ID</key>
-			<integer>93</integer>
-			<key>Layer</key>
-			<integer>0</integer>
-			<key>Magnets</key>
-			<array>
-				<string>{1, 0}</string>
-				<string>{-1, 0}</string>
-			</array>
-			<key>Shape</key>
-			<string>Rectangle</string>
-			<key>Style</key>
-			<dict>
-				<key>fill</key>
-				<dict>
-					<key>FillType</key>
-					<integer>2</integer>
-					<key>GradientAngle</key>
-					<real>56</real>
-					<key>GradientColor</key>
-					<dict>
-						<key>a</key>
-						<string>0</string>
-						<key>b</key>
-						<string>0.901961</string>
-						<key>g</key>
-						<string>0.901961</string>
-						<key>r</key>
-						<string>0.901961</string>
-					</dict>
-					<key>MiddleColor</key>
-					<dict>
-						<key>a</key>
-						<string>0.9</string>
-						<key>b</key>
-						<string>1</string>
-						<key>g</key>
-						<string>1</string>
-						<key>r</key>
-						<string>1</string>
-					</dict>
-					<key>MiddleFraction</key>
-					<real>0.3125</real>
-					<key>TrippleBlend</key>
-					<string>YES</string>
-				</dict>
-				<key>shadow</key>
-				<dict>
-					<key>Beneath</key>
-					<string>YES</string>
-					<key>Color</key>
-					<dict>
-						<key>a</key>
-						<string>0.15</string>
-						<key>b</key>
-						<string>0</string>
-						<key>g</key>
-						<string>0</string>
-						<key>r</key>
-						<string>0</string>
-					</dict>
-					<key>Draws</key>
-					<string>NO</string>
-					<key>Fuzziness</key>
-					<real>0.0</real>
-					<key>ShadowVector</key>
-					<string>{2, 2}</string>
-				</dict>
-				<key>stroke</key>
-				<dict>
-					<key>Color</key>
-					<dict>
-						<key>b</key>
-						<string>0.2</string>
-						<key>g</key>
-						<string>0.2</string>
-						<key>r</key>
-						<string>0.2</string>
-					</dict>
-					<key>Draws</key>
-					<string>NO</string>
-				</dict>
-			</dict>
-			<key>Text</key>
-			<dict>
-				<key>Align</key>
-				<integer>0</integer>
-				<key>RTFD</key>
-				<data>
-				BAtzdHJlYW10eXBlZIHoA4QBQISEhBJOU0F0dHJpYnV0
-				ZWRTdHJpbmcAhIQITlNPYmplY3QAhZKEhIQITlNTdHJp
-				bmcBlIQBK09ObyBwdWxsIHJlcXVlc3RzIG5lY2Vzc2Fy
-				eSBiZWNhdXNlIGVkaXRvcnMKaGF2ZSAnd3JpdGUnIGFj
-				Y2VzcyBvbiBtYXN0ZXIgZmlsZXMuhoQCaUkBA5KEhIQM
-				TlNEaWN0aW9uYXJ5AJSEAWkEkoSWlhBOU1BhcmFncmFw
-				aFN0eWxlhpKEhIQXTlNNdXRhYmxlUGFyYWdyYXBoU3R5
-				bGUAhIQQTlNQYXJhZ3JhcGhTdHlsZQCUhARDQ0BTAACE
-				hIQHTlNBcnJheQCUmQyShISECU5TVGV4dFRhYgCUhAJD
-				ZgAchpKEoJ8AOIaShKCfAFSGkoSgnwBwhpKEoJ8AgYwA
-				hpKEoJ8AgagAhpKEoJ8AgcQAhpKEoJ8AgeAAhpKEoJ8A
-				gfwAhpKEoJ8AgRgBhpKEoJ8AgTQBhpKEoJ8AgVABhoaB
-				AAiEBFsxZl2DzcxMPYaShJaWBk5TS2VyboaShISECE5T
-				TnVtYmVyAISEB05TVmFsdWUAlIQBKoSEAWSkAIaShJaW
-				Bk5TRm9udIaShISEBk5TRm9udB6UmSSEBVszNmNdBgAA
-				ABoAAAD//lYAZQByAGQAYQBuAGEALQBCAG8AbABkAAAA
-				hAFmDIQBYwCoAagAqACGkoSWlgdOU0NvbG9yhpKEhIQH
-				TlNDb2xvcgCUqAGEBGZmZmaDzcxMPoPNzEw+g83MTD4B
-				hoaXAg2ShJiZBJKZkoSbnAAAhJ6ZDJKfkqGSopKjkqSS
-				pZKmkqeSqJKpkqqSq4aBAAigg83MTD2GkrSShLaoAaqD
-				zcxMPoPNzEw+g83MTD4BhpKxkoSzmTCEBVs0OGNdBgAA
-				ACYAAAD//lYAZQByAGQAYQBuAGEALQBCAG8AbABkAEkA
-				dABhAGwAaQBjAAAApwyoAKgBqACoAIaSrJKthpcBP4Y=
-				</data>
-				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf810
-\cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 Verdana;}
-{\colortbl;\red255\green255\blue255;\red51\green51\blue51;}
-{\*\expandedcolortbl;;\csgenericrgb\c20000\c20000\c20000;}
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
-
-\f0\b\fs24 \cf2 \expnd0\expndtw0\kerning0
-No 
-\i \cf2 pull requests
-\i0 \cf2  necessary because editors\
-have 'write' access on master files.}</string>
-				<key>VerticalPad</key>
-				<integer>0</integer>
-			</dict>
-			<key>Wrap</key>
-			<string>NO</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
@@ -611,14 +453,14 @@ have 'write' access on master files.}</string>
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
 
 \f0\b\fs30 \cf2 \expnd0\expndtw0\kerning0
-Editors model: Clone, edit, and push}</string>
+Collaborator setup}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{307, 223.5000057220459}, {239, 45}}</string>
+			<string>{{307, 264.0000114440918}, {239, 60}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -706,28 +548,28 @@ Editors model: Clone, edit, and push}</string>
 				<data>
 				BAtzdHJlYW10eXBlZIHoA4QBQISEhBJOU0F0dHJpYnV0
 				ZWRTdHJpbmcAhIQITlNPYmplY3QAhZKEhIQITlNTdHJp
-				bmcBlIQBK1NDb2xsYWJvcmF0b3IgaGFzIHB1c2ggcmln
+				bmcBlIQBK2hDb2xsYWJvcmF0b3IgaGFzIHB1c2ggcmln
 				aHRzLCBzbyBzeW5jaW5nIGlzIGJpZGlyZWN0aW9uYWwg
-				YmV0d2VlbiBtYXN0ZXIgYW5kIGNsb25lLoaEAmlJARGS
-				hISEDE5TRGljdGlvbmFyeQCUhAFpBJKElpYQTlNQYXJh
-				Z3JhcGhTdHlsZYaShISEF05TTXV0YWJsZVBhcmFncmFw
-				aFN0eWxlAISEEE5TUGFyYWdyYXBoU3R5bGUAlIQEQ0NA
-				UwAAhISEB05TQXJyYXkAlJkMkoSEhAlOU1RleHRUYWIA
-				lIQCQ2YAHIaShKCfADiGkoSgnwBUhpKEoJ8AcIaShKCf
-				AIGMAIaShKCfAIGoAIaShKCfAIHEAIaShKCfAIHgAIaS
-				hKCfAIH8AIaShKCfAIEYAYaShKCfAIE0AYaShKCfAIFQ
-				AYaGgQAIhARbMWZdg83MTD2GkoSWlgZOU0tlcm6GkoSE
-				hAhOU051bWJlcgCEhAdOU1ZhbHVlAJSEASqEhAFkpACG
-				koSWlgZOU0ZvbnSGkoSEhAZOU0ZvbnQelJkkhAVbMzZj
-				XQYAAAAaAAAA//5WAGUAcgBkAGEAbgBhAC0AQgBvAGwA
-				ZAAAAIQBZgyEAWMAqAGoAKgAhpKElpYHTlNDb2xvcoaS
-				hISEB05TQ29sb3IAlKgBhARmZmZmg83MTD6DzcxMPoPN
-				zEw+AYaGlwIEkoSYmQSSmZKEm5wAAISemQySn5KhkqKS
-				o5KkkqWSppKnkqiSqZKqkquGgQAIoIPNzEw9hpK0koS2
-				qAGqg83MTD6DzcxMPoPNzEw+AYaSsZKEs5kwhAVbNDhj
-				XQYAAAAmAAAA//5WAGUAcgBkAGEAbgBhAC0AQgBvAGwA
-				ZABJAHQAYQBsAGkAYwAAAKcMqACoAagAqACGkqySrYaX
-				AT6G
+				YmV0d2VlbiBtYXN0ZXIgYW5kIGNsb25lIChmaXJzdCBk
+				b3duLCB0aGVuIHVwKYaEAmlJARGShISEDE5TRGljdGlv
+				bmFyeQCUhAFpBJKElpYQTlNQYXJhZ3JhcGhTdHlsZYaS
+				hISEF05TTXV0YWJsZVBhcmFncmFwaFN0eWxlAISEEE5T
+				UGFyYWdyYXBoU3R5bGUAlIQEQ0NAUwAAhISEB05TQXJy
+				YXkAlJkMkoSEhAlOU1RleHRUYWIAlIQCQ2YAHIaShKCf
+				ADiGkoSgnwBUhpKEoJ8AcIaShKCfAIGMAIaShKCfAIGo
+				AIaShKCfAIHEAIaShKCfAIHgAIaShKCfAIH8AIaShKCf
+				AIEYAYaShKCfAIE0AYaShKCfAIFQAYaGgQAIhARbMWZd
+				g83MTD2GkoSWlgZOU0tlcm6GkoSEhAhOU051bWJlcgCE
+				hAdOU1ZhbHVlAJSEASqEhAFkpACGkoSWlgZOU0ZvbnSG
+				koSEhAZOU0ZvbnQelJkkhAVbMzZjXQYAAAAaAAAA//5W
+				AGUAcgBkAGEAbgBhAC0AQgBvAGwAZAAAAIQBZgyEAWMA
+				qAGoAKgAhpKElpYHTlNDb2xvcoaShISEB05TQ29sb3IA
+				lKgBhARmZmZmg83MTD6DzcxMPoPNzEw+AYaGlwIEkoSY
+				mQSSmZKEm5wAAISemQySn5KhkqKSo5KkkqWSppKnkqiS
+				qZKqkquGgQAIoIPNzEw9hpK0koS2qAGqg83MTD6DzcxM
+				PoPNzEw+AYaSsZKEs5kwhAVbNDhjXQYAAAAmAAAA//5W
+				AGUAcgBkAGEAbgBhAC0AQgBvAGwAZABJAHQAYQBsAGkA
+				YwAAAKcMqACoAagAqACGkqySrYaXAVOG
 				</data>
 				<key>Text</key>
 				<string>{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf810
@@ -739,14 +581,14 @@ Editors model: Clone, edit, and push}</string>
 \f0\b\fs24 \cf2 \expnd0\expndtw0\kerning0
 Collaborator has 
 \i \cf2 push
-\i0 \cf2  rights, so syncing is bidirectional between master and clone.}</string>
+\i0 \cf2  rights, so syncing is bidirectional between master and clone (first down, then up)}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{220, 306.75000381469727}, {143.95736694335938, 16}}</string>
+			<string>{{220, 367.75000381469727}, {143.95736694335938, 16}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -912,8 +754,8 @@ sync down}</string>
 			<integer>0</integer>
 			<key>Points</key>
 			<array>
-				<string>{216.95737457275391, 329}</string>
-				<string>{363.95736694335938, 329}</string>
+				<string>{216.95737457275391, 390}</string>
+				<string>{363.95736694335938, 390}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -943,7 +785,7 @@ sync down}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{367, 300}, {110, 69}}</string>
+			<string>{{367, 361}, {110, 69}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -1023,8 +865,8 @@ sync down}</string>
 			<integer>0</integer>
 			<key>Points</key>
 			<array>
-				<string>{161, 299}</string>
-				<string>{208, 169}</string>
+				<string>{156, 357}</string>
+				<string>{266, 192}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1057,8 +899,8 @@ sync down}</string>
 			<integer>0</integer>
 			<key>Points</key>
 			<array>
-				<string>{293, 209}</string>
-				<string>{292, 468}</string>
+				<string>{293, 235}</string>
+				<string>{292, 471}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1086,7 +928,7 @@ sync down}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{392, 172}, {154, 20}}</string>
+			<string>{{392, 215}, {154, 20}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1226,7 +1068,7 @@ Local computer}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{10, 172}, {90, 20}}</string>
+			<string>{{10, 215}, {90, 20}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1366,7 +1208,7 @@ GitHub}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{166.20799644210786, 86.5}, {204, 94}}</string>
+			<string>{{166.20799644210786, 98}, {204, 94}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>ID</key>
@@ -1434,7 +1276,7 @@ Glossary website\
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{103, 300}, {113.95737457275391, 69}}</string>
+			<string>{{103, 361}, {113.95737457275391, 69}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>ID</key>
@@ -5733,7 +5575,7 @@ website\
 			<key>Print</key>
 			<string>YES</string>
 			<key>View</key>
-			<string>NO</string>
+			<string>YES</string>
 		</dict>
 		<dict>
 			<key>Lock</key>
@@ -5743,7 +5585,7 @@ website\
 			<key>Print</key>
 			<string>YES</string>
 			<key>View</key>
-			<string>YES</string>
+			<string>NO</string>
 		</dict>
 		<dict>
 			<key>Lock</key>
@@ -5788,7 +5630,7 @@ website\
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2017-03-12 09:19:53 +0000</string>
+	<string>2017-03-13 13:28:21 +0000</string>
 	<key>Modifier</key>
 	<string>Destry Wion</string>
 	<key>NotesVisible</key>
@@ -5883,7 +5725,7 @@ website\
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>VisibleRegion</key>
-		<string>{{-124, 123}, {807, 587}}</string>
+		<string>{{-124, 0}, {807, 587}}</string>
 		<key>Zoom</key>
 		<real>1</real>
 		<key>ZoomValues</key>
