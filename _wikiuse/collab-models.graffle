@@ -53,7 +53,7 @@
 	<array>
 		<dict>
 			<key>Bounds</key>
-			<string>{{392, 488}, {154, 45}}</string>
+			<string>{{392, 515}, {154, 45}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -175,7 +175,7 @@ Pushes local changes up to create new master state.}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{361.04263305664062, 428.5}, {88, 164}}</string>
+			<string>{{361.04263305664062, 455.5}, {88, 164}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -335,7 +335,7 @@ Pushes local changes up to create new master state.}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{218.35975427868811, 515.5}, {134.79200744628906, 45}}</string>
+			<string>{{218.35975427868811, 542.5}, {134.79200744628906, 45}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -455,7 +455,7 @@ Syncs group changes down from master...}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{39, 486.5}, {148, 45}}</string>
+			<string>{{39, 513.5}, {148, 45}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -577,7 +577,7 @@ Collaborator makes local changes to clone files...}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{110.7557806120866, 615}, {350, 16}}</string>
+			<string>{{110.7557806120866, 642}, {350, 16}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -802,7 +802,7 @@ Master files display live in production glossary website.}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{221, 421.0000057220459}, {142.95736694335938, 16}}</string>
+			<string>{{2.9786758422851562, 462.07741069793701}, {553.04262542724609, 16}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -842,6 +842,8 @@ Master files display live in production glossary website.}</string>
 			<dict>
 				<key>fill</key>
 				<dict>
+					<key>Draws</key>
+					<string>NO</string>
 					<key>MiddleFraction</key>
 					<real>0.3125</real>
 				</dict>
@@ -888,21 +890,21 @@ Master files display live in production glossary website.}</string>
 				<data>
 				BAtzdHJlYW10eXBlZIHoA4QBQISEhBJOU0F0dHJpYnV0
 				ZWRTdHJpbmcAhIQITlNPYmplY3QAhZKEhIQITlNTdHJp
-				bmcBlIQBKxBwdXNoIChjb21taXQpIHVwhoQCaUkBEJKE
-				hIQMTlNEaWN0aW9uYXJ5AJSEAWkEkoSWlgZOU0tlcm6G
-				koSEhAhOU051bWJlcgCEhAdOU1ZhbHVlAJSEASqEhAFk
-				nQCGkoSWlhBOU1BhcmFncmFwaFN0eWxlhpKEhIQXTlNN
-				dXRhYmxlUGFyYWdyYXBoU3R5bGUAhIQQTlNQYXJhZ3Jh
-				cGhTdHlsZQCUhARDQ0BTAgCEhIQHTlNBcnJheQCUmQyS
-				hISECU5TVGV4dFRhYgCUhAJDZgAchpKEpaMAOIaShKWj
-				AFSGkoSlowBwhpKEpaMAgYwAhpKEpaMAgagAhpKEpaMA
-				gcQAhpKEpaMAgeAAhpKEpaMAgfwAhpKEpaMAgRgBhpKE
-				paMAgTQBhpKEpaMAgVABhoaBAAiEBFsxZl2DzcxMPYaS
-				hJaWBk5TRm9udIaShISEBk5TRm9udB6UmSSEBVszNmNd
-				BgAAABoAAAD//lYAZQByAGQAYQBuAGEALQBCAG8AbABk
-				AAAAhAFmDIQBYwCoAagAqACGkoSWlgdOU0NvbG9yhpKE
-				hIQHTlNDb2xvcgCUqAGEBGZmZmaDc4AAPwCDc4CAPgGG
-				hoY=
+				bmcBlIQBKxdQdXNoIChjb21taXQgJiBzeW5jKSB1cIaE
+				AmlJAReShISEDE5TRGljdGlvbmFyeQCUhAFpBJKElpYG
+				TlNLZXJuhpKEhIQITlNOdW1iZXIAhIQHTlNWYWx1ZQCU
+				hAEqhIQBZJ0AhpKElpYQTlNQYXJhZ3JhcGhTdHlsZYaS
+				hISEF05TTXV0YWJsZVBhcmFncmFwaFN0eWxlAISEEE5T
+				UGFyYWdyYXBoU3R5bGUAlIQEQ0NAUwIAhISEB05TQXJy
+				YXkAlJkMkoSEhAlOU1RleHRUYWIAlIQCQ2YAHIaShKWj
+				ADiGkoSlowBUhpKEpaMAcIaShKWjAIGMAIaShKWjAIGo
+				AIaShKWjAIHEAIaShKWjAIHgAIaShKWjAIH8AIaShKWj
+				AIEYAYaShKWjAIE0AYaShKWjAIFQAYaGgQAIhARbMWZd
+				g83MTD2GkoSWlgZOU0ZvbnSGkoSEhAZOU0ZvbnQelJkk
+				hAVbMzZjXQYAAAAaAAAA//5WAGUAcgBkAGEAbgBhAC0A
+				QgBvAGwAZAAAAIQBZgyEAWMAqAGoAKgAhpKElpYHTlND
+				b2xvcoaShISEB05TQ29sb3IAlKgBhARmZmZmg3OAAD8A
+				g3OAgD4BhoaG
 				</data>
 				<key>Text</key>
 				<string>{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf810
@@ -912,7 +914,7 @@ Master files display live in production glossary website.}</string>
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
 
 \f0\b\fs24 \cf2 \expnd0\expndtw0\kerning0
-push (commit) up}</string>
+Push (commit &amp; sync) up}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
@@ -931,8 +933,8 @@ push (commit) up}</string>
 			<integer>0</integer>
 			<key>Points</key>
 			<array>
-				<string>{366, 391}</string>
-				<string>{218, 392}</string>
+				<string>{355.5, 393.65480995178223}</string>
+				<string>{204.5, 394.65480995178223}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -964,7 +966,7 @@ push (commit) up}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{227.05242811371295, 275.08598854432483}, {110, 34.7236328125}}</string>
+			<string>{{239.15804940605136, 270.15400812416635}, {113.95737457275391, 34.7236328125}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -988,7 +990,7 @@ push (commit) up}</string>
 				<key>ID</key>
 				<integer>81</integer>
 				<key>Position</key>
-				<real>0.57751607894897461</real>
+				<real>0.65956234931945801</real>
 				<key>RotationType</key>
 				<integer>0</integer>
 			</dict>
@@ -1020,7 +1022,7 @@ push (commit) up}</string>
 				<data>
 				BAtzdHJlYW10eXBlZIHoA4QBQISEhBJOU0F0dHJpYnV0
 				ZWRTdHJpbmcAhIQITlNPYmplY3QAhZKEhIQITlNTdHJp
-				bmcBlIQBKwtsaXZlIHVwZGF0ZYaEAmlJAQuShISEDE5T
+				bmcBlIQBKwtMaXZlIHVwZGF0ZYaEAmlJAQuShISEDE5T
 				RGljdGlvbmFyeQCUhAFpA5KElpYHTlNDb2xvcoaShISE
 				B05TQ29sb3IAlIQBYwGEBGZmZmYAg3OAAD+Dc4CAPgGG
 				koSWlhBOU1BhcmFncmFwaFN0eWxlhpKEhIQXTlNNdXRh
@@ -1041,7 +1043,7 @@ push (commit) up}</string>
 {\*\expandedcolortbl;;\csgenericrgb\c0\c50196\c25098;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\b\fs24 \cf2 live update}</string>
+\f0\b\fs24 \cf2 Live update}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1323,7 +1325,7 @@ Collaborator clones \cf2 master\cf2  to local\cf2  and has 'write' access back t
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{220, 355.50000286102295}, {143.95736694335938, 16}}</string>
+			<string>{{2.9786758422851562, 355.15481281280518}, {553.04262542724609, 16}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1363,6 +1365,8 @@ Collaborator clones \cf2 master\cf2  to local\cf2  and has 'write' access back t
 			<dict>
 				<key>fill</key>
 				<dict>
+					<key>Draws</key>
+					<string>NO</string>
 					<key>MiddleFraction</key>
 					<real>0.3125</real>
 				</dict>
@@ -1409,22 +1413,22 @@ Collaborator clones \cf2 master\cf2  to local\cf2  and has 'write' access back t
 				<data>
 				BAtzdHJlYW10eXBlZIHoA4QBQISEhBJOU0F0dHJpYnV0
 				ZWRTdHJpbmcAhIQITlNPYmplY3QAhZKEhIQITlNTdHJp
-				bmcBlIQBKwlzeW5jIGRvd26GhAJpSQEEkoSEhAxOU0Rp
-				Y3Rpb25hcnkAlIQBaQWShJaWBk5TRm9udIaShISEBk5T
-				Rm9udB6UmSSEBVszNmNdBgAAABoAAAD//lYAZQByAGQA
-				YQBuAGEALQBCAG8AbABkAAAAhAFmDIQBYwCdAZ0AnQCG
-				koSWlgZOU0tlcm6GkoSEhAhOU051bWJlcgCEhAdOU1Zh
-				bHVlAJSEASqEhAFkoQCGkoSWlg5OU09yaWdpbmFsRm9u
-				dIaSmpKElpYQTlNQYXJhZ3JhcGhTdHlsZYaShISEF05T
-				TXV0YWJsZVBhcmFncmFwaFN0eWxlAISEEE5TUGFyYWdy
-				YXBoU3R5bGUAlIQEQ0NAUwIAhISEB05TQXJyYXkAlJkM
-				koSEhAlOU1RleHRUYWIAlIQCQ2YAHIaShKmnADiGkoSp
-				pwBUhpKEqacAcIaShKmnAIGMAIaShKmnAIGoAIaShKmn
-				AIHEAIaShKmnAIHgAIaShKmnAIH8AIaShKmnAIEYAYaS
-				hKmnAIE0AYaShKmnAIFQAYaGgQAIhARbMWZdg83MTD2G
-				koSWlgdOU0NvbG9yhpKEhIQHTlNDb2xvcgCUnQGEBGZm
-				ZmaDc4AAPwCDc4CAPgGGhpcCBZKEmJkEkpySnZKikqOS
-				mZKakrWStoaG
+				bmcBlIQBKwlTeW5jIGRvd26GhAJpSQEBkoSEhAxOU0Rp
+				Y3Rpb25hcnkAlIQBaQSShJaWBk5TS2VyboaShISECE5T
+				TnVtYmVyAISEB05TVmFsdWUAlIQBKoSEAWSdAIaShJaW
+				EE5TUGFyYWdyYXBoU3R5bGWGkoSEhBdOU011dGFibGVQ
+				YXJhZ3JhcGhTdHlsZQCEhBBOU1BhcmFncmFwaFN0eWxl
+				AJSEBENDQFMCAISEhAdOU0FycmF5AJSZDJKEhIQJTlNU
+				ZXh0VGFiAJSEAkNmAByGkoSlowA4hpKEpaMAVIaShKWj
+				AHCGkoSlowCBjACGkoSlowCBqACGkoSlowCBxACGkoSl
+				owCB4ACGkoSlowCB/ACGkoSlowCBGAGGkoSlowCBNAGG
+				koSlowCBUAGGhoEACIQEWzFmXYPNzEw9hpKElpYGTlNG
+				b250hpKEhIQGTlNGb250HpSZJIQFWzM2Y10GAAAAGgAA
+				AP/+VgBlAHIAZABhAG4AYQAtAEIAbwBsAGQAAACEAWYM
+				hAFjAKgBqACoAIaShJaWB05TQ29sb3KGkoSEhAdOU0Nv
+				bG9yAJSoAYQEZmZmZoNzgAA/AINzgIA+AYaGlwIDkoSY
+				mQWSsZKykpmSmpKElpYOTlNPcmlnaW5hbEZvbnSGkrKS
+				npKfkrSStYaXAQWG
 				</data>
 				<key>Text</key>
 				<string>{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf810
@@ -1434,7 +1438,7 @@ Collaborator clones \cf2 master\cf2  to local\cf2  and has 'write' access back t
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
 
 \f0\b\fs24 \cf2 \expnd0\expndtw0\kerning0
-sync down}</string>
+Sync down}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
@@ -1453,8 +1457,8 @@ sync down}</string>
 			<integer>0</integer>
 			<key>Points</key>
 			<array>
-				<string>{216.95737457275391, 405}</string>
-				<string>{366.95736694335938, 405}</string>
+				<string>{206.45737457275391, 439.65480995178223}</string>
+				<string>{356.45736694335938, 439.65480995178223}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1486,7 +1490,7 @@ sync down}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{367, 361}, {110, 69}}</string>
+			<string>{{356.5, 380.65480995178223}, {110, 69}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -1533,7 +1537,7 @@ sync down}</string>
 				<data>
 				BAtzdHJlYW10eXBlZIHoA4QBQISEhBJOU0F0dHJpYnV0
 				ZWRTdHJpbmcAhIQITlNPYmplY3QAhZKEhIQITlNTdHJp
-				bmcBlIQBKw9tYXN0ZXIKKHNvdXJjZSmGhAJpSQEPkoSE
+				bmcBlIQBKw9NYXN0ZXIKKHNvdXJjZSmGhAJpSQEHkoSE
 				hAxOU0RpY3Rpb25hcnkAlIQBaQOShJaWB05TQ29sb3KG
 				koSEhAdOU0NvbG9yAJSEAWMBhARmZmZmAQEBAYaShJaW
 				EE5TUGFyYWdyYXBoU3R5bGWGkoSEhBdOU011dGFibGVQ
@@ -1545,7 +1549,10 @@ sync down}</string>
 				koSjogCBUAGGhoEACIQEWzFmXYPNzEw9hpKElpYGTlNG
 				b250hpKEhIQGTlNGb250HpSZJIQFWzM2Y10GAAAAGgAA
 				AP/+VgBlAHIAZABhAG4AYQAtAEIAbwBsAGQAAACEAWYP
-				mwCbAZsAmwCGhoY=
+				mwCbAZsAmwCGhpcCCJKEmJkEkpySnZKZkpqSr5KEsZkk
+				pQYAAAAaAAAA//5WAGUAcgBkAGEAbgBhAC0AQgBvAGwA
+				ZAAAAKYMmwCbAZsAmwCGkoSWlg5OU09yaWdpbmFsRm9u
+				dIaSs4aG
 				</data>
 				<key>Text</key>
 				<string>{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf810
@@ -1554,8 +1561,9 @@ sync down}</string>
 {\*\expandedcolortbl;;\csgenericrgb\c100000\c100000\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\b\fs30 \cf2 master\
-(source)}</string>
+\f0\b\fs30 \cf2 Master\
+
+\fs24 (source)}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1563,7 +1571,7 @@ sync down}</string>
 			<string>LineGraphic</string>
 			<key>ControlPoints</key>
 			<array>
-				<string>{-165.95736694335938, -60}</string>
+				<string>{-85, -50.654809951782227}</string>
 				<string>{0, 127}</string>
 			</array>
 			<key>ID</key>
@@ -1572,7 +1580,7 @@ sync down}</string>
 			<integer>0</integer>
 			<key>Points</key>
 			<array>
-				<string>{421.95736694335938, 361}</string>
+				<string>{418, 380.65480995178223}</string>
 				<string>{278, 192}</string>
 			</array>
 			<key>Style</key>
@@ -1612,8 +1620,8 @@ sync down}</string>
 			<integer>0</integer>
 			<key>Points</key>
 			<array>
-				<string>{296, 248}</string>
-				<string>{295, 476}</string>
+				<string>{279, 336}</string>
+				<string>{279, 495}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1989,7 +1997,7 @@ Glossary website\
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{103, 361}, {113.95737457275391, 69}}</string>
+			<string>{{92.5, 380.65480995178223}, {113.95737457275391, 69}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>ID</key>
@@ -2024,7 +2032,7 @@ Glossary website\
 				<data>
 				BAtzdHJlYW10eXBlZIHoA4QBQISEhBJOU0F0dHJpYnV0
 				ZWRTdHJpbmcAhIQITlNPYmplY3QAhZKEhIQITlNTdHJp
-				bmcBlIQBKwVjbG9uZYaEAmlJAQWShISEDE5TRGljdGlv
+				bmcBlIQBKwVDbG9uZYaEAmlJAQWShISEDE5TRGljdGlv
 				bmFyeQCUhAFpA5KElpYHTlNDb2xvcoaShISEB05TQ29s
 				b3IAlIQBYwGEBGZmZmYBAQEBhpKElpYQTlNQYXJhZ3Jh
 				cGhTdHlsZYaShISEF05TTXV0YWJsZVBhcmFncmFwaFN0
@@ -2045,7 +2053,7 @@ Glossary website\
 {\*\expandedcolortbl;;\csgenericrgb\c100000\c100000\c100000;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\b\fs30 \cf2 clone}</string>
+\f0\b\fs30 \cf2 Clone}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -2212,7 +2220,7 @@ Glossary website\
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{15, 430}, {88, 164}}</string>
+			<string>{{15, 457}, {88, 164}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -2530,7 +2538,7 @@ Glossary website\
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{199, 458}, {88, 164}}</string>
+			<string>{{199, 485}, {88, 164}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -6893,10 +6901,6 @@ website\
 	<string>YES</string>
 	<key>HPages</key>
 	<integer>1</integer>
-	<key>HorizontalGuides</key>
-	<array>
-		<real>463</real>
-	</array>
 	<key>ImageCounter</key>
 	<integer>1</integer>
 	<key>KeepToScale</key>
@@ -6966,7 +6970,7 @@ website\
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2017-03-14 10:56:45 +0000</string>
+	<string>2017-03-14 11:15:06 +0000</string>
 	<key>Modifier</key>
 	<string>Destry Wion</string>
 	<key>NotesVisible</key>
