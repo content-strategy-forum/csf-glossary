@@ -577,7 +577,7 @@ Collaborator makes local changes to clone files...}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{110.7557806120866, 642}, {350, 16}}</string>
+			<string>{{2.9786758422851562, 642}, {553.04262542724609, 16}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -669,7 +669,7 @@ Collaborator makes local changes to clone files...}</string>
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
 
 \f0\i\fs24 \cf2 \expnd0\expndtw0\kerning0
-(If not in this order, sync conflicts can happen.)}</string>
+(If 2-3-4 is not done in order, sync conflicts can happen.)}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
@@ -6990,7 +6990,7 @@ website\
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2017-03-14 16:26:37 +0000</string>
+	<string>2017-03-14 16:41:05 +0000</string>
 	<key>Modifier</key>
 	<string>Destry Wion</string>
 	<key>NotesVisible</key>
@@ -7085,7 +7085,7 @@ website\
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>VisibleRegion</key>
-		<string>{{-124, 91}, {807, 587}}</string>
+		<string>{{-124, 161}, {807, 587}}</string>
 		<key>Zoom</key>
 		<real>1</real>
 		<key>ZoomValues</key>
