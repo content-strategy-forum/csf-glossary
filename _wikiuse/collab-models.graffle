@@ -1289,26 +1289,26 @@ Collaborator Setup and Contribution Workflow}</string>
 				<data>
 				BAtzdHJlYW10eXBlZIHoA4QBQISEhBJOU0F0dHJpYnV0
 				ZWRTdHJpbmcAhIQITlNPYmplY3QAhZKEhIQITlNTdHJp
-				bmcBlIQBK0pDb2xsYWJvcmF0b3IgY2xvbmVzIG1hc3Rl
-				ciB0byBsb2NhbCBhbmQgaGFzICd3cml0ZScgYWNjZXNz
-				IGJhY2sgdG8gbWFzdGVyLoaEAmlJARSShISEDE5TRGlj
-				dGlvbmFyeQCUhAFpBZKElpYGTlNGb250hpKEhIQGTlNG
-				b250HpSZMIQFWzQ4Y10GAAAAJgAAAP/+VgBlAHIAZABh
-				AG4AYQAtAEIAbwBsAGQASQB0AGEAbABpAGMAAACEAWYM
-				hAFjAJ0BnQCdAIaShJaWBk5TS2VyboaShISECE5TTnVt
-				YmVyAISEB05TVmFsdWUAlIQBKoSEAWShAIaShJaWDk5T
-				T3JpZ2luYWxGb250hpKakoSWlhBOU1BhcmFncmFwaFN0
-				eWxlhpKEhIQXTlNNdXRhYmxlUGFyYWdyYXBoU3R5bGUA
-				hIQQTlNQYXJhZ3JhcGhTdHlsZQCUhARDQ0BTAACEhIQH
-				TlNBcnJheQCUmQyShISECU5TVGV4dFRhYgCUhAJDZgAc
-				hpKEqacAOIaShKmnAFSGkoSppwBwhpKEqacAgYwAhpKE
-				qacAgagAhpKEqacAgcQAhpKEqacAgeAAhpKEqacAgfwA
-				hpKEqacAgRgBhpKEqacAgTQBhpKEqacAgVABhoaBAAiE
-				BFsxZl2DzcxMPYaShJaWB05TQ29sb3KGkoSEhAdOU0Nv
-				bG9yAJSdAYQEZmZmZoPNzEw+g83MTD6DzcxMPgGGhpcC
-				BpKEmJkEkqKShKSkAACEp5kMkqiSqpKrkqySrZKukq+S
-				sJKxkrKSs5K0hoEACKiDzcxMPYaStZKEt50BqoPNzEw+
-				g83MTD6DzcxMPgGGkpmSmpKckp2GlwEJlwInhg==
+				bmcBlIQBK0tDb2xsYWJvcmF0b3IgaGFzICd3cml0ZScg
+				YWNjZXNzIHRvIG1hc3Rlciwgc28gY2xvbmVzIHNvdXJj
+				ZSBmaWxlcyB0byBsb2NhbC6GhAJpSQENkoSEhAxOU0Rp
+				Y3Rpb25hcnkAlIQBaQWShJaWBk5TRm9udIaShISEBk5T
+				Rm9udB6UmTCEBVs0OGNdBgAAACYAAAD//lYAZQByAGQA
+				YQBuAGEALQBCAG8AbABkAEkAdABhAGwAaQBjAAAAhAFm
+				DIQBYwCdAZ0AnQCGkoSWlgZOU0tlcm6GkoSEhAhOU051
+				bWJlcgCEhAdOU1ZhbHVlAJSEASqEhAFkoQCGkoSWlg5O
+				U09yaWdpbmFsRm9udIaSmpKElpYQTlNQYXJhZ3JhcGhT
+				dHlsZYaShISEF05TTXV0YWJsZVBhcmFncmFwaFN0eWxl
+				AISEEE5TUGFyYWdyYXBoU3R5bGUAlIQEQ0NAUwAAhISE
+				B05TQXJyYXkAlJkMkoSEhAlOU1RleHRUYWIAlIQCQ2YA
+				HIaShKmnADiGkoSppwBUhpKEqacAcIaShKmnAIGMAIaS
+				hKmnAIGoAIaShKmnAIHEAIaShKmnAIHgAIaShKmnAIH8
+				AIaShKmnAIEYAYaShKmnAIE0AYaShKmnAIFQAYaGgQAI
+				hARbMWZdg83MTD2GkoSWlgdOU0NvbG9yhpKEhIQHTlND
+				b2xvcgCUnQGEBGZmZmaDzcxMPoPNzEw+g83MTD4BhoaX
+				Aj6ShJiZBJKikoSkpAAAhKeZDJKokqqSq5Kskq2SrpKv
+				krCSsZKykrOStIaBAAiog83MTD2GkrWShLedAaqDzcxM
+				PoPNzEw+g83MTD4BhpKZkpqSnJKdhoY=
 				</data>
 				<key>Text</key>
 				<string>{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf810
@@ -1318,7 +1318,7 @@ Collaborator Setup and Contribution Workflow}</string>
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\i\b\fs24 \cf2 \expnd0\expndtw0\kerning0
-Collaborator clones \cf2 master\cf2  to local\cf2  and has 'write' access back to master.}</string>
+Collaborator \cf2 has 'write' access to master, so clones source files to local.}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
@@ -6990,7 +6990,7 @@ website\
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2017-03-14 13:49:32 +0000</string>
+	<string>2017-03-14 16:26:37 +0000</string>
 	<key>Modifier</key>
 	<string>Destry Wion</string>
 	<key>NotesVisible</key>
