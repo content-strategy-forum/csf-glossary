@@ -187,11 +187,11 @@ Pushes local changes up to create new master state.}</string>
 				<key>Color</key>
 				<dict>
 					<key>b</key>
-					<string>0.948899</string>
+					<string>0.977178</string>
 					<key>g</key>
-					<string>0.949136</string>
+					<string>0.9149</string>
 					<key>r</key>
-					<string>0.937513</string>
+					<string>0.821205</string>
 				</dict>
 				<key>Font</key>
 				<string>AvenirNext-BoldItalic</string>
@@ -311,7 +311,7 @@ Pushes local changes up to create new master state.}</string>
 				oJ8AgcQAhpKEoJ8AgeAAhpKEoJ8AgfwAhpKEoJ8AgRgB
 				hpKEoJ8AgTQBhpKEoJ8AgVABhoaBAAiEBFsxZl2DzcxM
 				PYaShJaWB05TQ29sb3KGkoSEhAdOU0NvbG9yAJSEAWMB
-				hARmZmZmg6gAcD+D1/pyP4Mc63I/AYaShJaWBk5TRm9u
+				hARmZmZmg3Y6Uj+D4zZqP4NOKHo/AYaShJaWBk5TRm9u
 				dIaShISEBk5TRm9udB6UmTSEBVs1MmNdBgAAACwAAAD/
 				/kEAdgBlAG4AaQByAE4AZQB4AHQALQBCAG8AbABkAEkA
 				dABhAGwAaQBjAIQBZniiAKIBogCiAIaShJaWBk5TS2Vy
@@ -321,8 +321,8 @@ Pushes local changes up to create new master state.}</string>
 				<key>Text</key>
 				<string>{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf810
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 AvenirNext-Regular;}
-{\colortbl;\red255\green255\blue255;\red239\green242\blue242;}
-{\*\expandedcolortbl;;\csgenericrgb\c93751\c94914\c94890;}
+{\colortbl;\red255\green255\blue255;\red209\green233\blue249;}
+{\*\expandedcolortbl;;\cssrgb\c85312\c93222\c98217;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
 
 \f0\i\b\fs240 \cf2 \expnd0\expndtw0\kerning0
@@ -2070,11 +2070,11 @@ Glossary website\
 				<key>Color</key>
 				<dict>
 					<key>b</key>
-					<string>0.948899</string>
+					<string>0.977178</string>
 					<key>g</key>
-					<string>0.949136</string>
+					<string>0.9149</string>
 					<key>r</key>
-					<string>0.937513</string>
+					<string>0.821205</string>
 				</dict>
 				<key>Font</key>
 				<string>AvenirNext-BoldItalic</string>
@@ -2201,13 +2201,13 @@ Glossary website\
 				AIGoAIaShKqnAIHEAIaShKqnAIHgAIaShKqnAIH8AIaS
 				hKqnAIEYAYaShKqnAIE0AYaShKqnAIFQAYaGgQAIhARb
 				MWZdg83MTD2GkoSWlgdOU0NvbG9yhpKEhIQHTlNDb2xv
-				cgCUnQGEBGZmZmaD4gBwP4OR+nI/gwzrcj8BhoaG
+				cgCUnQGEBGZmZmaDdjpSP4PjNmo/g04oej8BhoaG
 				</data>
 				<key>Text</key>
 				<string>{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf810
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 AvenirNext-Regular;}
-{\colortbl;\red255\green255\blue255;\red239\green242\blue242;}
-{\*\expandedcolortbl;;\cssrgb\c94992\c95932\c95932;}
+{\colortbl;\red255\green255\blue255;\red209\green233\blue249;}
+{\*\expandedcolortbl;;\cssrgb\c85312\c93222\c98217;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
 
 \f0\i\b\fs240 \cf2 \expnd0\expndtw0\kerning0
@@ -2232,11 +2232,11 @@ Glossary website\
 				<key>Color</key>
 				<dict>
 					<key>b</key>
-					<string>0.948899</string>
+					<string>0.977178</string>
 					<key>g</key>
-					<string>0.949136</string>
+					<string>0.9149</string>
 					<key>r</key>
-					<string>0.937513</string>
+					<string>0.821205</string>
 				</dict>
 				<key>Font</key>
 				<string>AvenirNext-BoldItalic</string>
@@ -2348,26 +2348,26 @@ Glossary website\
 				BAtzdHJlYW10eXBlZIHoA4QBQISEhBJOU0F0dHJpYnV0
 				ZWRTdHJpbmcAhIQITlNPYmplY3QAhZKEhIQITlNTdHJp
 				bmcBlIQBKwEyhoQCaUkBAZKEhIQMTlNEaWN0aW9uYXJ5
-				AJSEAWkEkoSWlgdOU0NvbG9yhpKEhIQHTlNDb2xvcgCU
-				hAFjAYQEZmZmZoPiAHA/g5H6cj+DDOtyPwGGkoSWlhBO
-				U1BhcmFncmFwaFN0eWxlhpKEhIQXTlNNdXRhYmxlUGFy
-				YWdyYXBoU3R5bGUAhIQQTlNQYXJhZ3JhcGhTdHlsZQCU
-				hARDQ0BTAgCEhIQHTlNBcnJheQCUmQyShISECU5TVGV4
-				dFRhYgCUhAJDZgAchpKEo6IAOIaShKOiAFSGkoSjogBw
-				hpKEo6IAgYwAhpKEo6IAgagAhpKEo6IAgcQAhpKEo6IA
-				geAAhpKEo6IAgfwAhpKEo6IAgRgBhpKEo6IAgTQBhpKE
-				o6IAgVABhoaBAAiEBFsxZl2DzcxMPYaShJaWBk5TRm9u
+				AJSEAWkEkoSWlhBOU1BhcmFncmFwaFN0eWxlhpKEhIQX
+				TlNNdXRhYmxlUGFyYWdyYXBoU3R5bGUAhIQQTlNQYXJh
+				Z3JhcGhTdHlsZQCUhARDQ0BTAgCEhIQHTlNBcnJheQCU
+				mQyShISECU5TVGV4dFRhYgCUhAJDZgAchpKEoJ8AOIaS
+				hKCfAFSGkoSgnwBwhpKEoJ8AgYwAhpKEoJ8AgagAhpKE
+				oJ8AgcQAhpKEoJ8AgeAAhpKEoJ8AgfwAhpKEoJ8AgRgB
+				hpKEoJ8AgTQBhpKEoJ8AgVABhoaBAAiEBFsxZl2DzcxM
+				PYaShJaWB05TQ29sb3KGkoSEhAdOU0NvbG9yAJSEAWMB
+				hARmZmZmg3Y6Uj+D4zZqP4NOKHo/AYaShJaWBk5TRm9u
 				dIaShISEBk5TRm9udB6UmTSEBVs1MmNdBgAAACwAAAD/
 				/kEAdgBlAG4AaQByAE4AZQB4AHQALQBCAG8AbABkAEkA
-				dABhAGwAaQBjAIQBZnibAJsBmwCbAIaShJaWBk5TS2Vy
+				dABhAGwAaQBjAIQBZniiAKIBogCiAIaShJaWBk5TS2Vy
 				boaShISECE5TTnVtYmVyAISEB05TVmFsdWUAlIQBKoSE
 				AWSqAIaGhg==
 				</data>
 				<key>Text</key>
 				<string>{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf810
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 AvenirNext-Regular;}
-{\colortbl;\red255\green255\blue255;\red239\green242\blue242;}
-{\*\expandedcolortbl;;\cssrgb\c94992\c95932\c95932;}
+{\colortbl;\red255\green255\blue255;\red209\green233\blue249;}
+{\*\expandedcolortbl;;\cssrgb\c85312\c93222\c98217;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
 
 \f0\i\b\fs240 \cf2 \expnd0\expndtw0\kerning0
@@ -2392,11 +2392,11 @@ Glossary website\
 				<key>Color</key>
 				<dict>
 					<key>b</key>
-					<string>0.948899</string>
+					<string>0.977178</string>
 					<key>g</key>
-					<string>0.949136</string>
+					<string>0.9149</string>
 					<key>r</key>
-					<string>0.937513</string>
+					<string>0.821205</string>
 				</dict>
 				<key>Font</key>
 				<string>AvenirNext-BoldItalic</string>
@@ -2508,26 +2508,26 @@ Glossary website\
 				BAtzdHJlYW10eXBlZIHoA4QBQISEhBJOU0F0dHJpYnV0
 				ZWRTdHJpbmcAhIQITlNPYmplY3QAhZKEhIQITlNTdHJp
 				bmcBlIQBKwE1hoQCaUkBAZKEhIQMTlNEaWN0aW9uYXJ5
-				AJSEAWkEkoSWlgdOU0NvbG9yhpKEhIQHTlNDb2xvcgCU
-				hAFjAYQEZmZmZoPiAHA/g5H6cj+DDOtyPwGGkoSWlhBO
-				U1BhcmFncmFwaFN0eWxlhpKEhIQXTlNNdXRhYmxlUGFy
-				YWdyYXBoU3R5bGUAhIQQTlNQYXJhZ3JhcGhTdHlsZQCU
-				hARDQ0BTAgCEhIQHTlNBcnJheQCUmQyShISECU5TVGV4
-				dFRhYgCUhAJDZgAchpKEo6IAOIaShKOiAFSGkoSjogBw
-				hpKEo6IAgYwAhpKEo6IAgagAhpKEo6IAgcQAhpKEo6IA
-				geAAhpKEo6IAgfwAhpKEo6IAgRgBhpKEo6IAgTQBhpKE
-				o6IAgVABhoaBAAiEBFsxZl2DzcxMPYaShJaWBk5TRm9u
+				AJSEAWkEkoSWlhBOU1BhcmFncmFwaFN0eWxlhpKEhIQX
+				TlNNdXRhYmxlUGFyYWdyYXBoU3R5bGUAhIQQTlNQYXJh
+				Z3JhcGhTdHlsZQCUhARDQ0BTAgCEhIQHTlNBcnJheQCU
+				mQyShISECU5TVGV4dFRhYgCUhAJDZgAchpKEoJ8AOIaS
+				hKCfAFSGkoSgnwBwhpKEoJ8AgYwAhpKEoJ8AgagAhpKE
+				oJ8AgcQAhpKEoJ8AgeAAhpKEoJ8AgfwAhpKEoJ8AgRgB
+				hpKEoJ8AgTQBhpKEoJ8AgVABhoaBAAiEBFsxZl2DzcxM
+				PYaShJaWB05TQ29sb3KGkoSEhAdOU0NvbG9yAJSEAWMB
+				hARmZmZmg3Y6Uj+D4zZqP4NOKHo/AYaShJaWBk5TRm9u
 				dIaShISEBk5TRm9udB6UmTSEBVs1MmNdBgAAACwAAAD/
 				/kEAdgBlAG4AaQByAE4AZQB4AHQALQBCAG8AbABkAEkA
-				dABhAGwAaQBjAIQBZnibAJsBmwCbAIaShJaWBk5TS2Vy
+				dABhAGwAaQBjAIQBZniiAKIBogCiAIaShJaWBk5TS2Vy
 				boaShISECE5TTnVtYmVyAISEB05TVmFsdWUAlIQBKoSE
 				AWSqAIaGhg==
 				</data>
 				<key>Text</key>
 				<string>{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf810
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 AvenirNext-Regular;}
-{\colortbl;\red255\green255\blue255;\red239\green242\blue242;}
-{\*\expandedcolortbl;;\cssrgb\c94992\c95932\c95932;}
+{\colortbl;\red255\green255\blue255;\red209\green233\blue249;}
+{\*\expandedcolortbl;;\cssrgb\c85312\c93222\c98217;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
 
 \f0\i\b\fs240 \cf2 \expnd0\expndtw0\kerning0
@@ -2550,11 +2550,11 @@ Glossary website\
 				<key>Color</key>
 				<dict>
 					<key>b</key>
-					<string>0.948899</string>
+					<string>0.977178</string>
 					<key>g</key>
-					<string>0.949136</string>
+					<string>0.9149</string>
 					<key>r</key>
-					<string>0.937513</string>
+					<string>0.821205</string>
 				</dict>
 				<key>Font</key>
 				<string>AvenirNext-BoldItalic</string>
@@ -2661,11 +2661,31 @@ Glossary website\
 			</dict>
 			<key>Text</key>
 			<dict>
+				<key>RTFD</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhBJOU0F0dHJpYnV0
+				ZWRTdHJpbmcAhIQITlNPYmplY3QAhZKEhIQITlNTdHJp
+				bmcBlIQBKwEzhoQCaUkBAZKEhIQMTlNEaWN0aW9uYXJ5
+				AJSEAWkEkoSWlhBOU1BhcmFncmFwaFN0eWxlhpKEhIQX
+				TlNNdXRhYmxlUGFyYWdyYXBoU3R5bGUAhIQQTlNQYXJh
+				Z3JhcGhTdHlsZQCUhARDQ0BTAgCEhIQHTlNBcnJheQCU
+				mQyShISECU5TVGV4dFRhYgCUhAJDZgAchpKEoJ8AOIaS
+				hKCfAFSGkoSgnwBwhpKEoJ8AgYwAhpKEoJ8AgagAhpKE
+				oJ8AgcQAhpKEoJ8AgeAAhpKEoJ8AgfwAhpKEoJ8AgRgB
+				hpKEoJ8AgTQBhpKEoJ8AgVABhoaBAAiEBFsxZl2DzcxM
+				PYaShJaWB05TQ29sb3KGkoSEhAdOU0NvbG9yAJSEAWMB
+				hARmZmZmg3Y6Uj+D4zZqP4NOKHo/AYaShJaWBk5TRm9u
+				dIaShISEBk5TRm9udB6UmTSEBVs1MmNdBgAAACwAAAD/
+				/kEAdgBlAG4AaQByAE4AZQB4AHQALQBCAG8AbABkAEkA
+				dABhAGwAaQBjAIQBZniiAKIBogCiAIaShJaWBk5TS2Vy
+				boaShISECE5TTnVtYmVyAISEB05TVmFsdWUAlIQBKoSE
+				AWSqAIaGhg==
+				</data>
 				<key>Text</key>
 				<string>{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf810
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 AvenirNext-Regular;}
-{\colortbl;\red255\green255\blue255;\red239\green242\blue242;}
-{\*\expandedcolortbl;;\csgenericrgb\c93751\c94914\c94890;}
+{\colortbl;\red255\green255\blue255;\red209\green233\blue249;}
+{\*\expandedcolortbl;;\cssrgb\c85312\c93222\c98217;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
 
 \f0\i\b\fs240 \cf2 \expnd0\expndtw0\kerning0
@@ -6970,7 +6990,7 @@ website\
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2017-03-14 11:15:06 +0000</string>
+	<string>2017-03-14 13:49:32 +0000</string>
 	<key>Modifier</key>
 	<string>Destry Wion</string>
 	<key>NotesVisible</key>
@@ -7065,7 +7085,7 @@ website\
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>VisibleRegion</key>
-		<string>{{-124, 138}, {807, 587}}</string>
+		<string>{{-124, 91}, {807, 587}}</string>
 		<key>Zoom</key>
 		<real>1</real>
 		<key>ZoomValues</key>
