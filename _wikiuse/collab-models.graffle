@@ -1349,23 +1349,23 @@ Production Website Model}</string>
 				<data>
 				BAtzdHJlYW10eXBlZIHoA4QBQISEhBJOU0F0dHJpYnV0
 				ZWRTdHJpbmcAhIQITlNPYmplY3QAhZKEhIQITlNTdHJp
-				bmcBlIQBK0dDb2xsYWJvcmF0b3JzIHdvcmsgbG9jYWxs
-				eSwgc3luY2luZyBjaGFuZ2VzIGRvd24gYW5kIHB1c2hl
-				cyBjaGFuZ2VzIHVwLoaEAmlJAUeShISEDE5TRGljdGlv
-				bmFyeQCUhAFpBJKElpYQTlNQYXJhZ3JhcGhTdHlsZYaS
-				hISEF05TTXV0YWJsZVBhcmFncmFwaFN0eWxlAISEEE5T
-				UGFyYWdyYXBoU3R5bGUAlIQEQ0NAUwAAhISEB05TQXJy
-				YXkAlJkMkoSEhAlOU1RleHRUYWIAlIQCQ2YAHIaShKCf
-				ADiGkoSgnwBUhpKEoJ8AcIaShKCfAIGMAIaShKCfAIGo
-				AIaShKCfAIHEAIaShKCfAIHgAIaShKCfAIH8AIaShKCf
-				AIEYAYaShKCfAIE0AYaShKCfAIFQAYaGgQAIhARbMWZd
-				g83MTD2GkoSWlgdOU0NvbG9yhpKEhIQHTlNDb2xvcgCU
-				hAFjAYQEZmZmZoPNzEw+g83MTD6DzcxMPgGGkoSWlgZO
-				U0ZvbnSGkoSEhAZOU0ZvbnQelJkwhAVbNDhjXQYAAAAm
-				AAAA//5WAGUAcgBkAGEAbgBhAC0AQgBvAGwAZABJAHQA
-				YQBsAGkAYwAAAIQBZgyiAKIBogCiAIaShJaWBk5TS2Vy
-				boaShISECE5TTnVtYmVyAISEB05TVmFsdWUAlIQBKoSE
-				AWSqAIaGhg==
+				bmcBlIQBK0ZDb2xsYWJvcmF0b3JzIHdvcmsgbG9jYWxs
+				eSwgc3luY2luZyBjaGFuZ2VzIGRvd24gJiBwdXNoaW5n
+				IGNoYW5nZXMgdXAuhoQCaUkBRpKEhIQMTlNEaWN0aW9u
+				YXJ5AJSEAWkEkoSWlhBOU1BhcmFncmFwaFN0eWxlhpKE
+				hIQXTlNNdXRhYmxlUGFyYWdyYXBoU3R5bGUAhIQQTlNQ
+				YXJhZ3JhcGhTdHlsZQCUhARDQ0BTAACEhIQHTlNBcnJh
+				eQCUmQyShISECU5TVGV4dFRhYgCUhAJDZgAchpKEoJ8A
+				OIaShKCfAFSGkoSgnwBwhpKEoJ8AgYwAhpKEoJ8AgagA
+				hpKEoJ8AgcQAhpKEoJ8AgeAAhpKEoJ8AgfwAhpKEoJ8A
+				gRgBhpKEoJ8AgTQBhpKEoJ8AgVABhoaBAAiEBFsxZl2D
+				zcxMPYaShJaWB05TQ29sb3KGkoSEhAdOU0NvbG9yAJSE
+				AWMBhARmZmZmg83MTD6DzcxMPoPNzEw+AYaShJaWBk5T
+				Rm9udIaShISEBk5TRm9udB6UmTCEBVs0OGNdBgAAACYA
+				AAD//lYAZQByAGQAYQBuAGEALQBCAG8AbABkAEkAdABh
+				AGwAaQBjAAAAhAFmDKIAogGiAKIAhpKElpYGTlNLZXJu
+				hpKEhIQITlNOdW1iZXIAhIQHTlNWYWx1ZQCUhAEqhIQB
+				ZKoAhoaG
 				</data>
 				<key>Text</key>
 				<string>{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf810
@@ -1375,7 +1375,7 @@ Production Website Model}</string>
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
 \f0\i\b\fs24 \cf2 \expnd0\expndtw0\kerning0
-Collaborators work locally, syncing changes down and pushes changes up.}</string>
+Collaborators work locally, syncing changes down &amp; pushing changes up.}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
@@ -6245,7 +6245,7 @@ Glossary website\
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2017-03-15 09:09:29 +0000</string>
+	<string>2017-03-15 10:05:31 +0000</string>
 	<key>Modifier</key>
 	<string>Destry Wion</string>
 	<key>NotesVisible</key>
