@@ -10,8 +10,6 @@ description:
 
 <section class="summary">
 
-## Summary
-
 **_The auxiliary text elements used in interface design — headers, labels, feedback messages, menu items, et cetera — that help people navigate and use application interfaces, whether for websites, mobile applications, kiosks, wearable devices, appliance panels, analog/digital dashboards or what have you._**
 
 <span class="authors">
@@ -33,8 +31,8 @@ Interface text refers to all the bits and pieces of text used in a given product
 [figure here]
 
 Interface copy should be clear in meaning (i.e., specific, jargon-free, keywords are put first, doesn't use abbreviations…), free of brand personality, clearly called out (e.g., the purpose of a list is made clear with a lead statement), and is real (i.e., no lorem ipsum or other fake text used in a [[wireframe]] or [[prototype]]).
-
-Interface text is known by many other terms, including: interface copy[1], interface strings[2], interface writing[3], microcopy,[4,5,6,7]  and transactional content[8], to name the most common.
+^
+Interface text is known by many other terms, including: interface copy,[^1] interface strings,[^2] interface writing,[^3] microcopy,[^4][^5][^6][^7]  and transactional content,[^8] to name the most common.
 
 ***
 
