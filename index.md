@@ -1,5 +1,3 @@
-# Glossary Index
-
 * [Interface text](interface-text.md)
 * Interface writing (see _Interface text_)
 * Microcopy (see _Interface text_)

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-GB-oxendict">
+	<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }} | UX Content Glossary | CSF Community</title>
+    {% include head-meta.html %}
+    <meta name="robots" content="index, follow, noodp, noydir">
+	</head>
+
+	<body>
+		<div class="wrapper">
+			
+			{% include header.html %}
+			
+			<main aria-label="Main content">
+				<div class="container">
+    			<nav aria-label="Breadcrumb navigation">
+        		<ol class="breadcrumbs">
+            	<li><a><span>Index</span></a></li>
+            	<li><a><span>{{ page.category }}</span></a></li>
+            	<li class="current"><b><span>{{ page.title }}</span></b></li>
+        		</ol>
+    			</nav>
+
+    			<article>
+
+        		{{ content }}
+
+        		<!-- {% if page.tags %}
+        		<footer class="article-footer">
+            	<span class="ui-icon ui-icon-tag">Tags:</span>
+            	{% for tag in page.tags %}
+            	<a rel="category tag" href="{{ tag | slugify }}" title="View definitions in this category">{{ tag }}</a>
+            	{% endfor %}
+        		</footer>
+        		{% endif %} -->
+
+    			</article>
+
+    			{% include ads-article.html %}
+				</div><!-- e/o container -->
+			</main>
+		</div><!-- e/o wrapper -->
+		<footer>
+			<p class="pitch">See something wrong in this definition? Incorrect or outdated information? Weak examples? Insufficient references? Broken links? Something other? Then why not be a collaborator and help tighten things up... <a href="https://github.com/content-strategy-forum/csf-glossary/wiki">Start here</a>. Scared of GitHub, share what's on your mind in the <a rel="external" href="https://discussion.csf.community">discussion boards</a>.</p>
+			{% include legal.html %}
+		</footer>
+
+	</body>
+</html>
