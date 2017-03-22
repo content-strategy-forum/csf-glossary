@@ -24,7 +24,7 @@ figcaption:
 ---
 
 
-# {{page.title}}
+<h1 class="term-title">{{page.title}}</h1>
 
 <p class="summary">{{page.summary}}</p>
 
