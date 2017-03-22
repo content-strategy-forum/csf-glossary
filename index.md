@@ -5,7 +5,7 @@ title: UX Content Glossary
 description: 
 ---
 
-<h1 style"text-align:ceter;">{{page.title}}</h1>
+<h1 style="text-align:ceter;">{{page.title}}</h1>
 
 * [Interface text](interface-text.md "blank")
 * Interface writing (see _Interface text_)
