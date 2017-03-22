@@ -5,11 +5,11 @@ layout: definition
 ##The term name.
 title: User story
 
-##Use 1+ categories to show organizational hierarchy in a given theme. 
-categories:
+##Can term be categorized? If so, add it. 
+category: frontend strategy 
 
 ##Use tags to indicate lateral relationships.
-tags: 
+tags: [writing, planning]
 
 ##Descriptions must be 160 characters (ideally 155) max. 
 description: A user story is a content planning technique that helps writers produce copy in relation to user needs.
