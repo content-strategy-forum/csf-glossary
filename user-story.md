@@ -1,30 +1,49 @@
-# User story
+---
+published: true
+layout: definition
 
-### Metadata
+##The term name.
+title: User story
 
-#### meta-description:
+##Use 1+ categories to show organizational hierarchy in a given theme. 
+categories:
 
-(Use summary)
+##Use tags to indicate lateral relationships.
+tags: 
 
-#### meta-kewords 
+##Descriptions must be 160 characters (ideally 155) max. 
+description: A user story is a content planning technique that helps writers produce copy in relation to user needs.
 
-user story, user needs, task analysis, user research, content development
+##Summary should be 50 words (give or take a few) max.
+summary: 
 
-### Contributing writers
+##Figure elements needed when figure is used (managers use only).
+figname: 
+figalt:
+figcaption:
+---
 
-* Destry Wion, [CSF](https://csf.community)
 
-## Summary
+# {{page.title}}
 
-User stories are a technique employed to identify user needs more accurately, then address those needs with better content.
+<p class="summary">{{page.summary}}</p>
 
-## Definition
+<section class="contributors">
+	<ul class="authors nomark">
+		<li>Destry Wion<sup id="#affil-1">1</sup></li>
+	</ul>
+	<ol class="affiliations nomark">
+		<li id="affil-1"><sup>2</sup> <a href="https://csf.community">Content Strategy Forum</a></li>
+	</ol>
+</section>
+
+<!-- PRIMARY PARAGRAPH(S) OF DEFINITION -->
 
 A user story is a content development (or content revision) technique that helps identify the specific information needs a user may have, which in turn allows being able to produce content that more directly and effectively address those needs. 
 
 A user story generally takes the following form: 
 
-> As a(n) __{the type of user}__, I want to __{the task to do}__, so I can __{the need to be met}__.[1]
+> As a(n) __{the type of user}__, I want to __{the task to do}__, so I can __{the need to be met}__.[^1]
 
 Where __{the type of user}__, __{the task to do}__, and __{the need to be met}__ are filled in for a given user need scenario.
 
@@ -36,9 +55,24 @@ By their existence, user stories help align stakeholders on the content developm
 * efforts are not duplicated, and
 * the work of subject matter experts is acknowledged and respected (who may be protective of content they've already written, but which needs refactored according to the new strategy effort).
 
-User stories can also be used as an [agile content](agile-content.md) technique to leverage the responsibility of content development across team members and prioritize the work.[2] One approach to this is to reframe content requirements as user stories on sticky notes based on the underlying user needs. Acceptance criteria can then be written that describes when a task is done and a need is met.
+User stories can also be used as an [agile content](agile-content.md) technique to leverage the responsibility of content development across team members and prioritize the work.[^2] One approach to this is to reframe content requirements as user stories on sticky notes based on the underlying user needs. Acceptance criteria can then be written that describes when a task is done and a need is met.
 
-## Footnote references
+<!-- EXAMPLE PARAGRAPH(S) -->
 
-1. Fashan, I. (2016). User Stories in Content Strategy: Marketing with Empathy. TopDraw. Retrieved 9 March 2016. <https://www.topdraw.com/blog/user-stories-in-content-strategy-marketing-with-empathy/>.
-1. Richards, S. (2016). Write user stories to share responsibility for content. Agile Content Conference. Retrieved February 2016. <https://2016.agilecontentconf.com/richards>. 
+(Any to be found?)
+
+
+<!-- FIGURE -->
+<figure>
+	<img alt="{{page.figalt}}" src="https://content-strategy-forum.github.io/csf-glossary/assets/images/{{page.figname}}.png">
+	<figcaption>
+		{{page.figcaption}} (Source: CSF, specifically for use with UX Content Glossary project.)
+	</figcaption>
+</figure>
+
+<!-- FOOTNOTE REFERENCES -->
+<hr class="footnotes">
+
+[^1]: I. Fashan, _[User Stories in Content Strategy: Marketing with Empathy](https://www.topdraw.com/blog/user-stories-in-content-strategy-marketing-with-empathy/)_, TopDraw, 2016, (accessed 9 March 2016).
+
+[^2]: S. Richards, _[Write user stories to share responsibility for content](https://2016.agilecontentconf.com/richards)_, Agile Content Conference, 2016, (accessed February 2016). 

@@ -4,9 +4,9 @@ layout: definition
 category: frontend strategy
 title: Interface text
 
-description-155chars: Short strings of text (1-5 words) used in digital interfaces to guide exploration, text input, personalization, and the like. Not the same as microcopy.
+description: Short strings of text (1-5 words) used in digital interfaces to guide exploration, text input, personalization, and the like. Not the same as microcopy.
 
-summary-50words: The auxiliary text elements used in interface design — headers, labels, feedback messages, menu items, et cetera — that help people navigate and use application interfaces, whether for websites, mobile applications, kiosks, wearable devices, appliance panels, analog/digital dashboards or what have you.
+summary: The auxiliary text elements used in interface design — headers, labels, feedback messages, menu items, et cetera — that help people navigate and use application interfaces, whether for websites, mobile applications, kiosks, wearable devices, appliance panels, analog/digital dashboards or what have you.
 
 figname: placeholder
 figalt: A placeholder. Huzza!
@@ -16,12 +16,12 @@ figcaption: A belle figure of mysterious nature.
 
 # {{page.title}}
 
-<p class="summary">{{page.summary-50words}}</p>
+<p class="summary">{{page.summary}}</p>
 
 <section class="contributors">
 	<ul class="authors nomark">
 		<li>Marit Letnes<sup id="#affil-1">1</sup></li>
-		<li>Destry Wion<sup id="#affil-2">1</sup></li>
+		<li>Destry Wion<sup id="#affil-2">2</sup></li>
 	</ul>
 	<ol class="affiliations nomark">
 		<li id="affil-1"><sup>1</sup> <a href="https://maritletnes.no">Marit Letnes Media SA</a></li>
