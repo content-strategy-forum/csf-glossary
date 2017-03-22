@@ -6,7 +6,7 @@ layout: definition
 title: User story
 
 ##Can term be categorized? If so, add it. 
-category: frontend strategy 
+category:  
 
 ##Use tags to indicate lateral relationships.
 tags: [writing, planning]
