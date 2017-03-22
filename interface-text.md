@@ -1,38 +1,38 @@
 ---
+published: true
 layout: definition
 category: frontend strategy
-published: true
 title: Interface text
-description: Short strings of text (1-5 words) used in digital interfaces to guide exploration, text input, personalization, and the like. Not the same as microcopy.
-summary: he auxiliary text elements used in interface design — headers, labels, feedback messages, menu items, et cetera — that help people navigate and use application interfaces, whether for websites, mobile applications, kiosks, wearable devices, appliance panels, analog/digital dashboards or what have you.
+description-155chars: Short strings of text (1-5 words) used in digital interfaces to guide exploration, text input, personalization, and the like. Not the same as microcopy.
+summary-50words: The auxiliary text elements used in interface design — headers, labels, feedback messages, menu items, et cetera — that help people navigate and use application interfaces, whether for websites, mobile applications, kiosks, wearable devices, appliance panels, analog/digital dashboards or what have you.
+figname: placeholder
+figalt: A placeholder. Huzza!
+figcaption: A belle figure of mysterious nature.
 ---
 
-# {{ page.title }}
 
-<section class="summary">
+# {{page.title}}
 
-{{page.summary}}
+<p class="summary">{{page.summary-50words}}</p>
 
-<span class="authors">
-Contributing authors: Marit Letnes<sup id="#affil-1">1</sup>, Destry Wion<sup id="#affil-2">1</sup>
-</span>
-
-<span class="affiliations">
-
-* <sup id="affil-1">1</sup> [Marit Letnes Media SA](https://maritletnes.no)
-* <sup id="affil-2">2</sup> [Content Strategy Forum](https://csf.community)
-
-</span>
+<section class="contributors">
+	<ul class="authors">
+		<li>Marit Letnes<sup id="#affil-1">1</sup></li>
+		<li>Destry Wion<sup id="#affil-2">1</sup></li>
+	</ul>
+	<ul class="affiliations">
+		<li id="affil-1"><sup>1</sup> <a href="https://maritletnes.no">Marit Letnes Media SA</a></li>
+		<li id="affil-2"><sup>2</sup> <a href="https://csf.community">Content Strategy Forum</a></li>
+	</ul>
 </section>
 
-***
 
 Interface text refers to all the bits and pieces of text used in a given product's user interface (UI). Such text includes navigation items, headers, labels, system feedback messages, pop-up help dialog, title attributes, and so on.
 
 <figure>
-	<img alt="Placeholder image. Huzza!" src="https://content-strategy-forum.github.io/csf-glossary/assets/images/placeholder.png">
+	<img alt="{{page.figalt}}" src="https://content-strategy-forum.github.io/csf-glossary/assets/images/{{figname}}.png">
 	<figcaption>
-		A placeholder diagram having a mysterious nature. (Source: CSF, specifically for use with UX Content Glossary project.)
+		{{figcaption}} (Source: CSF, specifically for use with UX Content Glossary project.)
 	</figcaption>
 </figure>
 
@@ -40,7 +40,7 @@ Interface copy should be the epitome of plain language writing; specific, concis
 
 Interface text is known by many other terms, including: interface copy,[^1] interface strings,[^2] interface writing,[^3] microcopy,[^4][^5][^6][^7]  and transactional content,[^8] to name the most common.
 
-***
+<hr class="footnotes">
 
 [^1]: J. Zeratsky, [_From Google Ventures: 5 Rules For Writing Great Interface Copy_](http://www.fastcodesign.com/3026463/from-google-ventures-5-rules-for-writing-great-interface-copy), Co.Design, 2014, (accessed March 25, 2016).
 
