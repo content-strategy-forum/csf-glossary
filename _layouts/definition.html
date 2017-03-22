@@ -16,9 +16,9 @@
 				<div class="container">
     			<nav aria-label="Breadcrumb navigation">
         		<ol class="breadcrumbs">
-            	<li><a><span>Index</span></a></li>
-            	<li><a><span>{{page.category}}</span></a></li>
-            	<li class="current"><b><span>{{page.title}}</span></b></li>
+            	<li><a href="index.md">Index</a></li>
+            	{% if page.category %}<li><a>{{page.category}}</a></li>{% endif %}
+            	<li class="current"><b>{{page.title}}</b></li>
         		</ol>
     			</nav>
 
