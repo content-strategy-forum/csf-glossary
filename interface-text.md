@@ -3,8 +3,11 @@ published: true
 layout: definition
 category: frontend strategy
 title: Interface text
+
 description-155chars: Short strings of text (1-5 words) used in digital interfaces to guide exploration, text input, personalization, and the like. Not the same as microcopy.
+
 summary-50words: The auxiliary text elements used in interface design — headers, labels, feedback messages, menu items, et cetera — that help people navigate and use application interfaces, whether for websites, mobile applications, kiosks, wearable devices, appliance panels, analog/digital dashboards or what have you.
+
 figname: placeholder
 figalt: A placeholder. Huzza!
 figcaption: A belle figure of mysterious nature.
@@ -30,9 +33,9 @@ figcaption: A belle figure of mysterious nature.
 Interface text refers to all the bits and pieces of text used in a given product's user interface (UI). Such text includes navigation items, headers, labels, system feedback messages, pop-up help dialog, title attributes, and so on.
 
 <figure>
-	<img alt="{{page.figalt}}" src="https://content-strategy-forum.github.io/csf-glossary/assets/images/{{figname}}.png">
+	<img alt="{{page.figalt}}" src="https://content-strategy-forum.github.io/csf-glossary/assets/images/{{page.figname}}.png">
 	<figcaption>
-		{{figcaption}} (Source: CSF, specifically for use with UX Content Glossary project.)
+		{{page.figcaption}} (Source: CSF, specifically for use with UX Content Glossary project.)
 	</figcaption>
 </figure>
 
