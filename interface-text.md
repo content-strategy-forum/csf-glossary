@@ -19,19 +19,24 @@ figcaption: A belle figure of mysterious nature.
 <p class="summary">{{page.summary-50words}}</p>
 
 <section class="contributors">
-	<ul class="authors">
+	<ul class="authors nomark">
 		<li>Marit Letnes<sup id="#affil-1">1</sup></li>
 		<li>Destry Wion<sup id="#affil-2">1</sup></li>
 	</ul>
-	<ul class="affiliations">
+	<ol class="affiliations nomark">
 		<li id="affil-1"><sup>1</sup> <a href="https://maritletnes.no">Marit Letnes Media SA</a></li>
 		<li id="affil-2"><sup>2</sup> <a href="https://csf.community">Content Strategy Forum</a></li>
-	</ul>
+	</ol>
 </section>
 
+<!-- PRIMARY PARAGRAPH(S) OF DEFINITION -->
 
 Interface text refers to all the bits and pieces of text used in a given product's user interface (UI). Such text includes navigation items, headers, labels, system feedback messages, pop-up help dialog, title attributes, and so on.
 
+<!-- EXAMPLE PARAGRAPH(S) -->
+
+
+<!-- FIGURE -->
 <figure>
 	<img alt="{{page.figalt}}" src="https://content-strategy-forum.github.io/csf-glossary/assets/images/{{page.figname}}.png">
 	<figcaption>
@@ -41,8 +46,11 @@ Interface text refers to all the bits and pieces of text used in a given product
 
 Interface copy should be the epitome of plain language writing; specific, concise, jargon-free, and void of any abbreviations, colloquialisms, clear in meaning (i.e., specific, jargon-free, keywords are put first, doesn't use abbreviations…), free of brand personality, clearly called out (e.g., the purpose of a list is made clear with a lead statement), and is real (i.e., no lorem ipsum or other fake text used in a [[wireframe]] or [[prototype]]).
 
+<!-- SYSNONYMOUS TERMS PARAGRAPH(S), IF ANY -->
+
 Interface text is known by many other terms, including: interface copy,[^1] interface strings,[^2] interface writing,[^3] microcopy,[^4][^5][^6][^7]  and transactional content,[^8] to name the most common.
 
+<!-- FOOTNOTE REFERENCES -->
 <hr class="footnotes">
 
 [^1]: J. Zeratsky, [_From Google Ventures: 5 Rules For Writing Great Interface Copy_](http://www.fastcodesign.com/3026463/from-google-ventures-5-rules-for-writing-great-interface-copy), Co.Design, 2014, (accessed March 25, 2016).
