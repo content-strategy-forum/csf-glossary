@@ -27,7 +27,7 @@ Contributing authors: Marit Letnes<sup id="#affil-1">1</sup>, Destry Wion<sup id
 Interface text refers to all the bits and pieces of text used in a given product's user interface (UI). Such text includes navigation items, headers, labels, system feedback messages, pop-up help dialog, title attributes, and so on.
 
 <figure>
-	<img alt="Placeholder image. Huzza!" src="/assets/images/placeholder.png">
+	<img alt="Placeholder image. Huzza!" src="https://content-strategy-forum.github.io/csf-glossary/assets/images/placeholder.png">
 	<figcaption>
 		A placeholder diagram having a mysterious nature. (Source: CSF, specifically for use with UX Content Glossary project.)
 	</figcaption>
