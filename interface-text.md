@@ -4,13 +4,14 @@ category: frontend strategy
 published: true
 title: Interface text
 description: Short strings of text (1-5 words) used in digital interfaces to guide exploration, text input, personalization, and the like. Not the same as microcopy.
+summary: he auxiliary text elements used in interface design — headers, labels, feedback messages, menu items, et cetera — that help people navigate and use application interfaces, whether for websites, mobile applications, kiosks, wearable devices, appliance panels, analog/digital dashboards or what have you.
 ---
 
 # {{ page.title }}
 
 <section class="summary">
 
-The auxiliary text elements used in interface design — headers, labels, feedback messages, menu items, et cetera — that help people navigate and use application interfaces, whether for websites, mobile applications, kiosks, wearable devices, appliance panels, analog/digital dashboards or what have you.
+{{page.summary}}
 
 <span class="authors">
 Contributing authors: Marit Letnes<sup id="#affil-1">1</sup>, Destry Wion<sup id="#affil-2">1</sup>
