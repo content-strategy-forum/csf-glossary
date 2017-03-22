@@ -27,12 +27,10 @@ Contributing authors: Marit Letnes<sup id="#affil-1">1</sup>, Destry Wion<sup id
 Interface text refers to all the bits and pieces of text used in a given product's user interface (UI). Such text includes navigation items, headers, labels, system feedback messages, pop-up help dialog, title attributes, and so on.
 
 <figure>
-
-![Placeholder image. Huzza!](/assets/images/placeholder.png)
-
-<figcaption>
-A placeholder diagram having a mysterious nature. (Source: CSF, specifically for use with UX Content Glossary project.)
-</figcaption>
+	<img alt="Placeholder image. Huzza!" src="/assets/images/placeholder.png">
+	<figcaption>
+		A placeholder diagram having a mysterious nature. (Source: CSF, specifically for use with UX Content Glossary project.)
+	</figcaption>
 </figure>
 
 Interface copy should be the epitome of plain language writing; specific, concise, jargon-free, and void of any abbreviations, colloquialisms, clear in meaning (i.e., specific, jargon-free, keywords are put first, doesn't use abbreviations…), free of brand personality, clearly called out (e.g., the purpose of a list is made clear with a lead statement), and is real (i.e., no lorem ipsum or other fake text used in a [[wireframe]] or [[prototype]]).
