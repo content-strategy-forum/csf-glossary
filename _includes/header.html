@@ -1,12 +1,12 @@
 <header class="site-header">
 	<h1 class="masthead"><a rel="home" href="https://csf.community" title="Fly to the CSF website!">CSF</a></h1>
-	<!-- <meta content="https://{% include header.html %}/assets/brand/logo.png"> -->
+	<!-- <meta content="https://{% include domain.html %}/assets/brand/logo.png"> -->
 
 		<!-- {% if page.layout != "default" and page.layout != "search" %}
 		<div>
-			<meta content="https://{% include header.html %}">
-			<form class="search-form" role="search" action="https://{{page.domain}}/search" data-search-form>
-				<meta content="https://{% include header.html %}/search/?q={q}">
+			<meta content="https://{% include domain.html %}">
+			<form class="search-form" role="search" action="https://{% include domain.html %}/search" data-search-form>
+				<meta content="https://{% include domain.html %}/search/?q={q}">
 				<input class="form-search-input" id="q" name="q" type="search" size="32" placeholder="Search glossary…" data-search-input>
 			</form>
 		</div>
