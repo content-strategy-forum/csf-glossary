@@ -66,12 +66,12 @@ article ul,
 article ol,
 article dl,
 article table,
-article form { margin-bottom: .8em; }
+article form {  }
 
 article ul,
 article ol { margin-left: 2em; }
 
-article ul { list-style-type: circle; }
+article ul {  }
 
 ol.uproman,
 ol.upper-roman {list-style-type: upper-roman;}
@@ -178,16 +178,6 @@ footer a:hover { color: #c11f46; }
 
 article a:hover { border-bottom: 1px solid #c11f46; }
 
-/* .link
-Just a link to the article.
-<article class="link">
-*/
-
-.minor {
-  margin-bottom: .5em;
-  font-size: 86%;
-  color: #888;
-}
 
 a.white { color: #fff !important; }
 a.yellow { color: #faba13 !important; }
@@ -196,7 +186,7 @@ a.yellow { color: #faba13 !important; }
 HEADER & NAVIGATION
 ---------------------------------- */
 
-header { margin: 1.5em 0 2em 0; }
+header {  }
 
 .identity img {
   width: 100%;
