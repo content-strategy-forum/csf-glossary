@@ -17,7 +17,8 @@
     			<nav aria-label="Breadcrumb navigation">
         		<ol class="breadcrumbs">
             	<li><a href="index.md">Index</a></li>
-            	{% if page.category %}<li><a>{{page.category}}</a></li>{% endif %}
+							{% if page.title %}<li><a>{{page.categories}}</a></li>{% endif %}
+            	<!--{% if page.category %}<li><a>{{page.category}}</a></li>{% endif %} -->
             	<li class="current"><b>{{page.title}}</b></li>
         		</ol>
     			</nav>
@@ -47,7 +48,7 @@
 				Coordinated by <a rel="external" href="https://csf.community">CSF</a>:
 				<a href="https://github.com/content-strategy-forum">Organization</a>,
 				<a href="https://{% include domain.html %}">repository</a>,
-				<a href="https://github.com/content-strategy-forum/csf-glossary/blob/master/{{slug}}.md">draft</a>,
+				<a href="https://github.com/content-strategy-forum/csf-glossary/blob/master/{{page.slug}}.md">draft</a>,
 				<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">license</a>.
 				<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 			</p>

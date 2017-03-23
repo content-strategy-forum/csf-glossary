@@ -1,8 +1,8 @@
 ---
 published: true
 layout: definition
-category: frontend strategy
 title: Interface text
+slug: interface-text
 
 description: Short strings of text (1-5 words) used in digital interfaces to guide exploration, text input, personalization, and the like. Not the same as microcopy.
 
