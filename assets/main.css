@@ -77,11 +77,20 @@ nav a {
 	color: #555;
 }
 
+/* ---------------
+   MAIN CONTENT
+------------------ */
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
 /* nav.breadcrumb */
 
 .breadcrumb li:after {
 	font-size: 1.1rem;
-	content: "/203A";
+	content: "\203A";
 	margin-left: 3px;
 	margin-right: 3px;
 }
@@ -91,19 +100,15 @@ nav a {
 	padding: 0 3px;
 }
 
+/* Summary and Contributors */
 
-/* ---------------
-   MAIN CONTENT
------------------- */
-
-.container {
-	width: 80%;
-	margin: 0 auto;
-}
 	
 .summary,
 .contributors,
 .authors { margin-bottom: 1.5em; }
+
+.authors li:after { content: ","; }
+.authors li:last-child:after { content: ""; }
 
 
 /* Article links */
@@ -185,7 +190,8 @@ footer { color: #555; }
 */
 
 h1.term-title {
-  margin: 2em 0;
+  margin-top: 1em;
+	margin-bottom: 1em;
 	text-align: center;
 }
 
