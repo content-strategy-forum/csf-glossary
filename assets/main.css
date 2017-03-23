@@ -61,63 +61,38 @@ body {
 
 h1.term-title {
   margin: 3em 0;
-  font: 2rem 'Share', arial, sans-serif;
+	font-family: 'Share', arial, sans-serif;
 	text-align: center;
 }
 
-/* Pull these out and adjust for only what's needed.
-
-h2 {
-  margin: 1.5em 0 1em 0;
-  font: normal 1.6em 'Share', arial, sans-serif;
-}
-
-h2:before { display: none; }
-
-h3, .h3 {
-  margin: 0 0 .5em 0;
-  font: normal 1.2em 'Share', arial, sans-serif;
-  color: #444;
-}
-
-h4, .h4 {
-  display: inline-block;
-  margin: 0 0 1em 0;
-  font-size: 1.1em;
-  font-weight: normal;
-  color: #a7a175;
-}
+/*
+******** Font Size
 */
 
+h1.term-title { font-size: 2.5rem }
+
+.summary { font-size: 1.5rem; }
+
+article,
+footer { font-size: 1.3rem; }
+
+/*
+******** Font Style, Weight & Color
+*/
 .summary {
-	font-size: 1.2rem;
 	font-weight: bold;
 	font-style: italic;
 	color: #444;
-	margin: 0 0 2em 0;
 }
 
 /*
-.summary:after {
-  content: "";
-  display: block;
-  width: 15%;
-  height: 1px;
-  background: #bbb;
-}
-
-.summary:before { margin: 0 0 1.5em 0; }
-.summary:after { margin: 1.5em 0 0 0; }
+******** Font Positioning
 */
-
-
-.white { color: #fff; }
-.yellow { color: #faba13; }
-
+.summary { margin: 0 0 2em 0; }
 
 
 /* -------------------------
-   Blockquoates & Quoates
+   Blockquotes & Quotes
 ----------------------------- */
 
 q {font-style: italic;}
