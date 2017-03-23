@@ -17,7 +17,7 @@ html { overflow-y: scroll; }
 
 body {
   background: #fff url(../brand/stripe.jpg) 80% -15px repeat-x;
-	font-size: 62.5%;
+	font-size: 80%;
   font-family: 'Crimson Text', serif;
   line-height: 1.4;
   color: #333;
@@ -90,7 +90,7 @@ h4, .h4 {
 */
 
 .summary {
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	font-weight: bold;
 	font-style: italic;
 	color: #444;
