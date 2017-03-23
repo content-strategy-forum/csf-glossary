@@ -50,6 +50,47 @@ body {
   max-width: 341px;
 }
 
+/* ----------------------------------
+   NAVIGATION
+---------------------------------- */
+
+nav ul {
+  list-style: none;
+}
+
+nav li { display: inline; width: auto; }
+
+nav a {
+  display: inline-block;
+  padding: 0 3%;
+  border: none;
+  text-decoration: none;
+}
+
+/*
+******* Global Nav
+*/
+.global {}
+
+.global a {
+  border-right: 1px solid #ccc;
+  line-height: 30px;
+  color: #666;
+  text-align: center;
+}
+
+.global.nlast a { border: none; }
+
+.global a:hover { 
+	background: #444;
+	color: #555;
+}
+
+/*
+******* Breadcrump Nav
+*/
+.breadcrumb {}
+
 
 /* ---------------
    TYPOGRAPHY
@@ -65,12 +106,13 @@ h1.term-title { font-family: 'Share', arial, sans-serif; }
 ******** Font Size and Height
 */
 
-h1.term-title { font-size: 2.8rem }
+article { font-size: 1.4rem; }
+
+h1.term-title { font-size: 3rem }
 
 .summary { font-size: 1.7rem; }
 
-article,
-footer { font-size: 1.3rem; }
+footer { font-size: 1.1rem; }
 
 .contributors { font-size: 1rem; }
 
@@ -92,7 +134,36 @@ h1.term-title {
 	text-align: center;
 }
 
-.summary { margin: 0 0 2em 0; }
+.summary,
+.contributors,
+.authors { margin-bottom: 1.5em; }
+
+/* ----------------------------------
+   LISTS
+---------------------------------- */
+	
+.wrap li {
+	display: inline; width: auto;
+}
+
+.nomark { list-style: none; }
+
+/*
+******** Index authors
+*/
+
+
+/*
+******** Definition authors
+*/
+
+.authors {}
+
+/*
+******** Definition affiliations
+*/
+
+.affiliations {}
 
 
 /* -------------------------
@@ -201,75 +272,6 @@ a.white { color: #fff !important; }
 a.yellow { color: #faba13 !important; }
 
 
-/* ----------------------------------
-   NAVIGATION
----------------------------------- */
-
-nav ul {
-  list-style: none;
-}
-
-nav li { display: inline; width: auto; }
-
-nav a {
-  display: inline-block;
-  padding: 0 3%;
-  border: none;
-  text-decoration: none;
-}
-
-/*
-******* Global Nav
-*/
-.global {}
-
-.global a {
-  border-right: 1px solid #ccc;
-  line-height: 30px;
-  color: #666;
-  text-align: center;
-}
-
-.global.nlast a { border: none; }
-
-.global a:hover { 
-	background: #444;
-	color: #555;
-}
-
-/*
-******* Breadcrump Nav
-*/
-.breadcrumb {}
-
-/* ----------------------------------
-   LISTS
----------------------------------- */
-	
-.wrap li {
-	display: inline; width: auto;
-}
-
-.nomark { list-style: none; }
-
-/*
-******** Index authors
-*/
-
-
-/*
-******** Definition authors
-*/
-
-.authors {}
-
-/*
-******** Definition affiliations
-*/
-
-.affiliations {}
-
-
 /*---------------------------
 FIGURES & FIGCAPTIONS
 ----------------------------*/
@@ -278,7 +280,7 @@ img { max-width: 100%; }
 
 figure {
   text-align: center;
-  margin: 0 0 1em 0;
+  margin-bottom: 1.5em;
   width: auto;
 }
 
