@@ -28,31 +28,20 @@ body {
    LAYOUT
 ------------------ */
 
+/*
+******* Header
+*/
+
 .site-header {
 	width: auto;
 	margin: 1em 0;
 	padding: 5% 0;
 }
 
-.container {
-	width: 80%;
-	margin: 0 auto;
-}
-
-.collapse-top { margin-top: 0; }
-
-/* ----------------------------------
-   HEADER
----------------------------------- */
-
 .identity {
   width: 100%;
   max-width: 341px;
 }
-
-/* ----------------------------------
-   NAVIGATION
----------------------------------- */
 
 nav ul {
   list-style: none;
@@ -67,9 +56,6 @@ nav a {
   text-decoration: none;
 }
 
-/*
-******* Global Nav
-*/
 .global {}
 
 .global a {
@@ -86,10 +72,32 @@ nav a {
 	color: #555;
 }
 
+
 /*
-******* Breadcrump Nav
+******* Main Content Wrappers & Regions
 */
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* Breadcrump Nav */
 .breadcrumb {}
+	
+.summary,
+.contributors,
+.authors { margin-bottom: 1.5em; }
+
+/*
+******* Footer
+*/
+
+footer {
+  padding: 5em 0 ;
+  margin: 5em 0 0 0;
+  background: #e7e7dd url(http://csf.community/assets/img/stripe.jpg) 75% -10px repeat-x;
+}
 
 
 /* ---------------
@@ -112,9 +120,12 @@ h1.term-title { font-size: 3rem }
 
 .summary { font-size: 1.7rem; }
 
+.contributors,
+.references { font-size: 1rem; }
+
 footer { font-size: 1.1rem; }
 
-.contributors { font-size: 1rem; }
+p.legal { font-size: 0.9rem; }
 
 /*
 ******** Font Style, Weight & Color
@@ -125,6 +136,8 @@ footer { font-size: 1.1rem; }
 	color: #444;
 }
 
+footer { color: #555; }
+
 /*
 ******** Font Positioning & Spacing
 */
@@ -134,9 +147,27 @@ h1.term-title {
 	text-align: center;
 }
 
-.summary,
-.contributors,
-.authors { margin-bottom: 1.5em; }
+/* ------------------
+   LINKS
+--------------------- */
+
+a {
+  color: #147a97;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+}
+
+article a { border-bottom: 1px dotted #61b0c7; }
+
+article a:visited { 
+  color: #462b72; 
+  border-bottom-color: #462b72; 
+}
+
+article a:hover,
+footer a:hover { color: #c11f46; }
+
+article a:hover { border-bottom: 1px solid #c11f46; }
 
 /* ----------------------------------
    LISTS
@@ -163,7 +194,29 @@ h1.term-title {
 ******** Definition affiliations
 */
 
-.affiliations {}
+.affiliations {
+	
+}
+
+/* ---------------------
+   FIGURES & Images
+------------------------ */
+
+img { max-width: 100%; }
+
+figure {
+  text-align: center;
+  margin-bottom: 1.5em;
+  width: auto;
+}
+
+figcaption {
+  font: 75% sans-serif;
+  color: #888;
+  line-height: 1.3;
+  margin-top: .5em;
+  padding: .7em 0 .4em 0;
+}
 
 
 /* -------------------------
@@ -244,54 +297,6 @@ hr.clear {
   margin: 1em auto;
 }
 
-
-/* ------------------
-   LINKS
---------------------- */
-
-a {
-  color: #147a97;
-  text-decoration: none;
-  transition: all .2s ease-in-out;
-}
-
-article a { border-bottom: 1px dotted #61b0c7; }
-
-article a:visited { 
-  color: #462b72; 
-  border-bottom-color: #462b72; 
-}
-
-article a:hover,
-footer a:hover { color: #c11f46; }
-
-article a:hover { border-bottom: 1px solid #c11f46; }
-
-
-a.white { color: #fff !important; }
-a.yellow { color: #faba13 !important; }
-
-
-/*---------------------------
-FIGURES & FIGCAPTIONS
-----------------------------*/
-
-img { max-width: 100%; }
-
-figure {
-  text-align: center;
-  margin-bottom: 1.5em;
-  width: auto;
-}
-
-figcaption {
-  font: 75% sans-serif;
-  color: #888;
-  line-height: 1.3;
-  margin-top: .5em;
-  padding: .7em 0 .4em 0;
-}
-
 /* ----------------- 
 TABLES 
 -------------------- */
@@ -370,22 +375,6 @@ button {
   color: #000;
 }
 
-/* --------------------
-   ASIDES
---------------------- */
-
-
-/* ----------------
-   FOOTER
-------------------- */
-
-footer {
-  padding: 5em 0 ;
-  margin: 5em 0 0 0;
-  background: #e7e7dd url(http://csf.community/assets/img/stripe.jpg) 75% -10px repeat-x;
-  font-size: .8em;
-  color: #555;
-}
 
 /* ------------------------ 
    MEDIA QUERIES
