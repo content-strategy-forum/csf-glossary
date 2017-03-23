@@ -47,7 +47,7 @@ Interface copy should be the epitome of plain language writing; specific, concis
 
 <!-- SYSNONYMOUS TERMS PARAGRAPH(S), IF ANY -->
 
-Interface text is known by many other terms, including: interface copy,[^1] interface strings,[^2] interface writing,[^3] microcopy,[^4][^5][^6][^7]  and transactional content,[^8] to name the most common.
+Interface text is known by many other terms, including: interface copy[^1], interface strings[^2], interface writing[^3], microcopy[^4][^5][^6][^7],  and transactional content[^8], to name the most common.
 
 <!-- FOOTNOTE REFERENCES -->
 <hr class="footnotes">

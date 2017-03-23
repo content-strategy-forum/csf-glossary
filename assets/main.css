@@ -115,7 +115,7 @@ nav a {
 
 article a,
 article sup a { 
-	transition: all 1.5s ease-in-out;
+	transition: all .8s ease-in-out;
   color: #444;
   text-decoration: none;
 }
@@ -130,8 +130,8 @@ article sup a:hover {
 article a:hover { border-bottom-color: #fff; }
 
 article sup a {
-	padding-left: 3px; padding-right: 3px;
-	margin-left: 1px; margin-right: 2px;
+	padding-left: 3px; 
+	padding-right: 3px;
 	border-bottom: 0;
 }
 
