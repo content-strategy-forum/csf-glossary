@@ -52,8 +52,6 @@ Interface text is known by many other terms, including: interface copy,[^1] inte
 <!-- FOOTNOTE REFERENCES -->
 <hr class="footnotes">
 
-<section class="references">
-	
 [^1]: J. Zeratsky, [_From Google Ventures: 5 Rules For Writing Great Interface Copy_](http://www.fastcodesign.com/3026463/from-google-ventures-5-rules-for-writing-great-interface-copy), Co.Design, 2014, (accessed March 25, 2016).
 
 [^2]: D. Wion, [_Words in the Interface_](), Medium, 2016, (accessed April 28, 2016).
@@ -69,6 +67,4 @@ Interface text is known by many other terms, including: interface copy,[^1] inte
 [^7]: Link to nn/g article on microcopy
 
 [^8]: G. Charlton, Graham, [_How ecommerce sites can use microcopy_](https://econsultancy.com/blog/66638-how-ecommerce-sites-can-use-microcopy/), Econsultancy, 2015, (accessed March 25, 2016).
-
-</section>
 
