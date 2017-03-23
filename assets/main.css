@@ -17,6 +17,7 @@ html { overflow-y: scroll; }
 
 body {
   background: #fff url(../brand/stripe.jpg) 80% -15px repeat-x;
+	font-size: 18px;
   font-family: 'Crimson Text', serif;
   line-height: 1.3;
   color: #333;
@@ -24,7 +25,7 @@ body {
 }		
 
 /* ---------------
-Layout
+   LAYOUT
 ------------------ */
 
 .site-header {
@@ -38,14 +39,20 @@ Layout
 	margin: 0 auto;
 }
 
+.collapse-top { margin-top: 0; }
+
 
 /* ---------------
-TYPOGRAPHY
+   TYPOGRAPHY
 ------------------ */
+
+/*
+******** Font Families
+*/
 
 h1.term-title {
   margin: 2em 0;
-  font: 180rem 'Share', arial, sans-serif;
+  font: 1.5rem 'Share', arial, sans-serif;
 	text-align: center;
 }
 
@@ -74,7 +81,7 @@ h4, .h4 {
 */
 
 .summary {
-	font-size: 130rem;
+	font-size: 1rem;
 	font-weight: bold;
 	font-style: italic;
 	color: #444;
@@ -94,13 +101,15 @@ h4, .h4 {
 .summary:after { margin: 1.5em 0 0 0; }
 */
 
-/*
-******** Paragraphs
-*/
 
-article p,
-article table,
-article form {  }
+.white { color: #fff; }
+.yellow { color: #faba13; }
+
+
+
+/* -------------------------
+   Blockquoates & Quoates
+----------------------------- */
 
 q {font-style: italic;}
 
@@ -121,24 +130,16 @@ blockquote.twitter-tweet {
  margin: 1.5em 0;
 }
 
+/* -------------------------
+   Code & Abbreviations
+----------------------------- */
+
 pre {
     font-size: 1.2em;
     color: #000;
     margin-left: 10px;
     border-left: 2px solid #999;
     padding-left: 5px;
-}
-
-kbd {
-    font-size: 1em;
-    color: #fff;
-    border-top: 1px solid #000;
-    border-right: 2px solid #000;
-    border-bottom: 2px solid #333;
-    border-left: 1px solid #333;
-    padding-right: 3px;
-    padding-left: 2px;
-    background: #555;
 }
 
 code { 
@@ -152,6 +153,23 @@ abbr {
 }
 
 abbr:hover { border-bottom: 1px solid #000; }
+
+kbd {
+    font-size: 1em;
+    color: #fff;
+    border-top: 1px solid #000;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #333;
+    border-left: 1px solid #333;
+    padding-right: 3px;
+    padding-left: 2px;
+    background: #555;
+}
+
+
+/* ------------------
+   HARD RULES
+--------------------- */
 
 hr {
   width:90%;
@@ -167,13 +185,9 @@ hr.clear {
   margin: 1em auto;
 }
 
-.white { color: #fff; }
-.yellow { color: #faba13; }
-
-.collapse-top { margin-top: 0; }
 
 /* ------------------
-LINKS
+   LINKS
 --------------------- */
 
 a {
