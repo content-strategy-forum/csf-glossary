@@ -1,6 +1,6 @@
 ---
 published: true
-layout: 
+layout: default
 title: UX Content Glossary
 description: 
 ---
