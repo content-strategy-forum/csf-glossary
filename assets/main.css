@@ -25,12 +25,8 @@ body {
 }		
 
 /* ---------------
-   LAYOUT
+   HEADER
 ------------------ */
-
-/*
-******* Header
-*/
 
 .site-header {
 	width: auto;
@@ -38,17 +34,13 @@ body {
 }
 
 .identity {
-	position: relative;
-	top: 50%;
-	left: 50%;
-  width: 48px; height: 48px;
+	width: 48px; height: 48px;
 	background-color: #fff;
-  transition: width 2s, height 2s, background-color 2s, transform 2s;
+  transition: transform 2s;
 }
 
 .identity:hover { 
 	background-color: #fff;
-	width: 43px; height: 43px;
 	transform: rotate(720deg);
 }
 
@@ -82,9 +74,9 @@ nav a {
 }
 
 
-/*
-******* Main Content Wrappers & Regions
-*/
+/* ---------------
+   MAIN CONTENT
+------------------ */
 
 .container {
 	width: 80%;
@@ -98,9 +90,36 @@ nav a {
 .contributors,
 .authors { margin-bottom: 1.5em; }
 
-/*
-******* Footer
-*/
+
+/* Article links */
+
+article a,
+article sup a { 
+	transition: all 1.5s ease-in-out;
+  color: #444;
+  text-decoration: none;
+}
+
+article a { border-bottom: 1px dotted #444; }
+
+article a:hover,
+article sup a:hover { 
+	color: #000;
+}
+
+article a:hover { border-bottom-color: #fff; }
+
+article sup a {
+	padding-left: 3px; padding-right: 3px;
+	margin-left: 1px; margin-right: 2px;
+	border-bottom: 0;
+}
+
+article sup a:hover { background-color: #ffe4b2; }
+
+/* ---------------
+   FOOTER
+------------------ */
 
 footer {
   padding: 5em 0 ;
@@ -158,38 +177,6 @@ h1.term-title {
 sup { margin-right: 3px; }
 
 .contributors sup { }
-
-/* ------------------
-   LINKS
---------------------- */
-
-a,
-a:visited {
-  color: #000; /* #147a97 */
-  text-decoration: none;
-	border-bottom: 1px dotted #000;
-	transition: all .5s ease-in-out;
-}
-
-a:hover { 
-	color: #c11f46;
-	border-bottom: 1px solid #c11f46;
-}
-
-sup a,
-sup a:visted {
-	padding: 3px ;
-	margin-left: 1px;
-	margin-right: 2px;
-	border-bottom: 0;
-	
-}
-
-sup a:hover {
-	color: #000;
-	background: #ffe4b2;
-}
-
 
 
 /* ----------------------------------
