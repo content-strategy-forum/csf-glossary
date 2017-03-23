@@ -121,11 +121,10 @@ h1.term-title { font-size: 3rem }
 .summary { font-size: 1.7rem; }
 
 .contributors,
-.references { font-size: 1rem; }
+.references,
+.legal { font-size: 1rem; }
 
-footer { font-size: 1.1rem; }
-
-p.legal { font-size: 0.9rem; }
+.pitch { font-size: 1.1rem; }
 
 /*
 ******** Font Style, Weight & Color
@@ -146,6 +145,10 @@ h1.term-title {
   margin: 2em 0;
 	text-align: center;
 }
+
+sup { margin-right: 3px; }
+
+.contributors sup { }
 
 /* ------------------
    LINKS
@@ -168,6 +171,20 @@ article a:hover,
 footer a:hover { color: #c11f46; }
 
 article a:hover { border-bottom: 1px solid #c11f46; }
+
+sup a,
+sup a:visted {
+	padding: 2px 3px;
+	border: 0;
+	transition: all .3s ease-in-out;
+}
+
+sup a:hover {
+	color: #000;
+	background: yellow;
+}
+
+
 
 /* ----------------------------------
    LISTS
