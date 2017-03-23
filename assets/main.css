@@ -94,21 +94,13 @@ h4, .h4 {
 .summary:after { margin: 1.5em 0 0 0; }
 */
 
+/*
+******** Paragraphs
+*/
 
 article p,
-article ul,
-article ol,
-article dl,
 article table,
 article form {  }
-
-article ul,
-article ol { margin-left: 2em; }
-
-article ul {  }
-
-ol.uproman,
-ol.upper-roman {list-style-type: upper-roman;}
 
 q {font-style: italic;}
 
@@ -175,18 +167,6 @@ hr.clear {
   margin: 1em auto;
 }
 
-.wrap  {
-  list-style-type: none; 
-  margin: 0;
-}
-
-.wrap li { 
-   display: inline;
-   line-height: 1.5;
-   font-size: 90%;
-   margin-right: 0.15em;
-}
-
 .white { color: #fff; }
 .yellow { color: #faba13; }
 
@@ -218,11 +198,13 @@ article a:hover { border-bottom: 1px solid #c11f46; }
 a.white { color: #fff !important; }
 a.yellow { color: #faba13 !important; }
 
-/* ----------------------------------
-HEADER & NAVIGATION
----------------------------------- */
 
-header {  }
+/* ----------------------------------
+HEADER and NAVIGATION
+---------------------------------- */
+/*
+******** Logo / Identity
+*/
 
 .identity img {
   width: 100%;
@@ -230,8 +212,11 @@ header {  }
   max-width: 341px;
 }
 
+/*
+******** Navigation
+*/
+
 nav ul {
-  margin-top: 1.3em;
   list-style: none;
 }
 
@@ -241,16 +226,68 @@ nav a {
   display: inline-block;
   padding: 0 3%;
   border: none;
+  text-decoration: none;
+}
+
+/*
+******* Global Nav
+*/
+.global {}
+
+.global a {
   border-right: 1px solid #ccc;
   line-height: 30px;
   color: #666;
   text-align: center;
-  text-decoration: none;
 }
 
-nav a:hover { background: #fff; }
+.global.nlast a { border: none; }
 
-nav .nlast a { border: none; }
+.global a:hover { 
+	background: #444;
+	color: #555;
+}
+
+/*
+******* Breadcrump Nav
+*/
+.breadcrumb {}
+
+.navigation {
+	display: inline; width: auto;
+}
+
+/* ----------------------------------
+LISTS
+---------------------------------- */
+
+.wrap  {
+  list-style-type: none; 
+  margin: 0;
+}
+
+.wrap li { 
+   display: inline;
+   line-height: 1.5;
+   margin-right: 0.15em;
+}
+
+/*
+******** Index authors
+*/
+
+
+/*
+******** Definition authors
+*/
+
+.authors {}
+
+/*
+******** Definition affiliations
+*/
+
+.affiliations {}
 
 
 /*---------------------------

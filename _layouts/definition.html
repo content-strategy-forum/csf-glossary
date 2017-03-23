@@ -11,9 +11,10 @@
 		{% include header.html %}		
 		<main aria-label="Main content">
 				<div class="container">
-    			<nav aria-label="Breadcrumb navigation">
-        		<ol class="breadcrumbs">
-            	<li><a href="index.md">Index</a></li>
+					
+    			<nav aria-label="breadcrumb">
+        		<ol>
+            	<li><a href="https://{% include domain.html %}/index.md">Index</a></li>
             	<!--<li><a>{{page.categories}}</a></li> -->
             	<li class="current"><b>{{page.title}}</b></li>
         		</ol>
