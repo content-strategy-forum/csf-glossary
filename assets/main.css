@@ -16,7 +16,7 @@ label, input[type="checkbox"], input[type="radio"], input[type="submit"] { curso
 html { overflow-y: scroll; }
 
 body {
-  background: #f7f7ef url(https://csf.community/assets/img/stripe.jpg) 80% -15px repeat-x;
+  background: #fff url(https://csf.community/assets/img/stripe.jpg) 80% -15px repeat-x;
   font-family: 'Crimson Text', serif;
   line-height: 1.3;
   color: #333;
@@ -27,16 +27,19 @@ body {
 GRID
 ------------------ */
 
-.wrapper { }
+.wrapper { padding: 0 10% }
 
 /* ---------------
 TYPOGRAPHY
 ------------------ */
 
-h1 {
+h1.term-title {
   margin-bottom: .6em;
   font: normal 2em 'Share', arial, sans-serif;
+	text-align: center;
 }
+
+/* Pull these out and adjust for only what's needed.
 
 h2 {
   margin: 1.5em 0 1em 0;
@@ -58,8 +61,29 @@ h4, .h4 {
   font-weight: normal;
   color: #a7a175;
 }
+*/
 
-.collapse-top { margin-top: 0; }
+.summary {
+	font-size: 130rem;
+	font-weight: bold;
+	font-style: italic;
+	color: #444;
+	margin: 2em 0;
+}
+
+/*
+.summary:after {
+  content: "";
+  display: block;
+  width: 15%;
+  height: 1px;
+  background: #bbb;
+}
+
+.summary:before { margin: 0 0 1.5em 0; }
+.summary:after { margin: 1.5em 0 0 0; }
+*/
+
 
 article p,
 article ul,
@@ -156,6 +180,8 @@ hr.clear {
 .white { color: #fff; }
 .yellow { color: #faba13; }
 
+.collapse-top { margin-top: 0; }
+
 /* ------------------
 LINKS
 --------------------- */
@@ -216,31 +242,6 @@ nav a:hover { background: #fff; }
 
 nav .nlast a { border: none; }
 
-/* --------------------
-DEFINITIONS
------------------------ */
-
-.term-title { text-align: center; }
-
-.summary {
-  font-size: 115%;
-  margin: 2em 0;
-  color: #444;
-  clear: both;
-}
-
-/*
-.summary:after {
-  content: "";
-  display: block;
-  width: 15%;
-  height: 1px;
-  background: #bbb;
-}
-
-.summary:before { margin: 0 0 1.5em 0; }
-.summary:after { margin: 1.5em 0 0 0; }
-*/
 
 /*---------------------------
 FIGURES & FIGCAPTIONS
