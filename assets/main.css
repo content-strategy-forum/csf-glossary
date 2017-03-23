@@ -176,14 +176,14 @@ sup a,
 sup a:visted {
 	padding: 0 3px;
 	margin-left: 1px;
-	margin-right: 1px;
+	margin-right: 2px;
 	border: 0;
 	transition: all .5s ease-in-out;
 }
 
 sup a:hover {
 	color: #000;
-	background: marigold;
+	background: #ffe4b2;
 }
 
 
