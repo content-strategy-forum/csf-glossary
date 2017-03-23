@@ -20,7 +20,7 @@ body {
 	font-size: 100%;
   font-family: 'Crimson Text', serif;
   line-height: 1.4;
-  color: #333;
+  color: #444;
   -webkit-font-smoothing: antialiased;
 }		
 
@@ -34,13 +34,22 @@ body {
 
 .site-header {
 	width: auto;
-	margin: 1em 0;
-	padding: 5% 0;
+	padding: 5px 5%;
 }
 
 .identity {
-  width: 100%;
-  max-width: 341px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+  width: 48px; height: 48px;
+	background-color: #fff;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.identity:hover { 
+	background-color: #fff;
+	width: 43px; height: 43px;
+	transform: rotate(720deg);
 }
 
 nav ul {
@@ -154,23 +163,18 @@ sup { margin-right: 3px; }
    LINKS
 --------------------- */
 
-a {
-  color: #147a97;
+a,
+a:visited {
+  color: #000; /* #147a97 */
   text-decoration: none;
-  transition: all .2s ease-in-out;
+	border-bottom: 1px dotted #000;
+	transition: all .5s ease-in-out;
 }
 
-article a { border-bottom: 1px dotted #61b0c7; }
-
-article a:visited { 
-  color: #462b72; 
-  border-bottom-color: #462b72; 
+a:hover { 
+	color: #c11f46;
+	border-bottom: 1px solid #c11f46;
 }
-
-article a:hover,
-footer a:hover { color: #c11f46; }
-
-article a:hover { border-bottom: 1px solid #c11f46; }
 
 sup a,
 sup a:visted {
@@ -178,7 +182,7 @@ sup a:visted {
 	margin-left: 1px;
 	margin-right: 2px;
 	border-bottom: 0;
-	transition: all .5s ease-in-out;
+	
 }
 
 sup a:hover {
