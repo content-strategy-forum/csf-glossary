@@ -2,7 +2,7 @@
 published: true
 layout: definition
 title: Interface text
-slug: interface-text
+file-name: interface-text
 
 description: Short strings of text (1-5 words) used in digital interfaces to guide exploration, text input, personalization, and the like. Not the same as microcopy.
 
