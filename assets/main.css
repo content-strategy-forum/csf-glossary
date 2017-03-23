@@ -56,25 +56,23 @@ body {
 ------------------ */
 
 /*
-******** Font Families
+******** Font Typeface
 */
 
-h1.term-title {
-  margin: 3em 0;
-	font-family: 'Share', arial, sans-serif;
-	text-align: center;
-}
+h1.term-title { font-family: 'Share', arial, sans-serif; }
 
 /*
-******** Font Size
+******** Font Size and Height
 */
 
-h1.term-title { font-size: 2.5rem }
+h1.term-title { font-size: 2.8rem }
 
-.summary { font-size: 1.5rem; }
+.summary { font-size: 1.7rem; }
 
 article,
 footer { font-size: 1.3rem; }
+
+.contributors { font-size: 1rem; }
 
 /*
 ******** Font Style, Weight & Color
@@ -86,8 +84,14 @@ footer { font-size: 1.3rem; }
 }
 
 /*
-******** Font Positioning
+******** Font Positioning & Spacing
 */
+
+h1.term-title {
+  margin: 2em 0;
+	text-align: center;
+}
+
 .summary { margin: 0 0 2em 0; }
 
 

@@ -13,7 +13,6 @@ figalt: A placeholder. Huzza!
 figcaption: A belle figure of mysterious nature.
 ---
 
-
 <h1 class="term-title">{{page.title}}</h1>
 
 <p class="summary">{{page.summary}}</p>
@@ -38,7 +37,7 @@ Interface text refers to all the bits and pieces of text used in a given product
 
 <!-- FIGURE -->
 <figure>
-	<img alt="{{page.figalt}}" src="https://content-strategy-forum.github.io/csf-glossary/assets/images/{{page.figname}}.png">
+	<img alt="{{page.figalt}}" src="https://{% include domain.html %}/assets/images/{{page.figname}}.png">
 	<figcaption>
 		{{page.figcaption}} (Source: CSF, specifically for use with UX Content Glossary project.)
 	</figcaption>
