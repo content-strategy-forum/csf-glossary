@@ -31,6 +31,7 @@ body {
 .site-header {
 	width: auto;
 	padding: 5px 5%;
+	margin-bottom: 2em;
 }
 
 .identity {
@@ -41,8 +42,10 @@ body {
 
 .identity:hover { 
 	background-color: #fff;
-	transform: rotate(720deg);
+	transform: rotate(360deg);
 }
+
+
 
 nav ul {
   list-style: none;
@@ -52,10 +55,11 @@ nav li { display: inline; width: auto; }
 
 nav a {
   display: inline-block;
-  padding: 0 3%;
   border: none;
   text-decoration: none;
 }
+
+/* nav.global */
 
 .global {}
 
@@ -73,6 +77,20 @@ nav a {
 	color: #555;
 }
 
+/* nav.breadcrumb */
+
+.breadcrumb li:after {
+	font-size: 1.1rem;
+	content: "/203A";
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.breadcrumb a {
+	line-height: 1.5;
+	padding: 0 3px;
+}
+
 
 /* ---------------
    MAIN CONTENT
@@ -82,9 +100,6 @@ nav a {
 	width: 80%;
 	margin: 0 auto;
 }
-
-/* Breadcrump Nav */
-.breadcrumb {}
 	
 .summary,
 .contributors,
@@ -189,9 +204,7 @@ sup { margin-right: 3px; }
 
 .nomark { list-style: none; }
 
-/*
-******** Index authors
-*/
+/* Index authors */
 
 
 /*
