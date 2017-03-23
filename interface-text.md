@@ -19,7 +19,7 @@ figcaption: A belle figure of mysterious nature.
 <p class="summary">{{page.summary}}</p>
 
 <section class="contributors">
-	<ul class="authors nomark">
+	<ul class="authors wrap nomark">
 		<li>Marit Letnes<sup id="#affil-1">1</sup></li>
 		<li>Destry Wion<sup id="#affil-2">2</sup></li>
 	</ul>

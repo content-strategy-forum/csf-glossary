@@ -9,7 +9,7 @@ Global Resets
 a img, abbr, fieldset { border: none; }
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
 table { border-collapse: collapse; }
-img { -ms-interpolation-mode: bicubic; vertical-align: middle; }
+img { -ms-interpolation-mode: bicubic; vertical-align: middle; 100%; }
 label, input[type="checkbox"], input[type="radio"], input[type="submit"] { cursor: pointer; }
 ::-moz-selection { background: #042489; color: #fff; text-shadow: none; }
 ::selection { background: #042489; color: #fff; text-shadow: none; }
@@ -40,6 +40,15 @@ body {
 }
 
 .collapse-top { margin-top: 0; }
+
+/* ----------------------------------
+   HEADER
+---------------------------------- */
+
+.identity {
+  width: 100%;
+  max-width: 341px;
+}
 
 
 /* ---------------
@@ -214,21 +223,8 @@ a.yellow { color: #faba13 !important; }
 
 
 /* ----------------------------------
-HEADER and NAVIGATION
+   NAVIGATION
 ---------------------------------- */
-/*
-******** Logo / Identity
-*/
-
-.identity img {
-  width: 100%;
-  height: auto;
-  max-width: 341px;
-}
-
-/*
-******** Navigation
-*/
 
 nav ul {
   list-style: none;
@@ -267,24 +263,15 @@ nav a {
 */
 .breadcrumb {}
 
-.navigation {
+/* ----------------------------------
+   LISTS
+---------------------------------- */
+	
+.wrap li {
 	display: inline; width: auto;
 }
 
-/* ----------------------------------
-LISTS
----------------------------------- */
-
-.wrap  {
-  list-style-type: none; 
-  margin: 0;
-}
-
-.wrap li { 
-   display: inline;
-   line-height: 1.5;
-   margin-right: 0.15em;
-}
+.nomark { list-style: none; }
 
 /*
 ******** Index authors
@@ -363,11 +350,7 @@ tfoot td { margin-top:4px; line-height:1.5; }
 
 .striped tr:nth-of-type(odd) td {
 	background-color: #eee;
-	}
-
-/*-----------------------------
-ASIDES
-------------------------------- */
+}
 
 
 /*-------------------
@@ -406,13 +389,13 @@ button {
   color: #000;
 }
 
-/* ---------------
-Index
------------------- */
+/* --------------------
+   ASIDES
+--------------------- */
 
 
 /* ----------------
-FOOTER
+   FOOTER
 ------------------- */
 
 footer {
@@ -423,8 +406,8 @@ footer {
   color: #555;
 }
 
-/*------------------------ 
-MEDIA QUERIES
+/* ------------------------ 
+   MEDIA QUERIES
 --------------------------*/
 
 /**************  > 480px  **************/
