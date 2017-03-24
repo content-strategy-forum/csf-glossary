@@ -31,6 +31,7 @@ body {
 .site-header {
 	width: auto;
 	padding: 5px 5%;
+	margin-top: 15px;
 	margin-bottom: 2em;
 }
 
@@ -206,7 +207,10 @@ figcaption {
 	padding-bottom: 1em;
 }
 
-article ol { list-style-position: inside; }
+article ol { 
+	list-style-position: inside;
+	margin-left: 2em;
+}
 
 
 /* ----------------------------------
