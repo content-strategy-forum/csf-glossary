@@ -202,9 +202,11 @@ h1.term-title {
 }
 
 figcaption { 
-	padding-top: 1em; 
+	padding-top: 1.5em; 
 	padding-bottom: 1em;
 }
+
+article ol { list-style-position: inside; }
 
 
 /* ----------------------------------
@@ -309,8 +311,10 @@ hr {
 
 hr.footnotes {
   width:45%;
-  margin-top: 2em;
-	margin-bottom: 1em;
+	height: 2px;
+  margin-top: 4em;
+	margin-bottom: 2em;
+	margin-left: 0;
 	margin-right: auto;
 	background: linear-gradient(to right, rgba(0,0,0,.2), rgba(0,0,0,0));
 }
