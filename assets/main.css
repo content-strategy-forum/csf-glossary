@@ -180,8 +180,10 @@ nav a {
 
 /* References */
 
-.ref:after { margin-right: 3px; }
-.ref:last-child:after { margin-right: 0; }
+.ref:after { 
+	margin-left: 2px;
+	margin-right: 1px;
+}
 
 .references sup:after { content: ".\0020"; } /*Inserts a period and blank space after the sup number.*/
 
@@ -280,7 +282,7 @@ blockquote.twitter-tweet {
 }
 
 /* -------------------------
-   Code & Abbreviations
+   CODE & ABBREIVATIONS
 ----------------------------- */
 
 pre {
@@ -321,7 +323,7 @@ hr.footnotes {
   width:45%;
 	height: 2px;
   margin-top: 4em;
-	margin-bottom: 2em;
+	margin-bottom: 1.5em;
 	margin-left: 0;
 	margin-right: auto;
 	background: linear-gradient(to right, rgba(0,0,0,.2), rgba(0,0,0,0));
