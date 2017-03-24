@@ -47,7 +47,7 @@ Interface copy should be the epitome of plain language writing; specific, concis
 
 <!-- SYSNONYMOUS TERMS PARAGRAPH(S), IF ANY -->
 
-Interface text is known by many other terms, including: interface copy<sup id="#ref-1">1</sup>, interface strings<sup id="#ref-2">1</sup>, interface writing<sup id="#ref-3">1</sup>, microcopy<sup id="#ref-4">1</sup><sup id="#ref-5">1</sup><sup id="#ref-6">1</sup><sup id="#ref-7">1</sup>,  and transactional content<sup id="#ref-8">1</sup>, to name the most common.
+Interface text is known by many other terms, including: interface copy<sup id="#ref-1">1</sup>, interface strings<sup id="#ref-2">2</sup>, interface writing<sup id="#ref-3">3</sup>, microcopy<sup id="#ref-4">4</sup><sup id="#ref-5">5</sup><sup id="#ref-6">6</sup><sup id="#ref-7">7</sup>, and transactional content<sup id="#ref-8">8</sup>, to name the most common.
 
 <hr class="footnotes">
 

@@ -25,6 +25,69 @@ body {
 }		
 
 /* ---------------
+   TYPOGRAPHY
+------------------ */
+
+/*
+******** Font Typeface
+*/
+
+h1.term-title { font-family: 'Share', arial, sans-serif; }
+
+.breadcrumb,
+figcaption { font-family: sans-serif; }
+
+/*
+******** Font Size and Height
+*/
+
+article { font-size: 1.4rem; }
+
+h1.term-title { font-size: 3rem }
+
+.summary { font-size: 1.7rem; }
+
+.contributors,
+figcaption { font-size: 1rem; }
+
+.references { font-size: 1.1rem; }
+
+.pitch { font-size: 1.5rem; }
+
+.legal { font-size: 1.2rem; }
+
+/*
+******** Font Style, Weight & Color
+*/
+
+.summary,
+.references a { font-style: italic; }
+
+.summary { font-weight: bold; }
+
+.summary,
+footer { color: #444; }
+
+figcaption { color: #000; }
+
+/*
+******** Font Positioning & Spacing
+*/
+
+h1.term-title {
+  margin-top: 1em;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+figcaption { 
+	padding-top: 1.5em; 
+	padding-bottom: 1em;
+}
+
+.pitch { margin-bottom: 2em; }
+
+/* ---------------
    HEADER
 ------------------ */
 
@@ -121,16 +184,20 @@ nav a {
 .authors li:last-child:after { content: ""; } /*Removes comma from last name in list.*/
 
 
-/* Article Anchors & Links */
+/* -------------------------
+   ANCHORS & LINKS 
+---------------------------- */
 
 article a,
-article sup a { 
+article sup a
+footer a { 
 	transition: all .8s ease-in-out;
   color: #444;
   text-decoration: none;
 }
 
-article a { border-bottom: 1px dotted #444; }
+article a,
+footer a { border-bottom: 1px dotted #444; }
 
 article sup a {
 	padding-left: 4px; 
@@ -140,10 +207,13 @@ article sup a {
 article sup a:first-child { padding-left: 1px; }
 
 article a:hover,
-article sup a:hover { 
-	color: #000;
-	background-color: #f9f2b0;
-}
+article sup a:hover,
+footer a:hover { color: #000; }
+
+article a:hover,
+article sup a:hover { background-color: #f9f2b0; }
+
+footer a:hover { background-color: #fff; }
 
 article a:hover { border-bottom-color: #fff; }
 
@@ -165,70 +235,6 @@ footer {
   margin-top: 5em;
   background: #e7e7dd url(https://{% include domain.html %}/assets/brand/stripe.jpg) 75% -10px repeat-x;
 }
-
-/* ---------------
-   TYPOGRAPHY
------------------- */
-
-/*
-******** Font Typeface
-*/
-
-h1.term-title { font-family: 'Share', arial, sans-serif; }
-
-.breadcrumb,
-figcaption { font-family: sans-serif; }
-
-/*
-******** Font Size and Height
-*/
-
-article { font-size: 1.4rem; }
-
-h1.term-title { font-size: 3rem }
-
-.summary { font-size: 1.7rem; }
-
-.contributors,
-figcaption,
-.references { font-size: 1rem; }
-
-.pitch { font-size: 1.5rem; }
-
-.legal { font-size: 1.2rem; }
-
-/*
-******** Font Style, Weight & Color
-*/
-
-.summary,
-.references a { font-style: italic; }
-
-.summary {
-	font-weight: bold;
-	color: #444;
-}
-
-figcaption { color: #000; }
-
-footer { color: #555; }
-
-/*
-******** Font Positioning & Spacing
-*/
-
-h1.term-title {
-  margin-top: 1em;
-	margin-bottom: 1em;
-	text-align: center;
-}
-
-figcaption { 
-	padding-top: 1.5em; 
-	padding-bottom: 1em;
-}
-
-.pitch { margin-bottom: 2em; }
 
 
 /* ----------------------------------
