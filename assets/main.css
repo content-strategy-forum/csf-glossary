@@ -79,11 +79,6 @@ h1.term-title {
 	text-align: center;
 }
 
-figcaption { 
-	padding-top: 1.5em; 
-	padding-bottom: 1em;
-}
-
 /* ---------------
    HEADER
 ------------------ */
@@ -170,10 +165,9 @@ nav a {
 /* Summary and Contributors */
 	
 .summary,
-.contributors,
 .authors { margin-bottom: 1.5em; }
 
-.contributors { margin-bottom: 2em; }
+.contributors { margin-bottom: 3em; }
 
 .authors li:after { content: ","; } /*Inserts a comma after each name.*/
 .authors li:last-child:after { content: ""; } /*Removes comma from last name in list.*/
@@ -252,10 +246,12 @@ img { max-width: 100%; }
 
 figure {
   text-align: center;
-  margin-top: 2em;
-  margin-bottom: 1.5em;
+  margin-top: 2.5em;
+  margin-bottom: 3em;
   width: auto;
 }
+
+figcaption { padding-top: 1.5em; }
 
 
 /* -------------------------
