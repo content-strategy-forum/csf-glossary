@@ -11,8 +11,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
 table { border-collapse: collapse; }
 img { -ms-interpolation-mode: bicubic; vertical-align: middle; }
 label, input[type="checkbox"], input[type="radio"], input[type="submit"] { cursor: pointer; }
-::-moz-selection { background: #042489; color: #fff; text-shadow: none; }
-::selection { background: #042489; color: #fff; text-shadow: none; }
+::-moz-selection { background: #8dad3e; color: #fff; text-shadow: none; }
+::selection { background: #8dad3e; color: #fff; text-shadow: none; }
 html { overflow-y: scroll; }
 
 body {
@@ -122,8 +122,6 @@ nav a {
 
 /* nav.global */
 
-.global {}
-
 .global a {
   border-right: 1px solid #ccc;
   line-height: 30px;
@@ -182,8 +180,8 @@ nav a {
 
 /* References */
 
-.ref:after { content: "\0020"; } /*Inserts a blank space after each sup number.*/
-.ref:last-child:after { content: ""; } /*Removes the blank space on last or only numbers in a series.*/
+.ref:after { margin-right: 3px; }
+.ref:last-child:after { margin-right: 0; }
 
 .references sup:after { content: ".\0020"; } /*Inserts a period and blank space after the sup number.*/
 
