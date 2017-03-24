@@ -30,7 +30,7 @@ body {
 
 .site-header {
 	width: auto;
-	padding: 5px 5%;
+	padding: 5px 3%;
 	margin-top: 15px;
 	margin-bottom: 2em;
 }
@@ -94,12 +94,10 @@ nav a {
 
 .breadcrumb li:after {
 	font-size: 1.1rem;
-	content: "\203A";
+	content: "\203A"; /*Inserts a guillemet after each path link.*/
 }
 
-.breadcrumb li:last-child:after {
-	content: "";
-}
+.breadcrumb li:last-child:after { content: ""; } /*Removes guillemet after last path item.*/
 
 .breadcrumb a {
 	line-height: 1.5;
@@ -119,11 +117,11 @@ nav a {
 
 .contributors { margin-bottom: 2em; }
 
-.authors li:after { content: ","; }
-.authors li:last-child:after { content: ""; }
+.authors li:after { content: ","; } /*Inserts a comma after each name.*/
+.authors li:last-child:after { content: ""; } /*Removes comma from last name in list.*/
 
 
-/* Article links */
+/* Article Anchors & Links */
 
 article a,
 article sup a { 
@@ -148,6 +146,13 @@ article sup a:hover {
 }
 
 article a:hover { border-bottom-color: #fff; }
+
+/* References */
+
+.references sup:after {
+	content: ".\0020"; /*Inserts a period and blank space after the sup number.*/
+}
+
 
 /* ---------------
    FOOTER
@@ -195,9 +200,12 @@ figcaption,
 /*
 ******** Font Style, Weight & Color
 */
+
+.summary,
+.references a { font-style: italic; }
+
 .summary {
 	font-weight: bold;
-	font-style: italic;
 	color: #444;
 }
 
@@ -233,20 +241,7 @@ figcaption {
 
 .nomark { list-style: none; }
 
-/* Index authors */
 
-
-/*
-******** Authors
-*/
-
-.authors {}
-
-/*
-******** Author Affiliations
-*/
-
-.affiliations {}
 
 /* ---------------------
    FIGURES & Images

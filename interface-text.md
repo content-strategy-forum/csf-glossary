@@ -19,12 +19,12 @@ figcaption: A belle figure of mysterious nature.
 
 <section class="contributors">
 	<ul class="authors wrap nomark">
-		<li>Marit Letnes<sup id="#affil-1">1</sup></li>
-		<li>Destry Wion<sup id="#affil-2">2</sup></li>
+		<li>Marit Letnes<sup id="#aff-1">1</sup></li>
+		<li>Destry Wion<sup id="#aff-2">2</sup></li>
 	</ul>
 	<ol class="affiliations nomark">
-		<li id="affil-1"><sup>1</sup> <a href="https://maritletnes.no">Marit Letnes Media SA</a></li>
-		<li id="affil-2"><sup>2</sup> <a href="https://csf.community">Content Strategy Forum</a></li>
+		<li id="aff-1"><sup>1</sup> <a href="https://maritletnes.no">Marit Letnes Media SA</a></li>
+		<li id="aff-2"><sup>2</sup> <a href="https://csf.community">Content Strategy Forum</a></li>
 	</ol>
 </section>
 
@@ -47,23 +47,35 @@ Interface copy should be the epitome of plain language writing; specific, concis
 
 <!-- SYSNONYMOUS TERMS PARAGRAPH(S), IF ANY -->
 
-Interface text is known by many other terms, including: interface copy[^1], interface strings[^2], interface writing[^3], microcopy[^4][^5][^6][^7],  and transactional content[^8], to name the most common.
+Interface text is known by many other terms, including: interface copy<sup id="#ref-1">1</sup>, interface strings<sup id="#ref-2">1</sup>, interface writing<sup id="#ref-3">1</sup>, microcopy<sup id="#ref-4">1</sup><sup id="#ref-5">1</sup><sup id="#ref-6">1</sup><sup id="#ref-7">1</sup>,  and transactional content<sup id="#ref-8">1</sup>, to name the most common.
 
 <hr class="footnotes">
 
-[^1]: J. Zeratsky, [_From Google Ventures: 5 Rules For Writing Great Interface Copy_](http://www.fastcodesign.com/3026463/from-google-ventures-5-rules-for-writing-great-interface-copy), Co.Design, 2014, (accessed March 25, 2016).
+<ol class="references nomark">
+	<li id="ref-1"><sup>1</sup>
+		J. Zeratsky, <a href="http://www.fastcodesign.com/3026463/from-google-ventures-5-rules-for-writing-great-interface-copy">From Google Ventures: 5 Rules For Writing Great Interface Copy</a>, Co.Design, 2014, (accessed March 25, 2016).
+	</li>
+	<li id="ref-2"><sup>2</sup>
+		D. Wion, <a href="https://medium.com/@wion/words-in-the-interface-fe963da74e0f#.o9e3pbo54">Words in the Interface</a>, Medium, 2016, (accessed April 28, 2016).
+	</li>
+	<li id="ref-3"><sup>3</sup>
+		N. Fenton, <a href="http://nicolefenton.com/interface-writing/">Interface Writing: Code for Humans</a>, Nicolefenton.com, undated, (accessed April 28, 2016).
+	</li>
+	<li id="ref-4"><sup>4</sup>
+		J. Porter, <a href="http://bokardo.com/archives/writing-microcopy/">Writing Microcopy</a>, Bokardo.com, 2009, (accessed March 25, 2016).
+	</li>
+	<li id="ref-5"><sup>5</sup>
+		B. Beard, <a href="https://www.smashingmagazine.com/2013/06/five-ways-prevent-bad-microcopy/">Five Ways To Prevent Bad Microcopy</a>. Smashing Magazine, 2013, (accessed March 25, 2016).
+	</li>
+	<li id="ref-6"><sup>6</sup>
+		N. Babich, <a href="https://uxplanet.org/microcopy-tiny-words-with-a-huge-ux-impact-90140acc6e42#.21lpg1vh7">Microcopy: Tiny Words With A Huge UX Impact</a>, Medium, 2016, (accessed March 25, 2016).
+	</li>
+	<li id="ref-7"><sup>7</sup>
+		H. Loranger and J. Nielsen, <a href="https://www.nngroup.com/articles/microcontent-how-to-write-headlines-page-titles-and-subject-lines/"></a>, Nielsen Norman Group, January 2017, (accessed February 7, 2017).
+	</li>
+	<li id="ref-8"><sup>8</sup>
+		G. Charlton, Graham, <a href="https://econsultancy.com/blog/66638-how-ecommerce-sites-can-use-microcopy/">How ecommerce sites can use microcopy, Econsultancy</a>, 2015, (accessed March 25, 2016).
+	</li>
+</ol>
 
-[^2]: D. Wion, [_Words in the Interface_](), Medium, 2016, (accessed April 28, 2016).
-
-[^3]: N. Fenton, [_Interface Writing: Code for Humans_](http://nicolefenton.com/interface-writing/), Nicolefenton.com, undated, (accessed April 28, 2016).
-
-[^4]: J. Porter, [_Writing Microcopy_](http://bokardo.com/archives/writing-microcopy/), Bokardo.com, 2009, (accessed March 25, 2016).
-
-[^5]: B. Beard, [_Five Ways To Prevent Bad Microcopy_](https://www.smashingmagazine.com/2013/06/five-ways-prevent-bad-microcopy/). Smashing Magazine, 2013, (accessed March 25, 2016).
-
-[^6]: N. Babich, [_Microcopy: Tiny Words With A Huge UX Impact_](https://uxplanet.org/microcopy-tiny-words-with-a-huge-ux-impact-90140acc6e42#.21lpg1vh7), Medium, 2016, (accessed March 25, 2016).
-
-[^7]: Link to nn/g article on microcopy
-
-[^8]: G. Charlton, Graham, [_How ecommerce sites can use microcopy_](https://econsultancy.com/blog/66638-how-ecommerce-sites-can-use-microcopy/), Econsultancy, 2015, (accessed March 25, 2016).
 
