@@ -92,13 +92,20 @@ nav a {
 .breadcrumb li:after {
 	font-size: 1.1rem;
 	content: "\203A";
-	margin-left: 3px;
-	margin-right: 3px;
+}
+
+.breadcrumb li:last-child:after {
+	content: "";
 }
 
 .breadcrumb a {
 	line-height: 1.5;
-	padding: 0 3px;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+.breadcrumb a:first-child {
+	padding-left: 2px;
 }
 
 /* Summary and Contributors */
@@ -124,15 +131,16 @@ article sup a {
 article a { border-bottom: 1px dotted #444; }
 
 article sup a {
-	padding-left: 3px; 
-	padding-right: 3px;
+	padding-left: 4px; 
 	border-bottom: 0;
 }
+
+article sup a:first-child { padding-left: 1px; }
 
 article a:hover,
 article sup a:hover { 
 	color: #000;
-	background-color: #ffe4b2;
+	background-color: #f2e8ab;
 }
 
 article a:hover { border-bottom-color: #fff; }
