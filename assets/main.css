@@ -50,10 +50,9 @@ h1.term-title { font-size: 3rem }
 .contributors,
 figcaption { font-size: 1rem; }
 
-.references { font-size: 1.1rem; }
-
 .pitch { font-size: 1.5rem; }
 
+.references,
 .legal { font-size: 1.2rem; }
 
 /*
@@ -84,6 +83,8 @@ figcaption {
 	padding-top: 1.5em; 
 	padding-bottom: 1em;
 }
+
+.references { margin-bottom: .5em; }
 
 .pitch { margin-bottom: 2em; }
 
@@ -189,7 +190,6 @@ nav a {
 ---------------------------- */
 
 article a,
-article sup a
 footer a { 
 	transition: all .8s ease-in-out;
   color: #444;
@@ -199,19 +199,12 @@ footer a {
 article a,
 footer a { border-bottom: 1px dotted #444; }
 
-article sup a {
-	padding-left: 4px; 
-	border-bottom: 0;
-}
-
 article sup a:first-child { padding-left: 1px; }
 
 article a:hover,
-article sup a:hover,
 footer a:hover { color: #000; }
 
-article a:hover,
-article sup a:hover { background-color: #f9f2b0; }
+article a:hover { background-color: #f9f2b0; }
 
 footer a:hover { background-color: #fff; }
 
@@ -219,9 +212,9 @@ article a:hover { border-bottom-color: #fff; }
 
 /* References */
 
-.references sup:after {
-	content: ".\0020"; /*Inserts a period and blank space after the sup number.*/
-}
+.ref:after { content: "\0020"; }
+
+.references sup:after { content: ".\0020"; } /*Inserts a period and blank space after the sup number.*/
 
 
 /* ---------------
