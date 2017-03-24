@@ -156,13 +156,10 @@ article a:hover { border-bottom-color: #fff; }
 footer {
 	text-align: center;
   padding-top: 5em;
+	padding-bottom: 5em;
   margin-top: 5em;
   background: #e7e7dd url(https://{% include domain.html %}/assets/brand/stripe.jpg) 75% -10px repeat-x;
 }
-
-.pitch { font-size: 1.5rem; }
-
-.legal { font-size: 1.2rem; }
 
 /* ---------------
    TYPOGRAPHY
@@ -189,10 +186,11 @@ h1.term-title { font-size: 3rem }
 
 .contributors,
 figcaption,
-.references,
-.legal { font-size: 1rem; }
+.references { font-size: 1rem; }
 
-.pitch { font-size: 1.1rem; }
+.pitch { font-size: 1.5rem; }
+
+.legal { font-size: 1.2rem; }
 
 /*
 ******** Font Style, Weight & Color
@@ -221,6 +219,8 @@ figcaption {
 	padding-top: 1.5em; 
 	padding-bottom: 1em;
 }
+
+.pitch { margin-bottom: 2em; }
 
 
 /* ----------------------------------
