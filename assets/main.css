@@ -84,10 +84,6 @@ figcaption {
 	padding-bottom: 1em;
 }
 
-.references { margin-bottom: .5em; }
-
-.pitch { margin-bottom: 2em; }
-
 /* ---------------
    HEADER
 ------------------ */
@@ -184,6 +180,16 @@ nav a {
 .authors li:after { content: ","; } /*Inserts a comma after each name.*/
 .authors li:last-child:after { content: ""; } /*Removes comma from last name in list.*/
 
+/* References */
+
+.ref:after { content: "\0020"; } /*Inserts a blank space after each sup number.*/
+.ref:last-child:after { content: ""; } /*Removes the blank space on last or only numbers in a series.*/
+
+.references sup:after { content: ".\0020"; } /*Inserts a period and blank space after the sup number.*/
+
+.references li { margin-bottom: .5em; }
+.references li:last-child { margin-bottom: 0; }
+
 
 /* -------------------------
    ANCHORS & LINKS 
@@ -191,7 +197,7 @@ nav a {
 
 article a,
 footer a { 
-	transition: all .8s ease-in-out;
+	transition: all .6s ease-in-out;
   color: #444;
   text-decoration: none;
 }
@@ -210,12 +216,6 @@ footer a:hover { background-color: #fff; }
 
 article a:hover { border-bottom-color: #fff; }
 
-/* References */
-
-.ref:after { content: "\0020"; }
-
-.references sup:after { content: ".\0020"; } /*Inserts a period and blank space after the sup number.*/
-
 
 /* ---------------
    FOOTER
@@ -228,6 +228,8 @@ footer {
   margin-top: 5em;
   background: #e7e7dd url(https://{% include domain.html %}/assets/brand/stripe.jpg) 75% -10px repeat-x;
 }
+
+.pitch { margin-bottom: 2em; }
 
 
 /* ----------------------------------
