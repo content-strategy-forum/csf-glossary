@@ -19,7 +19,7 @@ body {
   background: #fff url(https://{% include domain.html %}/assets/brand/stripe.jpg) 78% -15px repeat-x;
 	font-size: 100%;
   font-family: 'Crimson Text', serif;
-  line-height: 1.4;
+  line-height: 1.5;
   color: #444;
   -webkit-font-smoothing: antialiased;
 }		
@@ -82,8 +82,10 @@ nav a {
    MAIN CONTENT
 ------------------ */
 
-.container {
+.container,
+.holdfast {
 	width: 78%;
+	max-width: 60em;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -152,11 +154,15 @@ article a:hover { border-bottom-color: #fff; }
 ------------------ */
 
 footer {
-  padding: 5em 0 ;
-  margin: 5em 0 0 0;
+	text-align: center;
+  padding-top: 5em;
+  margin-top: 5em;
   background: #e7e7dd url(https://{% include domain.html %}/assets/brand/stripe.jpg) 75% -10px repeat-x;
 }
 
+.pitch { font-size: 1.5rem; }
+
+.legal { font-size: 1.2rem; }
 
 /* ---------------
    TYPOGRAPHY

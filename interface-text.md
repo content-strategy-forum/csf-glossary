@@ -49,7 +49,6 @@ Interface copy should be the epitome of plain language writing; specific, concis
 
 Interface text is known by many other terms, including: interface copy[^1], interface strings[^2], interface writing[^3], microcopy[^4][^5][^6][^7],  and transactional content[^8], to name the most common.
 
-<!-- FOOTNOTE REFERENCES -->
 <hr class="footnotes">
 
 [^1]: J. Zeratsky, [_From Google Ventures: 5 Rules For Writing Great Interface Copy_](http://www.fastcodesign.com/3026463/from-google-ventures-5-rules-for-writing-great-interface-copy), Co.Design, 2014, (accessed March 25, 2016).
