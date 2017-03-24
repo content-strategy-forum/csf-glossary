@@ -123,20 +123,19 @@ article sup a {
 
 article a { border-bottom: 1px dotted #444; }
 
-article a:hover,
-article sup a:hover { 
-	color: #000;
-}
-
-article a:hover { border-bottom-color: #fff; }
-
 article sup a {
 	padding-left: 3px; 
 	padding-right: 3px;
 	border-bottom: 0;
 }
 
-article sup a:hover { background-color: #ffe4b2; }
+article a:hover,
+article sup a:hover { 
+	color: #000;
+	background-color: #ffe4b2;
+}
+
+article a:hover { border-bottom-color: #fff; }
 
 /* ---------------
    FOOTER
@@ -205,11 +204,6 @@ h1.term-title {
 figcaption { 
 	padding-top: 1.5em; 
 	padding-bottom: 1em;
-}
-
-article ol { 
-	list-style-position: inside;
-	margin-left: 2em;
 }
 
 
