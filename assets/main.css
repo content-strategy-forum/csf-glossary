@@ -9,7 +9,7 @@ Global Resets
 a img, abbr, fieldset { border: none; }
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
 table { border-collapse: collapse; }
-img { -ms-interpolation-mode: bicubic; vertical-align: middle; 100%; }
+img { -ms-interpolation-mode: bicubic; vertical-align: middle; width: 100%; }
 label, input[type="checkbox"], input[type="radio"], input[type="submit"] { cursor: pointer; }
 ::-moz-selection { background: #042489; color: #fff; text-shadow: none; }
 ::selection { background: #042489; color: #fff; text-shadow: none; }
@@ -83,8 +83,9 @@ nav a {
 ------------------ */
 
 .container {
-	width: 80%;
-	margin: 0 auto;
+	width: 78%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* nav.breadcrumb */
@@ -100,8 +101,8 @@ nav a {
 
 .breadcrumb a {
 	line-height: 1.5;
-	padding-left: 6px;
-	padding-right: 6px;
+	padding-left: 8px;
+	padding-right: 8px;
 }
 
 .breadcrumb a:first-child {
@@ -109,7 +110,6 @@ nav a {
 }
 
 /* Summary and Contributors */
-
 	
 .summary,
 .contributors,
