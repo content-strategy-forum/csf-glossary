@@ -45,7 +45,7 @@ Interface text refers to all the bits and pieces of text used in a given product
 
 Interface copy should be the epitome of plain language writing; specific, concise, jargon-free, and void of any abbreviations, colloquialisms, clear in meaning (i.e., specific, jargon-free, keywords are put first, doesn't use abbreviations…), free of brand personality, clearly called out (e.g., the purpose of a list is made clear with a lead statement), and is real (i.e., no lorem ipsum or other fake text used in a [[wireframe]] or [[prototype]]).
 
-<!-- SYSNONYMOUS TERMS PARAGRAPH(S), IF ANY -->
+<!-- SYNONYMOUS TERMS PARAGRAPH(S), IF ANY -->
 
 Interface text is known by many other terms, including: interface copy<sup class="ref">1</sup>, interface strings<sup class="ref">2</sup>, interface writing<sup class="ref">3</sup>, microcopy<sup class="ref">4</sup><sup class="ref">5</sup><sup class="ref">6</sup><sup class="ref">7</sup>, and transactional content<sup class="ref">8</sup>, to name the most common.
 

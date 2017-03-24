@@ -8,31 +8,22 @@
 	</head>
 
 	<body>
-		<div class="wrapper">
-			
-			{% include header.html %}
-			
-			<main aria-label="Main content">
-				<div class="container">
-    			<nav aria-label="Breadcrumb navigation">
-        		<ol class="breadcrumbs">
-            	<li><a><span>Index</span></a></li>
-            	<li><a><span>{{ page.category }}</span></a></li>
-            	<li class="current"><b><span>{{ page.title }}</span></b></li>
-        		</ol>
-    			</nav>
+		{% include header.html %}
+		<main aria-label="Main content">
+			<div class="container">
 
 
-        		{{ content }}
+      {{ content }}
 
 
-				</div><!-- e/o container -->
-			</main>
-		</div><!-- e/o wrapper -->
-		<footer>
-			<p class="pitch">This glossary is an open and rolling project developed by individuals from around the world to benefit students, peers, educators, and industry. Besides being a practical reference, the glossary project is an opportunity for writers and editors to use new tools, sharpen metadata skills, apply information architecture, and create a semantic schema. <a href="https://github.com/content-strategy-forum/csf-glossary/blob/master/README.md">More...</a></p>
+		</div><!-- e/o container -->
+	</main>
+	<footer>
+		<div class="holdfast">
+			<p class="pitch">See something wrong? <a href="https://github.com/content-strategy-forum/csf-glossary/wiki">Lend a hand</a>.</p>
 			{% include legal.html %}
-		</footer>
+		</div>
+	</footer>
 
 	</body>
 </html>

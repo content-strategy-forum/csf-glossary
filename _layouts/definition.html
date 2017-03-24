@@ -40,14 +40,9 @@
 		<footer>
 			<div class="holdfast">
 				<p class="pitch">See something wrong? <a href="https://github.com/content-strategy-forum/csf-glossary/wiki">Lend a hand</a>.</p>
-			
-				<p class="legal" role="contentinfo">
-				Coordinated by <a rel="external" href="https://csf.community">CSF</a>:
-					<a href="https://github.com/content-strategy-forum">Organization</a>,
-					<a href="https://{% include domain.html %}">repository</a>,
-					<a href="https://github.com/content-strategy-forum/csf-glossary/blob/master/{{page.file-name}}.md">draft</a>,
-					<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">license</a>.
-					<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+				{% include legal.html %}
+				<p class="draft">
+					<a href="https://github.com/content-strategy-forum/csf-glossary/blob/master/{{page.file-name}}.md">draft</a>
 				</p>
 			</div>
 		</footer>
