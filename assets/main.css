@@ -69,6 +69,10 @@ footer { color: #444; }
 
 figcaption { color: #000; }
 
+.underline {
+	border-bottom: 2px solid #444;
+}
+
 /*
 ******** Font Positioning & Spacing
 */

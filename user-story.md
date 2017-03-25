@@ -43,9 +43,11 @@ A user story is a content development (or content revision) technique that helps
 
 A user story generally takes the following form: 
 
-> As a(n) __{the type of user}__, I want to __{the task to do}__, so I can __{the need to be met}__.
+<blockquote>
+	As a(n) <span class="underline"><b>the type of user</b></span>, I want to <span class="underline"><b>the task to do</b></span>, so I can <span class="underline"><b>the need to be met</b></span>.
+</blockquote>
 
-Where __{the type of user}__, __{the task to do}__, and __{the need to be met}__ are filled in for a given user need scenario.<sup class="ref">1</sup>
+Where "the type of user", "the task to do", and "the need to be met" are filled in for a given target scenario.<sup class="ref">1</sup>
 
 It's important  to frame a user story using terms and dialogue that make sense to people needing the information, as opposed to what makes sense to people writing content. Thus talking with actual users (best) and frontline staff (also insightful) is essential to understanding content requirements. Content requirements being the nature of tasks and the words used to describe them, which frame the story.
 
