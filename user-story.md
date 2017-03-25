@@ -13,7 +13,7 @@ summary: A user story is a content development technique that helps writers accu
 
 figname: fig-user-story
 figalt: The user story model.
-figcaption: The user story model is typically a 3-clause sentence designed to pinpoint user type, to to complete, and need for completing said task.
+figcaption: The user story model is a 3-clause sentence that pinpoints user type, task, and the need the task fulfills.
 ---
 
 <h1 class="term-title">{{page.title}}</h1>
