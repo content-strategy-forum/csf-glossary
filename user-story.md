@@ -5,15 +5,15 @@ title: User story
 file-name: user-story
 
 category:  
-tags: 
+tags: [writing, tactics]
 
 description: A user story is a content planning technique that helps writers produce copy in relation to user needs.
 
-summary: 
+summary: A user story is a content development technique that helps writers accurately pinpoint — and focus on — the needs of a given audience type and the task information required for them to fulfull those needs — one need at a time.
 
 figname: fig-user-story
 figalt: The user story model.
-figcaption: A typical user story model is a 3-clause sentence that helps writers address 1) the type of user, 2) the task the user must do, and 3) the objective satisfied by complete the task.
+figcaption: The user story model is typically a 3-clause sentence designed to pinpoint user type, to to complete, and need for completing said task.
 ---
 
 <h1 class="term-title">{{page.title}}</h1>
@@ -31,7 +31,7 @@ figcaption: A typical user story model is a 3-clause sentence that helps writers
 
 <!-- PRIMARY PARAGRAPH(S) OF DEFINITION -->
 
-A user story is a content development (or content revision) technique that helps identify the specific information needs a user may have, which in turn allows being able to produce content that more directly and effectively address those needs.
+A user story is a content development (or revision) technique used in information-as-product situations (versus information-as-persuasion) that helps writers identify the key elements they need to address in their copy in order for it to be worthwhile. By precisely identifying audience type, specific task, need to fulfill _and_ how user think and talk about those needs, writers produce copy that helps users more effectively with a given need.
 
 <!-- FIGURE -->
 <figure>
@@ -44,20 +44,22 @@ A user story is a content development (or content revision) technique that helps
 A user story generally takes the following form: 
 
 <blockquote>
-	As a(n) <span class="underline placeholder"><b>the type of user</b></span>, I want to <span class="underline placeholder"><b>the task to do</b></span>, so I can <span class="underline placeholder"><b>the need to be met</b></span>.
+	As a(n) <span class="underline placeholder"><b>the type of user</b></span>, I want to <span class="underline placeholder"><b>the task to do</b></span>, so I can <span class="underline placeholder"><b>the need to be met</b></span>.<sup class="ref">1</sup>
 </blockquote>
 
-Where "the type of user", "the task to do", and "the need to be met" are filled in for a given target scenario.<sup class="ref">1</sup>
+The resulting content may elaborate information in whatever way is best, but it must make sense to people needing the information, as opposed to what makes sense to people writing the content. Thus [audience analysis (type)] is an essential compliment to the user story technique for understanding content requirements. Best is to talk directly with users themselves, but interviewing frontline staff can also be insightful.
 
-It's important  to frame a user story using terms and dialogue that make sense to people needing the information, as opposed to what makes sense to people writing content. Thus talking with actual users (best) and frontline staff (also insightful) is essential to understanding content requirements. Content requirements being the nature of tasks and the words used to describe them, which frame the story.
+In addition to benefiting users, user stories help align stakeholders on the content development effort. The stories ensure:
 
-By their existence, user stories help align stakeholders on the content development effort, ensuring that:
+1. stakeholders agree on the story scenarios and criteria used in each one,
+2. collaborative efforts are not duplicated, and 
+3. contributions from subject experts are acknowledged and respected. 
 
-* there's agreement on the stories and criteria used in each case, 
-* efforts are not duplicated, and
-* the work of subject matter experts is acknowledged and respected (who may be protective of content they've already written, but which needs refactored according to the new strategy effort).
+Subject experts may be protective of content they've already written, but which may need refactored under a revision effort. A user story model helps them see how their copy can be restructured against a logical pattern.
 
-User stories can also be used as an [agile content](https://{% include domain.html %}/agile-content.html) technique to leverage the responsibility of content development across team members and prioritize the work.<sup class="ref">2</sup> One approach to this is to reframe content requirements as user stories on sticky notes based on the underlying user needs. Acceptance criteria can then be written that describes when a task is done and a need is met.
+(Can we put a real-life example here?)
+
+User stories can also be used as an [agile content](agile-content.html) technique to leverage the responsibility of content development across team members and prioritize the work.<sup class="ref">2</sup> One approach to this is to reframe content requirements as user stories on sticky notes based on the underlying user needs. Acceptance criteria can then be written that describes when a task is done and a need is met.
 
 <!-- EXAMPLE PARAGRAPH(S) -->
 
