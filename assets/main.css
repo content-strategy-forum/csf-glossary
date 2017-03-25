@@ -50,7 +50,7 @@ h1.term-title { font-size: 3rem }
 .contributors,
 figcaption { font-size: 1rem; }
 
-.pitch
+.pitch,
 .draft { font-size: 1.5rem; }
 
 .references,
@@ -65,10 +65,7 @@ figcaption { font-size: 1rem; }
 
 .summary { font-weight: bold; }
 
-.summary,
-footer { color: #444; }
-
-figcaption { color: #000; }
+figcaption { color: #222; }
 
 .underline {
 	border-bottom: 2px solid #444;
