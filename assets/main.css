@@ -168,6 +168,11 @@ nav a {
 	padding-left: 2px;
 }
 
+article p { 
+	margin-bottom: 1.5em;
+	border-collapse: collapse;
+}
+
 /* Summary and Contributors */
 	
 .summary,

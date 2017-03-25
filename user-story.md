@@ -36,9 +36,13 @@ A user story is a content development (or revision) technique for information-as
 
 The process begins with a phase of audience inventigation to understand what user needs are, and how users think and talk about them. Then user stories are employed to capture each need scenario as a succinct statement. The statements inform the copy to be developed or revised. 
 
-The statement is modeled as a 3-clause sentence: _As a(n) <span class="underline placeholder">the type of user</span>, I want to <span class="underline placeholder">the task to do</span>, so I can <span class="underline placeholder">the need to be met</span>._<sup class="ref">1</sup> The resulting content may elaborate information in whatever way is best.
+The statement is modeled as a 3-clause sentence: 
 
-The initial audience analysis work is imperative. The content that comes from user stories must make sense to people needing the information, as opposed to what makes sense to people writing the content. Best is to talk directly with users themselves, but interviewing frontline staff can also be insightful.
+<blockquote>
+	_As a(n) <span class="underline placeholder">the type of user</span>, I want to <span class="underline placeholder">the task to do</span>, so I can <span class="underline placeholder">the need to be met</span>._<sup class="ref">1</sup>
+</blockquote> 
+	
+The resulting content that follows the statements may elaborate on information to whatever extent is appropriate. But the initial audience analysis work is essential to ensure the content makes sense to those who need it, not to those who wrote it. It's best to talk directly with users, but interviewing frontline staff can also work.
 
 User stories benefit stakeholders and collaborators too. For stakeholders, the stories provide a means for agreement on story scenarios, criteria, and vocabulary used. When there are multiple writers, the stories help ensure content is not duplicated across them. And when subject experts are involved, who may be protective of content they've already written, their contributions are acknowledged and respected under the revision effort. The stories give subject experts a logical context for how their content will change.
 
