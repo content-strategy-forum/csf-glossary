@@ -44,7 +44,7 @@ A user story is a content development (or content revision) technique that helps
 A user story generally takes the following form: 
 
 <blockquote>
-	As a(n) <span class="underline"><b>the type of user</b></span>, I want to <span class="underline"><b>the task to do</b></span>, so I can <span class="underline"><b>the need to be met</b></span>.
+	As a(n) <span class="underline placeholder"><b>the type of user</b></span>, I want to <span class="underline placeholder"><b>the task to do</b></span>, so I can <span class="underline placeholder"><b>the need to be met</b></span>.
 </blockquote>
 
 Where "the type of user", "the task to do", and "the need to be met" are filled in for a given target scenario.<sup class="ref">1</sup>
