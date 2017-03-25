@@ -63,7 +63,8 @@ figcaption { font-size: 1rem; }
 .summary,
 .references a { font-style: italic; }
 
-.summary { font-weight: bold; }
+.summary,
+.placeholder { font-weight: bold; }
 
 figcaption { color: #222; }
 
@@ -107,8 +108,6 @@ h1.term-title {
 	background-color: #fff;
 	transform: rotate(360deg);
 }
-
-
 
 nav ul {
   list-style: none;

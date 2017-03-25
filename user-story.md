@@ -37,10 +37,10 @@ A user story is a content development (or revision) technique used in informatio
 A user story generally takes the following form:
 
 <blockquote>
-	As a(n) <span class="underline placeholder"><b>the type of user</b></span>, I want to <span class="underline placeholder"><b>the task to do</b></span>, so I can <span class="underline placeholder"><b>the need to be met</b></span>.<sup class="ref">1</sup>
+	As a(n) <span class="underline placeholder">the type of user</span>, I want to <span class="underline placeholder">the task to do</span>, so I can <span class="underline placeholder">the need to be met</span>.<sup class="ref">1</sup>
 </blockquote>
 
-The resulting content may elaborate information in whatever way is best, but it must make sense to people needing the information, as opposed to what makes sense to people writing the content. Thus [audience analysis (type)] is an essential compliment to the user story technique for understanding content requirements. Best is to talk directly with users themselves, but interviewing frontline staff can also be insightful.
+The resulting content may elaborate information in whatever way is best, but it must make sense to people needing the information, as opposed to what makes sense to people writing the content. Thus audience analysis is an essential compliment to the user story technique for understanding content requirements. Best is to talk directly with users themselves, but interviewing frontline staff can also be insightful.
 
 In addition to benefiting users, user stories help align stakeholders on the content development effort. The stories ensure:
 
