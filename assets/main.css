@@ -232,6 +232,15 @@ footer {
   background: #e7e7dd url(https://{% include domain.html %}/assets/brand/stripe.jpg) 75% -10px repeat-x;
 }
 
+.draft a {
+	padding: .75em;
+	border: 2px solid tan;
+}
+
+.draft a:hover { border-color: #000; }
+
+.draft { margin-bottom: 1em; }
+
 .pitch { margin-bottom: 2em; }
 
 
