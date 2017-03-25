@@ -39,7 +39,7 @@ The process begins with a phase of audience inventigation to understand what use
 The statement is modeled as a 3-clause sentence: 
 
 <blockquote>
-	_As a(n) <span class="underline placeholder">the type of user</span>, I want to <span class="underline placeholder">the task to do</span>, so I can <span class="underline placeholder">the need to be met</span>._<sup class="ref">1</sup>
+	As a(n) <span class="underline placeholder">the type of user</span>, I want to <span class="underline placeholder">the task to do</span>, so I can <span class="underline placeholder">the need to be met</span>.<sup class="ref">1</sup>
 </blockquote> 
 	
 The resulting content that follows the statements may elaborate on information to whatever extent is appropriate. But the initial audience analysis work is essential to ensure the content makes sense to those who need it, not to those who wrote it. It's best to talk directly with users, but interviewing frontline staff can also work.

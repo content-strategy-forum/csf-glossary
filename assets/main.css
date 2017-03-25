@@ -282,21 +282,13 @@ figcaption { padding-top: 1.5em; }
 q {font-style: italic;}
 
 blockquote {
+	font-style: italic;
   margin: 1.2em auto;
   width: 86%;
 }
 
-blockquote p {
-  font-size: 110%;
-  font-style: italic;
-}
-
-blockquote p::before { content: open-quote; }
-blockquote p::after { content: close-quote; }
-
-blockquote.twitter-tweet {
- margin: 1.5em 0;
-}
+blockquote:before { content: open-quote; }
+blockquote:after { content: close-quote; }
 
 /* -------------------------
    CODE & ABBREIVATIONS
