@@ -22,10 +22,10 @@ figcaption: A typical user story model is a 3-clause sentence that helps writers
 
 <section class="contributors">
 	<ul class="authors nomark">
-		<li>Destry Wion<sup id="#affil-1">1</sup></li>
+		<li>Destry Wion<sup>1</sup></li>
 	</ul>
 	<ol class="affiliations nomark">
-		<li id="affil-1"><sup>2</sup> <a href="https://csf.community">Content Strategy Forum</a></li>
+		<li><sup>1</sup> <a href="https://csf.community">Content Strategy Forum</a></li>
 	</ol>
 </section>
 
@@ -43,9 +43,9 @@ A user story is a content development (or content revision) technique that helps
 
 A user story generally takes the following form: 
 
-> As a(n) __{the type of user}__, I want to __{the task to do}__, so I can __{the need to be met}__.<sup class="ref">1</sup>
+> As a(n) __{the type of user}__, I want to __{the task to do}__, so I can __{the need to be met}__.
 
-Where __{the type of user}__, __{the task to do}__, and __{the need to be met}__ are filled in for a given user need scenario.
+Where __{the type of user}__, __{the task to do}__, and __{the need to be met}__ are filled in for a given user need scenario.<sup class="ref">1</sup>
 
 It's important  to frame a user story using terms and dialogue that make sense to people needing the information, as opposed to what makes sense to people writing content. Thus talking with actual users (best) and frontline staff (also insightful) is essential to understanding content requirements. Content requirements being the nature of tasks and the words used to describe them, which frame the story.
 
@@ -55,7 +55,7 @@ By their existence, user stories help align stakeholders on the content developm
 * efforts are not duplicated, and
 * the work of subject matter experts is acknowledged and respected (who may be protective of content they've already written, but which needs refactored according to the new strategy effort).
 
-User stories can also be used as an [agile content](https://{% include domain.html %}/agile-content.md) technique to leverage the responsibility of content development across team members and prioritize the work.<sup class="ref">2</sup> One approach to this is to reframe content requirements as user stories on sticky notes based on the underlying user needs. Acceptance criteria can then be written that describes when a task is done and a need is met.
+User stories can also be used as an [agile content](https://{% include domain.html %}/agile-content.html) technique to leverage the responsibility of content development across team members and prioritize the work.<sup class="ref">2</sup> One approach to this is to reframe content requirements as user stories on sticky notes based on the underlying user needs. Acceptance criteria can then be written that describes when a task is done and a need is met.
 
 <!-- EXAMPLE PARAGRAPH(S) -->
 
