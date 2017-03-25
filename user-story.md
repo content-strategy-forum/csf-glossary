@@ -33,15 +33,15 @@ figcaption: The user story model is typically a 3-clause sentence designed to pi
 
 A user story is a content development (or revision) technique used in information-as-product situations (versus information-as-persuasion) that helps writers identify the key elements they need to address in their copy in order for it to be worthwhile. By precisely identifying audience type, specific task, need to fulfill _and_ how user think and talk about those needs, writers produce copy that helps users more effectively with a given need.
 
-<!-- FIGURE -->
-<figure>
-	<img alt="{{page.figalt}}" src="https://{% include domain.html %}/assets/images/{{page.figname}}.png">
-	<figcaption>
-		{{page.figcaption}} (Source: CSF, specifically for use with UX Content Glossary project.)
-	</figcaption>
+<figure><img alt="{{page.figalt}}" src="https://{% include domain.html %}/assets/images/{{page.figname}}.png">
+	<figcaption>{{page.figcaption}}</figcaption>
 </figure> 
 
-A user story generally takes the following form: 
+A user story generally takes the following form:
+
+<blockquote>
+	As a(n) <span class="underline placeholder"><b>the type of user</b></span>, I want to <span class="underline placeholder"><b>the task to do</b></span>, so I can <span class="underline placeholder"><b>the need to be met</b></span>.<sup class="ref">1</sup>
+</blockquote> 
 
 The resulting content may elaborate information in whatever way is best, but it must make sense to people needing the information, as opposed to what makes sense to people writing the content. Thus [audience analysis (type)] is an essential compliment to the user story technique for understanding content requirements. Best is to talk directly with users themselves, but interviewing frontline staff can also be insightful.
 
@@ -53,13 +53,9 @@ In addition to benefiting users, user stories help align stakeholders on the con
 
 Subject experts may be protective of content they've already written, but which may need refactored under a revision effort. A user story model helps them see how their copy can be restructured against a logical pattern.
 
-(Can we put a real-life example here?)
+<!-- Examples -->
 
 User stories can also be used as an [agile content](agile-content.html) technique to leverage the responsibility of content development across team members and prioritize the work.<sup class="ref">2</sup> One approach to this is to reframe content requirements as user stories on sticky notes based on the underlying user needs. Acceptance criteria can then be written that describes when a task is done and a need is met.
-
-<!-- EXAMPLE PARAGRAPH(S) -->
-
-(Any to be found?)
 
 <hr class="footnotes">
 
