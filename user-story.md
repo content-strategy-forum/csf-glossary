@@ -28,27 +28,19 @@ figcaption: The user story model is a 3-clause sentence that pinpoints user type
 
 <!-- PRIMARY PARAGRAPH(S) OF DEFINITION -->
 
-A user story is a content development (or revision) technique used in information-as-product situations (versus information-as-persuasion) that helps writers identify the key elements they need to address in their copy in order for it to be worthwhile. By precisely identifying audience type, specific task, need to fulfill _and_ how user think and talk about those needs, writers produce copy that helps users more effectively with a given need.
+A user story is a content development (or revision) technique for information-as-product situations (versus information-as-persuasion). They help writers produce copy that supports the needs of users more effectively.
 
 <figure><img alt="{{page.figalt}}" src="https://{% include domain.html %}/assets/images/{{page.figname}}.png">
 	<figcaption>{{page.figcaption}}</figcaption>
 </figure>
 
-A user story generally takes the following form:
+The process begins with a phase of audience inventigation to understand what user needs are, and how users think and talk about them. Then user stories are employed to capture each need scenario as a succinct statement. The statements inform the copy to be developed or revised. 
 
-<blockquote>
-	As a(n) <span class="underline placeholder">the type of user</span>, I want to <span class="underline placeholder">the task to do</span>, so I can <span class="underline placeholder">the need to be met</span>.<sup class="ref">1</sup>
-</blockquote>
+The statement is modeled as a 3-clause sentence: _As a(n) <span class="underline placeholder">the type of user</span>, I want to <span class="underline placeholder">the task to do</span>, so I can <span class="underline placeholder">the need to be met</span>._<sup class="ref">1</sup> The resulting content may elaborate information in whatever way is best.
 
-The resulting content may elaborate information in whatever way is best, but it must make sense to people needing the information, as opposed to what makes sense to people writing the content. Thus audience analysis is an essential compliment to the user story technique for understanding content requirements. Best is to talk directly with users themselves, but interviewing frontline staff can also be insightful.
+The initial audience analysis work is imperative. The content that comes from user stories must make sense to people needing the information, as opposed to what makes sense to people writing the content. Best is to talk directly with users themselves, but interviewing frontline staff can also be insightful.
 
-In addition to benefiting users, user stories help align stakeholders on the content development effort. The stories ensure:
-
-1. stakeholders agree on the story scenarios and criteria used in each one,
-2. collaborative efforts are not duplicated, and 
-3. contributions from subject experts are acknowledged and respected. 
-
-Subject experts may be protective of content they've already written, but which may need refactored under a revision effort. A user story model helps them see how their copy can be restructured against a logical pattern.
+User stories benefit stakeholders and collaborators too. For stakeholders, the stories provide a means for agreement on story scenarios, criteria, and vocabulary used. When there are multiple writers, the stories help ensure content is not duplicated across them. And when subject experts are involved, who may be protective of content they've already written, their contributions are acknowledged and respected under the revision effort. The stories give subject experts a logical context for how their content will change.
 
 <!-- Examples -->
 
