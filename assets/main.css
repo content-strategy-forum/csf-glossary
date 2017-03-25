@@ -50,7 +50,8 @@ h1.term-title { font-size: 3rem }
 .contributors,
 figcaption { font-size: 1rem; }
 
-.pitch { font-size: 1.5rem; }
+.pitch
+.draft { font-size: 1.5rem; }
 
 .references,
 .legal { font-size: 1.2rem; }
@@ -83,7 +84,7 @@ h1.term-title {
 	text-align: center;
 }
 
-.placeholder {
+.placeholder { /* E.g. used in 'user story' definition, to show text to be replaced in model. */
 	padding-left: .5em;
 	padding-right: .5em;
 }
@@ -234,14 +235,14 @@ footer {
 
 .draft a {
 	padding: .75em;
-	border: 2px solid tan;
+	border: 3px solid tan;
+	border-radius: 4px;
 }
 
 .draft a:hover { border-color: #000; }
 
-.draft { margin-bottom: 1em; }
-
-.pitch { margin-bottom: 2em; }
+.pitch,
+.draft { margin-bottom: 1.5em; }
 
 
 /* ----------------------------------
