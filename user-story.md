@@ -6,7 +6,7 @@ file-name: user-story
 
 description: A user story is a content development technique that helps writers produce copy in relation to user needs.
 
-summary: A user story is a content planning and development technique that helps writers focus on the needs of a given audience type, thus the task information required to fulfull the needs. The model ensures stakeholder alignment on criteria and vocabulary used, as well benefits collaborative writing situations.
+summary: A user story is a content planning and development technique that helps writers focus on the needs of a given audience type, thus the task information required to fulfull the needs. The model also ensures stakeholder alignment on criteria used, as well benefits collaborative writing situations.
 
 figname: fig-user-story
 figalt: The user story model.
@@ -36,15 +36,15 @@ A user story is a content development (or revision) technique for information-as
 
 The process begins with a phase of audience inventigation to understand what user needs are, and how users think and talk about them. Then user stories are employed to capture each need scenario as a succinct statement. The statements inform the copy to be developed or revised. 
 
-The statement is modeled as a 3-clause sentence: 
+The statement is modeled as a 3-clause sentence:<sup class="ref">1</sup> 
 
 <blockquote>
-	As a(n) <span class="underline placeholder">the type of user</span>, I want to <span class="underline placeholder">the task to do</span>, so I can <span class="underline placeholder">the need to be met</span>.<sup class="ref">1</sup>
+	As a(n) <span class="underline placeholder">the type of user</span>, I want to <span class="underline placeholder">the task to do</span>, so I can <span class="underline placeholder">the need to be met</span>.
 </blockquote> 
 	
 The resulting content that follows the statements may elaborate on information to whatever extent is appropriate. But the initial audience analysis work is essential to ensure the content makes sense to those who need it, not to those who wrote it. It's best to talk directly with users, but interviewing frontline staff can also work.
 
-User stories benefit stakeholders and collaborators too. For stakeholders, the stories provide a means for agreement on story scenarios, criteria, and vocabulary used. When there are multiple writers, the stories help ensure content is not duplicated across them. And when subject experts are involved, who may be protective of content they've already written, their contributions are acknowledged and respected under the revision effort. The stories give subject experts a logical context for how their content will change.
+User stories benefit stakeholders and collaborators too. For stakeholders, the stories provide a means for agreement on story scenarios, criteria, and vocabulary used. When there are multiple writers, the stories help ensure content is not duplicated across them. And when subject experts are involved, who may be protective of content they've already written, the stories give them a logical context for how their content will adjust while ensuring their contributions are acknowledged and respected.
 
 <!-- Examples -->
 
