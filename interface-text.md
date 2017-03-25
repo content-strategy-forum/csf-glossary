@@ -32,12 +32,7 @@ figcaption: A belle figure of mysterious nature.
 
 Interface text refers to all the bits and pieces of text used in a given product's user interface (UI). Such text includes navigation items, headers, labels, system feedback messages, pop-up help dialog, title attributes, and so on.
 
-<!-- EXAMPLE PARAGRAPH(S) -->
-
-
-<!-- FIGURE -->
-<figure>
-	<img alt="{{page.figalt}}" src="https://{% include domain.html %}/assets/images/{{page.figname}}.png">
+<figure><img alt="{{page.figalt}}" src="https://{% include domain.html %}/assets/images/{{page.figname}}.png">
 	<figcaption>
 		{{page.figcaption}} (Source: CSF, specifically for use with UX Content Glossary project.)
 	</figcaption>
@@ -45,7 +40,11 @@ Interface text refers to all the bits and pieces of text used in a given product
 
 Interface copy should be the epitome of plain language writing; specific, concise, jargon-free, and void of any abbreviations, colloquialisms, clear in meaning (i.e., specific, jargon-free, keywords are put first, doesn't use abbreviations…), free of brand personality, clearly called out (e.g., the purpose of a list is made clear with a lead statement), and is real (i.e., no lorem ipsum or other fake text used in a [[wireframe]] or [[prototype]]).
 
-<!-- SYNONYMOUS TERMS PARAGRAPH(S), IF ANY -->
+## Examples
+
+(Any examples?)
+
+## Synonymous terms
 
 Interface text is known by many other terms, including: interface copy<sup class="ref">1</sup>, interface strings<sup class="ref">2</sup>, interface writing<sup class="ref">3</sup>, microcopy<sup class="ref">4</sup><sup class="ref">5</sup><sup class="ref">6</sup><sup class="ref">7</sup>, and transactional content<sup class="ref">8</sup>, to name the most common.
 
