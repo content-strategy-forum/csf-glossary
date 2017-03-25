@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>ActiveLayerIndex</key>
-	<integer>0</integer>
+	<integer>4</integer>
 	<key>ApplicationVersion</key>
 	<array>
 		<string>com.omnigroup.OmniGrafflePro</string>
@@ -7138,6 +7138,70 @@ Glossary website\
 			</dict>
 		</dict>
 		<dict>
+			<key>Bounds</key>
+			<string>{{30, 61}, {759, 262}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>FontInfo</key>
+			<dict>
+				<key>Color</key>
+				<dict>
+					<key>b</key>
+					<string>0.298039</string>
+					<key>g</key>
+					<string>0.298039</string>
+					<key>r</key>
+					<string>0.298039</string>
+				</dict>
+			</dict>
+			<key>ID</key>
+			<integer>212</integer>
+			<key>Layer</key>
+			<integer>4</integer>
+			<key>Shape</key>
+			<string>Rectangle</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Color</key>
+					<dict>
+						<key>a</key>
+						<string>0.923213</string>
+						<key>b</key>
+						<string>0.8</string>
+						<key>g</key>
+						<string>0.8</string>
+						<key>r</key>
+						<string>0.8</string>
+					</dict>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+			<key>Text</key>
+			<dict>
+				<key>Text</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf810
+\cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 Verdana;}
+{\colortbl;\red255\green255\blue255;\red76\green76\blue76;}
+{\*\expandedcolortbl;;\csgenericrgb\c29804\c29804\c29804;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
+
+\f0\b\fs96 \cf2 Placeholder \
+
+\fs28 \cf2 Custom figure may be needed.}</string>
+			</dict>
+		</dict>
+		<dict>
 			<key>Class</key>
 			<string>LineGraphic</string>
 			<key>ID</key>
@@ -7538,7 +7602,7 @@ Glossary website\
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{569.7926025390625, 251.47186279296875}, {212.4573974609375, 14.02813720703125}}</string>
+			<string>{{542.7926025390625, 251.47186279296875}, {212.4573974609375, 14.02813720703125}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -7587,7 +7651,7 @@ Glossary website\
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{569.7926025390625, 136}, {212.4573974609375, 31}}</string>
+			<string>{{542.7926025390625, 136}, {212.4573974609375, 31}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -7636,7 +7700,7 @@ Glossary website\
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{556.02130126953125, 126.5}, {240, 146}}</string>
+			<string>{{529.02130126953125, 126.5}, {240, 146}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -7734,7 +7798,7 @@ UX Content Glossary\
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{453.66155129814126, 172.5000107029017}, {102.35974997138999, 56.000005722045898}}</string>
+			<string>{{453.66155129814126, 172.5000107029017}, {69, 56.000005722045898}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -7870,12 +7934,6 @@ UX Content Glossary\
 	<string>YES</string>
 	<key>HPages</key>
 	<integer>1</integer>
-	<key>HorizontalGuides</key>
-	<array>
-		<real>106</real>
-		<real>194</real>
-		<real>284</real>
-	</array>
 	<key>ImageCounter</key>
 	<integer>1</integer>
 	<key>KeepToScale</key>
@@ -7890,7 +7948,7 @@ UX Content Glossary\
 			<key>Print</key>
 			<string>YES</string>
 			<key>View</key>
-			<string>YES</string>
+			<string>NO</string>
 		</dict>
 		<dict>
 			<key>Lock</key>
@@ -7930,7 +7988,7 @@ UX Content Glossary\
 			<key>Print</key>
 			<string>YES</string>
 			<key>View</key>
-			<string>NO</string>
+			<string>YES</string>
 		</dict>
 	</array>
 	<key>LayoutInfo</key>
@@ -7955,7 +8013,7 @@ UX Content Glossary\
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2017-03-25 12:52:55 +0000</string>
+	<string>2017-03-25 16:24:47 +0000</string>
 	<key>Modifier</key>
 	<string>Destry Wion</string>
 	<key>NotesVisible</key>
