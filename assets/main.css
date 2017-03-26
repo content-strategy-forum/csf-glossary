@@ -16,7 +16,7 @@ label, input[type="checkbox"], input[type="radio"], input[type="submit"] { curso
 html { overflow-y: scroll; }
 
 body {
-  background: #fff url(https://{% include domain.html %}/assets/brand/stripe.jpg) 78% -15px repeat-x;
+  background: #fff url({% include domain.html %}/csf-glossary/assets/brand/stripe.jpg) 78% -15px repeat-x;
 	font-size: 100%;
   font-family: 'Crimson Text', serif;
   line-height: 1.5;
@@ -202,6 +202,7 @@ article p {
    ANCHORS & LINKS 
 ---------------------------- */
 
+.contributors a,
 article a,
 footer a { 
 	transition: all .6s ease-in-out;
@@ -209,20 +210,23 @@ footer a {
   text-decoration: none;
 }
 
+.contributors a,
 article a,
 footer a { border-bottom: 1px dotted #444; }
 
 article sup a:first-child { padding-left: 1px; }
 
+.contributors a:hover,
 article a:hover,
 footer a:hover { color: #000; }
 
-article a:hover { background-color: #f9f2b0; }
+.contributors a:hover,
+article a:hover { 
+	background-color: #f9f2b0;
+	border-bottom-color: #fff;
+}
 
 footer a:hover { background-color: #fff; }
-
-article a:hover { border-bottom-color: #fff; }
-
 
 /* ---------------
    FOOTER
@@ -233,7 +237,7 @@ footer {
   padding-top: 5em;
 	padding-bottom: 5em;
   margin-top: 5em;
-  background: #e7e7dd url(https://{% include domain.html %}/assets/brand/stripe.jpg) 75% -10px repeat-x;
+  background: #e7e7dd url({% include domain.html %}/csf-glossary/assets/brand/stripe.jpg) 75% -10px repeat-x;
 }
 
 .draft a {
