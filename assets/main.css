@@ -210,7 +210,6 @@ footer a {
   text-decoration: none;
 }
 
-.breadcrumb a,
 article a,
 footer a { border-bottom: 1px dotted #444; }
 
@@ -220,9 +219,8 @@ article sup a:first-child { padding-left: 1px; }
 article a:hover,
 footer a:hover { color: #000; }
 
-.breadcrumb a:hover,
 article a:hover { 
-	background-color: #ffff99;
+	background-color: cornsilk; /* buttermilk or honey */
 	border-bottom-color: #fff;
 }
 
@@ -242,7 +240,7 @@ footer {
 
 .draft a {
 	padding: .5em;
-	border: 2px solid tan;
+	border: 2px solid 'dark wheat'; /* oldgold khaki */
 	border-radius: 4px;
 }
 
