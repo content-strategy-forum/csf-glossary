@@ -202,7 +202,7 @@ article p {
    ANCHORS & LINKS 
 ---------------------------- */
 
-.contributors a,
+.breadcrumb a,
 article a,
 footer a { 
 	transition: all .6s ease-in-out;
@@ -210,19 +210,19 @@ footer a {
   text-decoration: none;
 }
 
-.contributors a,
+.breadcrumb a,
 article a,
 footer a { border-bottom: 1px dotted #444; }
 
 article sup a:first-child { padding-left: 1px; }
 
-.contributors a:hover,
+.breadcrumb a:hover,
 article a:hover,
 footer a:hover { color: #000; }
 
-.contributors a:hover,
+.breadcrumb a:hover,
 article a:hover { 
-	background-color: #f9f2b0;
+	background-color: #ffff99;
 	border-bottom-color: #fff;
 }
 
