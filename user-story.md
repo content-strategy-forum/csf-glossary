@@ -30,7 +30,7 @@ figcaption: The user story is a 3-clause statement that pinpoints user type, tas
 
 A user story is a content development (or revision) technique for information-as-product situations (versus information-as-persuasion). They help writers produce copy that supports the needs of users more effectively.
 
-<figure><img alt="{{page.figalt}}" src="https://{% include domain.html %}/assets/images/{{page.figname}}.png">
+<figure><img alt="{{page.figalt}}" src="{% include domain.html %}/csf-glossary/assets/images/{{page.figname}}.png">
 	<figcaption>{{page.figcaption}}</figcaption>
 </figure>
 

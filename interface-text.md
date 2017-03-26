@@ -32,7 +32,7 @@ figcaption: A belle figure of mysterious nature.
 
 Interface text refers to all the bits and pieces of text used in a given product's user interface (UI). Such text includes navigation items, headers, labels, system feedback messages, pop-up help dialog, title attributes, and so on.
 
-<figure><img alt="{{page.figalt}}" src="https://{% include domain.html %}/assets/images/{{page.figname}}.png">
+<figure><img alt="{{page.figalt}}" src="{% include domain.html %}/csf-glossary/assets/images/{{page.figname}}.png">
 	<figcaption>{{page.figcaption}}</figcaption>
 </figure>
 
