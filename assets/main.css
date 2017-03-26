@@ -32,7 +32,8 @@ body {
 ******** Font Typeface
 */
 
-h1.term-title { font-family: 'Share', arial, sans-serif; }
+h1.term-title,
+.ethics { font-family: 'Share', arial, sans-serif; }
 
 .breadcrumb,
 figcaption { font-family: sans-serif; }
@@ -54,7 +55,7 @@ figcaption { font-size: 1rem; }
 .draft { font-size: 1.5rem; }
 
 .references,
-.legal { font-size: 1.2rem; }
+.repo { font-size: 1.2rem; }
 
 /*
 ******** Font Style, Weight & Color
@@ -263,7 +264,11 @@ footer {
    FIGURES & Images
 ------------------------ */
 
-img { max-width: 100%; }
+img { 
+	max-width: 100%;
+	margin-left: auto; 
+	margin-right: auto;
+}
 
 figure {
   text-align: center;
@@ -289,6 +294,19 @@ blockquote {
 
 blockquote:before { content: open-quote; }
 blockquote:after { content: close-quote; }
+
+/* ---------------------
+   ASIDES
+------------------------ */
+
+/* Ethical design badge in footer */
+.ethics {
+	display: block; 
+	width: 250px;
+	margin-top: 1.5em; 
+	margin-left: auto; 
+	margin-right: auto;
+}
 
 /* -------------------------
    CODE & ABBREIVATIONS
