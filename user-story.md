@@ -6,7 +6,7 @@ file-name: user-story
 
 description: A user story is a content development technique that helps writers produce copy in relation to user needs.
 
-summary: A user story is a content planning and development technique that helps writers focus on the scenarios and criteria of user needs, thus informs how to write content that fulfulls those needs. The model also helps ensure stakeholder alignment on scenearios and criteria, as well benefits collaborative writing situations.
+summary: A user story is a content planning and development technique that helps writers focus on the scenarios and criteria of user needs, which in turn informs how to write content that fulfulls those needs. The model also helps ensure stakeholder alignment on scenearios and criteria, as well benefits collaborative writing situations.
 
 figname: fig-user-story
 figalt: The user story model.
@@ -44,11 +44,13 @@ The statement is modeled as a 3-clause sentence:<sup class="ref">1</sup>
 	
 The resulting content that follows the statements may elaborate on information to whatever extent is appropriate. But the initial audience analysis work is essential to ensure the content makes sense to those who need it, not to those who wrote it. It's best to talk directly with users, but interviewing frontline staff can also work.
 
-User stories benefit stakeholders and collaborators too. For stakeholders, the stories provide a means for agreement on story scenarios, criteria, and vocabulary used. When there are multiple writers, the stories help ensure content is not duplicated across them. And when subject experts are involved, who may be protective of content they've already written, the stories give them a logical context for how their content will adjust while ensuring their contributions are acknowledged and respected.
+User stories benefit stakeholders and collaborators too. For stakeholders, the stories provide a means for agreement on story scenarios, criteria, and vocabulary used. When there are multiple writers, the stories help ensure content is not duplicated across them. And when working with subject experts, who may be protective of content they've already written, the stories give them a logical context for how their content will adjust while ensuring their contributions are acknowledged and respected.
 
-<!-- Examples -->
+## Examples of application
 
-User stories can also be used as an [agile content](agile-content.html) technique to leverage the responsibility of content development across team members and prioritize the work.<sup class="ref">2</sup> One approach to this is to reframe content requirements as user stories on sticky notes based on the underlying user needs. Acceptance criteria can then be written that describes when a task is done and a need is met.
+User stories have been used as an [agile content](agile-content.html) technique to leverage the responsibility of content development across team members and prioritize the work.<sup class="ref">2</sup> The approach to this was to reframe content requirements as user stories on sticky notes based on underlying user needs. Acceptance criteria was then written that described when a task was done and a need was met.
+
+User stories could also be used in [pair writing](pair-writing.html) situations. Instead of refactoring content already written by subject experts, writers and experts can begin new content together using story statements as their guide. 
 
 <hr class="footnotes">
 

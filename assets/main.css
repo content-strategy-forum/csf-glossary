@@ -237,8 +237,8 @@ footer {
 }
 
 .draft a {
-	padding: .75em;
-	border: 3px solid tan;
+	padding: .5em;
+	border: 2px solid gold;
 	border-radius: 4px;
 }
 
@@ -246,6 +246,28 @@ footer {
 
 .pitch,
 .draft { margin-bottom: 2em; }
+
+/* Ethical design badge in footer */
+.ethics { 
+	width: 250px;
+	margin-top: 1.5em; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+.ethics img {
+	 display: block; 
+	 margin-bottom: 0; 
+}
+
+a .ethics,
+.ethics,
+.ethics img { display: block; }
+
+a:hover .ethics { 
+	border-bottom: 0;
+	background: transparent;
+}
 
 
 /* ----------------------------------
@@ -295,31 +317,6 @@ blockquote {
 blockquote:before { content: open-quote; }
 blockquote:after { content: close-quote; }
 
-/* ---------------------
-   ASIDES
------------------------- */
-
-/* Ethical design badge in footer */
-.ethics { 
-	width: 250px;
-	margin-top: 1.5em; 
-	margin-left: auto; 
-	margin-right: auto;
-}
-
-.ethics img {
-	 display: block; 
-	 margin-bottom: 0; 
-}
-
-a .ethics,
-.ethics,
-.ethics img { display: block; }
-
-a:hover .ethics { 
-	border-bottom: 0;
-	background: transparent;
-}
 
 /* -------------------------
    CODE & ABBREIVATIONS
