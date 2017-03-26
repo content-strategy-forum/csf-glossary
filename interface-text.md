@@ -33,9 +33,7 @@ figcaption: A belle figure of mysterious nature.
 Interface text refers to all the bits and pieces of text used in a given product's user interface (UI). Such text includes navigation items, headers, labels, system feedback messages, pop-up help dialog, title attributes, and so on.
 
 <figure><img alt="{{page.figalt}}" src="https://{% include domain.html %}/assets/images/{{page.figname}}.png">
-	<figcaption>
-		{{page.figcaption}} (Source: CSF, specifically for use with UX Content Glossary project.)
-	</figcaption>
+	<figcaption>{{page.figcaption}}</figcaption>
 </figure>
 
 Interface copy should be the epitome of plain language writing; specific, concise, jargon-free, and void of any abbreviations, colloquialisms, clear in meaning (i.e., specific, jargon-free, keywords are put first, doesn't use abbreviations…), free of brand personality, clearly called out (e.g., the purpose of a list is made clear with a lead statement), and is real (i.e., no lorem ipsum or other fake text used in a [[wireframe]] or [[prototype]]).
@@ -76,5 +74,3 @@ Interface text is known by many other terms, including: interface copy<sup class
 		G. Charlton, Graham, <a href="https://econsultancy.com/blog/66638-how-ecommerce-sites-can-use-microcopy/">How ecommerce sites can use microcopy, Econsultancy</a>, 2015, (accessed March 25, 2016).
 	</li>
 </ol>
-
-
