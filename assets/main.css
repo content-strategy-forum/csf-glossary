@@ -300,12 +300,25 @@ blockquote:after { content: close-quote; }
 ------------------------ */
 
 /* Ethical design badge in footer */
-.ethics {
-	display: block; 
+.ethics { 
 	width: 250px;
 	margin-top: 1.5em; 
 	margin-left: auto; 
 	margin-right: auto;
+}
+
+.ethics img {
+	 display: block; 
+	 margin-bottom: 0; 
+}
+
+a .ethics,
+.ethics,
+.ethics img { display: block; }
+
+a:hover .ethics { 
+	border-bottom: 0;
+	background: transparent;
 }
 
 /* -------------------------
