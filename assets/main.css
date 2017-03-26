@@ -163,10 +163,16 @@ nav a {
 	line-height: 1.5;
 	padding-left: 8px;
 	padding-right: 8px;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 .breadcrumb a:first-child {
-	padding-left: 2px;
+	margin-left: 0;
+}
+
+.breadcrumb a:last-child {
+	margin-right: 0;
 }
 
 article p {
@@ -240,7 +246,7 @@ footer {
 
 .draft a {
 	padding: .5em;
-	border: 2px solid khaki; /* oldgold */
+	border: 2px solid #a39480;
 	border-radius: 4px;
 }
 
