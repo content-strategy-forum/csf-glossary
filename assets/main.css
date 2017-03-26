@@ -215,14 +215,14 @@ footer a { border-bottom: 1px dotted #444; }
 
 article sup a:first-child { padding-left: 1px; }
 
-.breadcrumb a:hover,
 article a:hover,
-footer a:hover { color: #000; }
+footer a:hover,
+.breadcrumb a:hover { color: #000; }
 
-article a:hover { 
-	background-color: cornsilk; /* buttermilk or honey */
-	border-bottom-color: #fff;
-}
+article a:hover,
+.breadcrumb a:hover { background-color: cornsilk; } /* buttermilk or honey */
+
+article a:hover { border-bottom-color: #fff; }
 
 footer a:hover { background-color: #fff; }
 
@@ -240,7 +240,7 @@ footer {
 
 .draft a {
 	padding: .5em;
-	border: 2px solid 'dark wheat'; /* oldgold khaki */
+	border: 2px solid khaki; /* oldgold */
 	border-radius: 4px;
 }
 
