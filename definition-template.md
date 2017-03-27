@@ -1,12 +1,11 @@
 ---
 published: false
 layout: definition
-title: Definition template
-file-name: definition-template
 
+file-name: 
+title: 
 description: 
-
-summary: Yipes! Summary needed.
+summary: 
 
 figname: placeholder
 figalt: Placeholder
