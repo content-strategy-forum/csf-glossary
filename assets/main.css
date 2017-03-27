@@ -205,7 +205,25 @@ footer a {
   text-decoration: none;
 }
 
-.breadcrumb a,
+.breadcrumb a {
+	line-height: 2;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #117b99;
+}
+
+.breadcrumb a:first-child { margin-left: 0; }
+
+.breadcrumb a:last-child {
+	margin-right: 0;
+	color: 444;
+}
+
+.breadcrumb a:hover:last-child { 
+	background-color: transparent;
+	color: #444;
+}
+
 article a,
 footer a { color: #444; }
 
@@ -218,29 +236,13 @@ article a:hover,
 footer a:hover,
 .breadcrumb a:hover { color: #000; }
 
-article a:hover,
-.breadcrumb a:hover { background-color: cornsilk; } /* buttermilk or honey */
-
-article a:hover { border-bottom-color: #fff; }
+article a:hover { 
+	background-color: cornsilk;
+	border-bottom-color: #fff;
+}
 
 footer a:hover { background-color: #fff; }
 
-.breadcrumb a { color: #117b99; }
-
-.breadcrumb a {
-	line-height: 2;
-	padding-left: 15px;
-	padding-right: 15px;
-}
-
-.breadcrumb a:first-child { margin-left: 0; }
-
-.breadcrumb a:last-child {
-	margin-right: 0;
-	color: 444;
-}
-
-.breadcrumb a:hover:last-child { background-color: transparent; }
 
 /* ---------------
    FOOTER
