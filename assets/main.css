@@ -153,10 +153,6 @@ nav a {
 
 /* nav.breadcrumb */
 
-.breadcrumb li {
-
-}
-
 .breadcrumb li:after {
 	font-size: 1.1rem;
 	content: "\203A"; /*Inserts a guillemet after each path link.*/
@@ -166,11 +162,11 @@ nav a {
 .breadcrumb li:last-child:after { content: ""; } /*Removes guillemet after last path item.*/
 
 .breadcrumb a {
-	line-height: 1.5;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin-left: 5px;
-	margin-right: 5px;
+	line-height: 2;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .breadcrumb a:first-child { margin-left: 0; }

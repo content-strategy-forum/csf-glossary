@@ -1,7 +1,6 @@
 ---
 published: false
 layout: definition
-category: O
 
 file-name: omnichannel
 title: omnichannel

@@ -1,7 +1,6 @@
 ---
 published: true
 layout: definition
-category: U
 
 file-name: user-story
 title: User story

@@ -1,7 +1,6 @@
 ---
 published: true
 layout: definition
-category: I
 
 file-name: interface-text
 title: Interface text

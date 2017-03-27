@@ -15,7 +15,6 @@
     			<nav class="breadcrumb">
         		<ol>
             	<li><a href="{% include domain.html %}/csf-glossary/index.html">Index</a></li>
-							<li>{{page.category}}</li>
             	<!--<li><a>{{page.categories}}</a></li> -->
             	<li>{{page.title}}</li>
         		</ol>
@@ -40,7 +39,7 @@
 		</main>
 		<footer>
 			<div class="holdfast">
-				<p class="draft"><a href="https://github.com/content-strategy-forum/csf-glossary/blob/master/{{page.category}}/{{page.file-name}}.md">Definition draft</a></p>
+				<p class="draft"><a href="https://github.com/content-strategy-forum/csf-glossary/blob/master/{{page.file-name}}.md">Definition draft</a></p>
 				<p class="pitch">See something wrong? <a href="https://github.com/content-strategy-forum/csf-glossary/wiki">Lend a hand</a>.</p>
 				{% include legal.html %}
 			</div>
