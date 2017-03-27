@@ -29,7 +29,7 @@ figcaption: Candidate for a custom figure?
 	</ol>
 </section>
 
-<!-- PRIMARY PARAGRAPH(S) OF DEFINITION -->
+<!-- DEFINITION BEGINS -->
 
 An overall strategy that enables people to have seamless interactions with brands anytime, anyplace with little thought of the channel being used.  Unlike multichannel where multiple touchpoints operate separately, omnichannel prepares for a seamless integration of touch-points and a continuous user experience from the web to a brick and mortar store. The omni-channel approach is customer-centric and so it ensures a personalized content experience for all users.<sup class="ref">1</sup>
 

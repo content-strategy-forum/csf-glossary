@@ -29,7 +29,7 @@ figcaption: The user story is a 3-clause statement that pinpoints user type, tas
 	</ol>
 </section>
 
-<!-- PRIMARY PARAGRAPH(S) OF DEFINITION -->
+<!-- DEFINITION BEGINS -->
 
 A user story is a content development (or revision) technique for information-as-product situations (versus information-as-persuasion). They help writers produce copy that supports the needs of users more effectively.
 
@@ -48,8 +48,6 @@ The statement is modeled as a 3-clause sentence:<sup class="ref">1</sup>
 The resulting content that follows the statements may elaborate on information to whatever extent is appropriate. But the initial audience analysis work is essential to ensure the content makes sense to those who need it, not to those who wrote it. It's best to talk directly with users, but interviewing frontline staff can also work.
 
 User stories benefit stakeholders and collaborators too. For stakeholders, the stories provide a means for agreement on story scenarios, criteria, and vocabulary used. When there are multiple writers, the stories help ensure content is not duplicated across them. And when working with subject experts, who may be protective of content they've already written, the stories give them a logical context for how their content will adjust while ensuring their contributions are acknowledged and respected.
-
-## Examples of application
 
 User stories have been used as an [agile content](agile-content.html) technique to leverage the responsibility of content development across team members and prioritize the work.<sup class="ref">2</sup> The approach to this was to reframe content requirements as user stories on sticky notes based on underlying user needs. Acceptance criteria was then written that described when a task was done and a need was met.
 

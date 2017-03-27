@@ -219,7 +219,7 @@ footer a {
 	color: 444;
 }
 
-.breadcrumb a:hover:last-child { 
+.breadcrumb a:last-child:hover { 
 	background-color: transparent;
 	color: #444;
 }
@@ -233,8 +233,7 @@ footer a { border-bottom: 1px dotted #444; }
 article sup a:first-child { padding-left: 1px; }
 
 article a:hover,
-footer a:hover,
-.breadcrumb a:hover { color: #000; }
+footer a:hover { color: #000; }
 
 article a:hover { 
 	background-color: cornsilk;
