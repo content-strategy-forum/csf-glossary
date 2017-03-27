@@ -155,7 +155,7 @@ nav a {
 
 .breadcrumb li:after {
 	font-size: 1.1rem;
-	content: "&nbsp;&nbsp; \203A &nbsp;&nbsp;"; /*Inserts a guillemet and space after each path link.*/
+	content: "  \203A   "; /*Inserts a guillemet and space after each path link.*/
 }
 
 .breadcrumb li:last-child { font-weight: bold; }
