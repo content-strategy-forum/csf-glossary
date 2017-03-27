@@ -35,8 +35,7 @@ body {
 h1.term-title,
 .ethics { font-family: 'Share', arial, sans-serif; }
 
-.breadcrumb,
-figcaption { font-family: sans-serif; }
+.breadcrumb { font-family: sans-serif; }
 
 /*
 ******** Font Size and Height
@@ -62,7 +61,8 @@ figcaption { font-size: 1rem; }
 */
 
 .summary,
-.references a { font-style: italic; }
+.references a,
+figcaption { font-style: italic; }
 
 .summary,
 .placeholder { font-weight: bold; }
@@ -246,7 +246,7 @@ footer {
 
 .draft a {
 	padding: .5em;
-	border: 2px solid #a39480;
+	border: 2px solid #CDC8B1;
 	border-radius: 4px;
 }
 
