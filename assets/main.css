@@ -219,7 +219,7 @@ footer a {
 	color: 444;
 }
 
-.breadcrumb a:last-child:hover { 
+.breadcrumb a.active { 
 	background-color: transparent;
 	color: #444;
 }
