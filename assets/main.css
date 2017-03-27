@@ -155,11 +155,11 @@ nav a {
 
 .breadcrumb li:after {
 	font-size: 1.1rem;
-	content: "\203A"; /*Inserts a guillemet after each path link.*/
+	content: "&nbsp;&nbsp; \203A &nbsp;&nbsp;"; /*Inserts a guillemet and space after each path link.*/
 }
 
 .breadcrumb li:last-child { font-weight: bold; }
-.breadcrumb li:last-child:after { content: ""; } /*Removes guillemet after last path item.*/
+.breadcrumb li:last-child:after { content: ""; } /*Removes guillemet and space after last path item.*/
 
 .breadcrumb a {
 	line-height: 2;
