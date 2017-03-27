@@ -5,11 +5,11 @@ layout: definition
 file-name: omnichannel
 title: omnichannel
 
-description:
+description: 
  
 summary: Yipes! Summary needed
 
-tags
+tags:
 
 figname: placeholder
 figalt: Placeholder
