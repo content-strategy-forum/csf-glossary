@@ -174,7 +174,7 @@ nav a {
 }
 
 .breadcrumb a:first-child { margin-left: 0; }
-.breadcrumb a:last-child { margin-right: 0; 
+.breadcrumb a:last-child { margin-right: 0; }
 
 article p {
 	margin-top: 1em;
