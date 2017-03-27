@@ -1,12 +1,16 @@
 ---
 published: false
 layout: definition
-title: omnichannel
+category: O
+
 file-name: omnichannel
+title: omnichannel
 
-description: 
-
+description:
+ 
 summary: Yipes! Summary needed
+
+tags
 
 figname: placeholder
 figalt: Placeholder

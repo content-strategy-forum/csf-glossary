@@ -1,12 +1,16 @@
 ---
 published: true
 layout: definition
-title: Interface text
+category: I
+
 file-name: interface-text
+title: Interface text
 
 description: Short strings of text (1-5 words) used in digital interfaces to guide exploration, text input, personalization, and the like. Not the same as microcopy.
 
 summary: The auxiliary text elements used in interface design — headers, labels, feedback messages, menu items, et cetera — that help people navigate and use application interfaces, whether for websites, mobile applications, kiosks, wearable devices, appliance panels, analog/digital dashboards or what have you.
+
+tags:
 
 figname: placeholder
 figalt: A placeholder. Huzza!

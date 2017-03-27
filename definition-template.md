@@ -5,8 +5,12 @@ category:
 
 file-name: 
 title: 
+
 description: 
+
 summary: 
+
+tags:
 
 figname: placeholder
 figalt: Placeholder
