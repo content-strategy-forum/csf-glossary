@@ -151,32 +151,25 @@ nav a {
 	margin-right: auto;
 }
 
-/* nav.breadcrumb */
-
-.breadcrumb li:after {
-	font-size: 1.1rem;
-	content: "\203A"; /*Inserts a guillemet after each path link.*/
-}
-
-.breadcrumb li:last-child { font-weight: bold; }
-.breadcrumb li:last-child:after { content: ""; } /*Removes guillemet after last path item.*/
-
-.breadcrumb a {
-	line-height: 2;
-	padding-left: 15px;
-	padding-right: 15px;
-	margin-left: 10px;
-	margin-right: 10px;
-}
-
-.breadcrumb a:first-child { margin-left: 0; }
-.breadcrumb a:last-child { margin-right: 0; }
 
 article p {
 	margin-top: 1em;
 	margin-bottom: 1em;
 	border-collapse: collapse;
 }
+
+
+.breadcrumb li:after {
+	font-size: 1.1rem;
+	content: "\203A"; /*Inserts a guillemet after each path link.*/
+}
+
+.breadcrumb li:last-child { 
+	font-weight: bold; 
+	margin-left: -4px;
+}
+
+.breadcrumb li:last-child:after { content: ""; } /*Removes guillemet after last path item.*/
 
 /* Summary and Contributors */
 	
@@ -216,8 +209,6 @@ footer a {
 article a,
 footer a { color: #444; }
 
-.breadcrumb a { color: #117b99; }
-
 article a,
 footer a { border-bottom: 1px dotted #444; }
 
@@ -233,6 +224,23 @@ article a:hover,
 article a:hover { border-bottom-color: #fff; }
 
 footer a:hover { background-color: #fff; }
+
+.breadcrumb a { color: #117b99; }
+
+.breadcrumb a {
+	line-height: 2;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.breadcrumb a:first-child { margin-left: 0; }
+
+.breadcrumb a:last-child {
+	margin-right: 0;
+	color: 444;
+}
+
+.breadcrumb a:hover:last-child { background-color: transparent; }
 
 /* ---------------
    FOOTER
