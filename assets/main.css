@@ -47,8 +47,9 @@ h1.term-title { font-size: 3rem }
 
 .summary { font-size: 1.7rem; }
 
-.contributors,
-figcaption { font-size: 1rem; }
+.contributors { font-size: 1rem; }
+
+figcaption { font-size: 1.1rem; }
 
 .pitch,
 .draft { font-size: 1.5rem; }
@@ -152,27 +153,25 @@ nav a {
 
 /* nav.breadcrumb */
 
+.breadcrumb li {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
 .breadcrumb li:after {
 	font-size: 1.1rem;
 	content: "\203A"; /*Inserts a guillemet after each path link.*/
 }
 
+.breadcrumb li:first-child { margin-left: 0; }
+.breadcrumb li:last-child { margin-right: 0; }
 .breadcrumb li:last-child:after { content: ""; } /*Removes guillemet after last path item.*/
 
 .breadcrumb a {
+	display: block;
 	line-height: 1.5;
-	padding-left: 8px;
-	padding-right: 8px;
-	margin-left: 5px;
-	margin-right: 5px;
-}
-
-.breadcrumb a:first-child {
-	margin-left: 0;
-}
-
-.breadcrumb a:last-child {
-	margin-right: 0;
 }
 
 article p {
@@ -212,9 +211,14 @@ article p {
 article a,
 footer a { 
 	transition: all .6s ease-in-out;
-  color: #444;
   text-decoration: none;
 }
+
+.breadcrumb a,
+article a,
+footer a { color: #444; }
+
+.breadcrumb a { color: #117b99; }
 
 article a,
 footer a { border-bottom: 1px dotted #444; }
