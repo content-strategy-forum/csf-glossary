@@ -222,6 +222,8 @@ article a:hover,
 	border-bottom-color: #fff;
 }
 
+.breadcrumb a:hover { color: #444; }
+
 footer a:hover { background-color: #fff; }
 
 .breadcrumb a {
