@@ -7,7 +7,7 @@ title: User story
 
 description: A user story is a content development technique that helps writers produce copy in relation to user needs.
 
-summary: A user story is a content planning and development technique that helps writers focus on the scenarios and criteria of user needs, which in turn informs how to write content that fulfulls those needs. The model also helps ensure stakeholder alignment on scenearios and criteria, as well benefits collaborative writing situations.
+summary: A user story is a content planning and development technique that helps writers focus on the scenarios and criteria of user needs, which in turn informs how to write content that fulfulls those needs. The model also helps ensure stakeholder alignment on the scenarios and criteria, as well benefits collaborative writing situations.
 
 tags:
 
