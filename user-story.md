@@ -7,6 +7,14 @@ title: User story
 
 description: A user story is a content development technique that helps writers produce copy in relation to user needs.
 
+authors:
+  - name: Destry Wion
+    affiliation: Content Strategy Forum
+    url: https://csf.community
+  - name: Jan Janson
+    affiliation: Jan & Clan
+    url: https://janclan.tld
+
 summary: A user story is a content planning and development technique that helps writers focus on the scenarios and criteria of user needs, which in turn informs how to write content that fulfulls those needs. The model also helps ensure stakeholder alignment on the scenarios and criteria, as well benefits collaborative writing situations.
 
 tags:
@@ -20,14 +28,16 @@ figcaption: The user story is a 3-clause statement that pinpoints user type, tas
 
 <p class="summary">{{page.summary}}</p>
 
-<section class="contributors">
+{% include contributors.html ref="{{ page.authors }}" %}
+
+<!-- <section class="contributors">
 	<ul class="authors nomark">
 		<li>Destry Wion<sup>1</sup></li>
 	</ul>
 	<ol class="affiliations nomark">
 		<li><sup>1</sup> <a href="https://csf.community">Content Strategy Forum</a></li>
 	</ol>
-</section>
+</section> -->
 
 <!-- DEFINITION BEGINS -->
 
@@ -51,7 +61,7 @@ User stories benefit stakeholders and collaborators too. For stakeholders, the s
 
 User stories have been used as an [agile content](agile-content.html) technique to leverage the responsibility of content development across team members and prioritize the work.<sup class="ref">2</sup> The approach to this was to reframe content requirements as user stories on sticky notes based on underlying user needs. Acceptance criteria was then written that described when a task was done and a need was met.
 
-User stories could also be used in [pair writing](pair-writing.html) situations. Instead of refactoring content already written by subject experts, writers and experts can begin new content together using story statements as their guide. 
+User stories can also be used in [pair writing](pair-writing.html) situations. Instead of refactoring content already written by subject experts, writers and experts can work on new content together using story statements as their guide. 
 
 <hr class="footnotes">
 
