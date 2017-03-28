@@ -7,7 +7,7 @@ title: User story
 
 description: A user story is a content development technique that helps writers produce copy in relation to user needs.
 
-authors:
+contributors:
   - name: Destry Wion
     affiliation: Content Strategy Forum
     url: https://csf.community
@@ -28,7 +28,7 @@ figcaption: The user story is a 3-clause statement that pinpoints user type, tas
 
 <p class="summary">{{page.summary}}</p>
 
-{% include contributors.html ref="{{ page.authors }}" %}
+{% include authors.html ref="{{page.contributors}}" %}
 
 <!-- <section class="contributors">
 	<ul class="authors nomark">
