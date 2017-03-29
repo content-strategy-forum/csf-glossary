@@ -1,6 +1,7 @@
 ---
 published: true
 layout: definition
+issue-id: 30
 
 file-name: user-story
 title: User story

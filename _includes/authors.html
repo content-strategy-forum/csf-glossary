@@ -2,14 +2,14 @@
 	<ul class="authors nomark">
     {% assign counter = 1 %}
     {% for item in include.ref %}
-        <li>{{ item.name }}<sup>{{ counter }}</sup></li>
+        <li>{{item.name}}<sup>{{counter}}</sup></li>
         {% assign counter = counter | plus:1 %}
     {% endfor %}
 	</ul>
 	<ol class="affiliations nomark">
     {% assign counter = 1 %}
     {% for item in include.ref %}
-        <li><sup>{{ counter }}</sup><a href="{{ item.url }}">{{ item.affiliation }}</a></li>
+        <li><sup>{{counter}}</sup><a href="{{item.url}}">{{item.affiliation}}</a></li>
         {% assign counter = counter | plus:1 %}
     {% endfor %}
 	</ol>
