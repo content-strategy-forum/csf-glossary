@@ -5,28 +5,28 @@ published: false
 layout: definition
 
 figure:
-	- fig-slug: placeholder
+	- fig_slug: placeholder
 	- alt: Placeholder image.
 	- caption: Candidate for a custom figure?
 
 ##### Variables that must get values when new file is created.
 
-issue-id:
+issue_id:
 term:
-term-slug:
+term_slug:
 
 ##### Variables that must get values before definition can be published.
 
 summary: 
 
-meta-description: 
+meta_description: 
 
 tags: #skip tags for now
 
 collaborators:
   - who: First Last
     affiliation: Entity Name
-    affiliation-url: https://content-strategy-forum.github.io/csf-glossary/{{term-slug}}.html 
+    affiliation_url: https://content-strategy-forum.github.io/csf-glossary/{{term_slug}}.html 
 
 ###### Don't accidently remove the following 3-hyphen line, which terminates the front matter.
 ---

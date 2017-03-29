@@ -3,15 +3,15 @@ published: true
 layout: definition
 
 figure:
-	- fig-slug: placeholder
+	- fig_slug: placeholder
 	-	alt: A placeholder. Huzza!
 	-	caption: A belle figure of mysterious nature.
 
-issue-id: 9
+issue_id: 9
 term: Interface text
-term-slug: interface-text
+term_slug: interface-text
 
-meta-description: Short strings of text (1-5 words) used in digital interfaces to guide exploration, text input, personalization, and the like. Not the same as microcopy.
+meta_description: Short strings of text (1-5 words) used in digital interfaces to guide exploration, text input, personalization, and the like. Not the same as microcopy.
 
 tags:
 
@@ -20,10 +20,10 @@ summary: The auxiliary text elements used in interface design — headers, label
 collaborators:
   - who: Marit Letnes
     affiliation: Marit Letnes Media SA
-    affiliation-url: https://maritletnes.no
+    affiliation_url: https://maritletnes.no
   - who: Destry Wion
     affiliation: Content Strategy Forum
-    affiliation-url: https://csf.community
+    affiliation_url: https://csf.community
 
 ---
 
