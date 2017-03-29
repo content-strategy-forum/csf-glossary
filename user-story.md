@@ -8,14 +8,6 @@ title: User story
 
 description: A user story is a content development technique that helps writers produce copy in relation to user needs.
 
-contributors:
-  - name: Destry Wion
-    affiliation: Content Strategy Forum
-    url: https://csf.community
-  - name: Jan Janson
-    affiliation: Jan & Clan
-    url: https://janclan.tld
-
 summary: A user story is a content planning and development technique that helps writers focus on the scenarios and criteria of user needs, which in turn informs how to write content that fulfulls those needs. The model also helps ensure stakeholder alignment on the scenarios and criteria, as well benefits collaborative writing situations.
 
 tags:
@@ -29,16 +21,16 @@ figcaption: The user story is a 3-clause statement that pinpoints user type, tas
 
 <p class="summary">{{page.summary}}</p>
 
-{% include authors.html ref="{{page.contributors}}" %}
+<!-- {% include authors.html ref="{{page.contributors}}" %} -->
 
-<!-- <section class="contributors">
+<section class="contributors">
 	<ul class="authors nomark">
 		<li>Destry Wion<sup>1</sup></li>
 	</ul>
 	<ol class="affiliations nomark">
 		<li><sup>1</sup> <a href="https://csf.community">Content Strategy Forum</a></li>
 	</ol>
-</section> -->
+</section>
 
 <!-- DEFINITION BEGINS -->
 
