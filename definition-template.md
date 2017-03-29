@@ -1,34 +1,31 @@
 ---
-##### Variables for repo managers only!
+##### Managers' use
 
 published: false
 layout: definition
 
-figure:
-	- fig_slug: placeholder
-	- alt: Placeholder image.
-	- caption: Candidate for a custom figure?
+fig_slug: placeholder
+fig_alt: Placeholder image.
+fig_caption: Candidate for a custom figure?
 
-##### Variables that must get values when new file is created.
+##### File-starter's use
 
 issue_id:
 term:
 term_slug:
 
-##### Variables that must get values before definition can be published.
-
-summary: 
+##### Collaborators' use
 
 meta_description: 
 
-tags: #skip tags for now
+summary:
 
 collaborators:
   - who: First Last
     affiliation: Entity Name
     affiliation_url: https://content-strategy-forum.github.io/csf-glossary/{{term_slug}}.html 
 
-###### Don't accidently remove the following 3-hyphen line, which terminates the front matter.
+tags: #skip tags for now
 ---
 
 <h1 class="term-title">{{page.term}}</h1>

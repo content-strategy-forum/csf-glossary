@@ -2,18 +2,15 @@
 published: true
 layout: definition
 
-figure:
-	- fig_slug: placeholder
-	-	alt: A placeholder. Huzza!
-	-	caption: A belle figure of mysterious nature.
+fig_slug: placeholder
+fig_alt: A placeholder. Huzza!
+fig_caption: A belle figure of mysterious nature.
 
 issue_id: 9
 term: Interface text
 term_slug: interface-text
 
 meta_description: Short strings of text (1-5 words) used in digital interfaces to guide exploration, text input, personalization, and the like. Not the same as microcopy.
-
-tags:
 
 summary: The auxiliary text elements used in interface design — headers, labels, feedback messages, menu items, et cetera — that help people navigate and use application interfaces, whether for websites, mobile applications, kiosks, wearable devices, appliance panels, analog/digital dashboards or what have you.
 
@@ -25,6 +22,7 @@ collaborators:
     affiliation: Content Strategy Forum
     affiliation_url: https://csf.community
 
+tags:
 ---
 
 <h1 class="term-title">{{page.term}}</h1>
@@ -53,7 +51,7 @@ collaborators:
 Interface text refers to all the bits and pieces of text used in a given product's user interface (UI). Such text includes navigation items, headers, labels, system feedback messages, pop-up help dialog, title attributes, and so on.
 
 
-{% include figure.html ref="{{page.figure}}" %}
+{% include figure.html %}
 
 <!--
 <figure><img alt="{{page.alt}}" src="{% include domain.html %}/csf-glossary/assets/images/{{page.fig-slug}}.png">
