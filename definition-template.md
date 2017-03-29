@@ -28,7 +28,6 @@ collaborators:
     affiliation: Entity Name
     affiliation-url: https://content-strategy-forum.github.io/csf-glossary/{{term-slug}}.html 
 
-
 ###### Don't accidently remove the following 3-hyphen line, which terminates the front matter.
 ---
 
