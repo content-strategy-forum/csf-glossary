@@ -2,25 +2,27 @@
 published: true
 layout: definition
 
+fig_alt: "A placeholder. Huzza!"
+fig_caption: "A belle figure of mysterious nature."
 fig_slug: placeholder
-fig_alt: A placeholder. Huzza!
-fig_caption: A belle figure of mysterious nature.
 
 issue_id: 9
-term: Interface text
+term: "Interface text"
 term_slug: interface-text
 
-meta_description: Short strings of text (1-5 words) used in digital interfaces to guide exploration, text input, personalization, and the like. Not the same as microcopy.
+meta_description: "Short strings of text (1-5 words) used in digital interfaces to guide exploration, text input, personalization, and the like. Not the same as microcopy."
 
-summary: The auxiliary text elements used in interface design — headers, labels, feedback messages, menu items, et cetera — that help people navigate and use application interfaces, whether for websites, mobile applications, kiosks, wearable devices, appliance panels, analog/digital dashboards or what have you.
+summary: "The auxiliary text elements used in interface design — headers, labels, feedback messages, menu items, et cetera — that help people navigate and use application interfaces, whether for websites, mobile applications, kiosks, wearable devices, appliance panels, analog/digital dashboards or what have you."
 
-collaborators:
-  - who: Marit Letnes
-    affiliation: Marit Letnes Media SA
-    affiliation_url: https://maritletnes.no
-  - who: Destry Wion
-    affiliation: Content Strategy Forum
-    affiliation_url: https://csf.community
+collaborators: 
+  - 
+    affiliation: "Marit Letnes Media SA"
+    affiliation_url: "https://maritletnes.no"
+    who: "Marit Letnes"
+  - 
+    affiliation: "Content Strategy Forum"
+    affiliation_url: "https://csf.community"
+    who: "Destry Wion"
 
 tags:
 ---

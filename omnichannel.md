@@ -1,25 +1,43 @@
 ---
+##### Managers' use
+
 published: false
 layout: definition
-issue-id: 13
 
-file-name: omnichannel
-title: omnichannel
+fig_slug: placeholder
+fig_alt: "Placeholder image."
+fig_caption: "Candidate for a custom figure?"
 
-description: 
- 
-summary: Yipes! Summary needed
+##### File-starter's use
 
-tags:
+issue_id: 13
+term: Omnichannel
+term_slug: omnichannel
 
-figname: placeholder
-figalt: Placeholder
-figcaption: Candidate for a custom figure?
+##### Collaborators' use
+
+meta_description: 
+
+summary: "Yipes! Summary needed"
+
+collaborators:
+  - 
+	  who: "First Last"
+    affiliation: "Entity Name"
+    affiliation_url: "https://content-strategy-forum.github.io/csf-glossary/{{term_slug}}.html" 
+
+tags: #skip tags for now
 ---
 
-<h1 class="term-title">{{page.title}}</h1>
+<h1 class="term-title">{{page.term}}</h1>
 
 <p class="summary">{{page.summary}}</p>
+
+<!-- 
+<section class="contributors">
+	{% include writers.html ref="{{page.collaborators}}" %}
+</section> 
+-->
 
 <section class="contributors">
 	<ul class="authors nomark">
@@ -32,11 +50,9 @@ figcaption: Candidate for a custom figure?
 
 <!-- DEFINITION BEGINS -->
 
-An overall strategy that enables people to have seamless interactions with brands anytime, anyplace with little thought of the channel being used.  Unlike multichannel where multiple touchpoints operate separately, omnichannel prepares for a seamless integration of touch-points and a continuous user experience from the web to a brick and mortar store. The omni-channel approach is customer-centric and so it ensures a personalized content experience for all users.<sup class="ref">1</sup>
+An overall strategy that enables people to have seamless interactions with brands anytime, anyplace with little thought of the channel being used. Unlike multichannel where multiple touchpoints operate separately, omnichannel prepares for a seamless integration of touch-points and a continuous user experience from the web to a brick and mortar store. The omni-channel approach is customer-centric and so it ensures a personalized content experience for all users.<sup class="ref">1</sup>
 
-<figure><img alt="{{page.figalt}}" src="{% include domain.html %}/csf-glossary/assets/images/{{page.figname}}.png">
-	<figcaption>{{page.figcaption}}</figcaption>
-</figure>
+{% include figure.html %}
 
 <!-- EXAMPLES? -->
 

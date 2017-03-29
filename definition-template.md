@@ -5,8 +5,8 @@ published: false
 layout: definition
 
 fig_slug: placeholder
-fig_alt: Placeholder image.
-fig_caption: Candidate for a custom figure?
+fig_alt: "Placeholder image."
+fig_caption: "Candidate for a custom figure?"
 
 ##### File-starter's use
 
@@ -21,9 +21,10 @@ meta_description:
 summary:
 
 collaborators:
-  - who: First Last
-    affiliation: Entity Name
-    affiliation_url: https://content-strategy-forum.github.io/csf-glossary/{{term_slug}}.html 
+  - 
+	  who: "First Last"
+    affiliation: "Entity Name"
+    affiliation_url: "https://content-strategy-forum.github.io/csf-glossary/{{term_slug}}.html" 
 
 tags: #skip tags for now
 ---
