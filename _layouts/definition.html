@@ -2,7 +2,7 @@
 <html lang="en-GB-oxendict">
 	<head>
     <meta charset="utf-8">
-    <title>{{ page.title }} | UX Content Glossary | CSF Community</title>
+    <title>{{page.term}} | UX Content Glossary</title>
     {% include head-meta.html %}
     <meta name="robots" content="index, follow, noodp, noydir">
 	</head>
@@ -16,7 +16,7 @@
         		<ol>
             	<li><a href="{% include domain.html %}/csf-glossary/index.html">Index</a></li>
             	<!--<li><a>{{page.categories}}</a></li> -->
-            	<li><a class="active">{{page.title}}</a></li>
+            	<li><a class="active">{{page.term}}</a></li>
         		</ol>
     			</nav>
 
@@ -24,22 +24,13 @@
 
         		{{ content }}
 
-        		<!-- {% if page.tags %}
-        		<footer class="article-footer">
-            	<span class="ui-icon ui-icon-tag">Tags:</span>
-            	{% for tag in page.tags %}
-            	<a rel="category tag" href="{{ tag | slugify }}" title="View definitions in this category">{{ tag }}</a>
-            	{% endfor %}
-        		</footer>
-        		{% endif %} -->
-
     			</article>
 
 				</div><!-- e/o container -->
 		</main>
 		<footer>
 			<div class="holdfast">
-				<p class="draft"><a href="https://github.com/content-strategy-forum/csf-glossary/blob/master/{{page.file-name}}.md">Source file</a> and <a href="https://github.com/content-strategy-forum/csf-glossary/issues/{{page.issue-id}}">Issue</a></p>
+				<p class="draft"><a href="https://github.com/content-strategy-forum/csf-glossary/blob/master/{{page.term-slug}}.md">Source file</a> and <a href="https://github.com/content-strategy-forum/csf-glossary/issues/{{page.issue-id}}">Issue</a></p>
 				{% include legal.html %}
 			</div>
 		</footer>

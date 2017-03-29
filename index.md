@@ -9,8 +9,6 @@ description:
 
 * [Interface text](interface-text.html "blank")
 * Interface writing (see _[Interface text](interface-text.html)_)
-* [Microcopy](microcopy.html)
-* Multichannel (see [Omnichannel](omnichannel.html))
 * [Omnichannel](omnichannel.html "blank")
 * Transactional text (see _[Interface text](interface-text.html)_)
 * UI strings (see _[Interface text](interface-text.html)_)

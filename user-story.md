@@ -1,27 +1,38 @@
 ---
 published: true
 layout: definition
+
+figure:
+	- fig-slug: fig-user-story
+	- alt: The user story model.
+	- caption: The user story is a 3-clause statement that pinpoints user type, task, and need fulfilled.
+	
 issue-id: 30
+term: User story
+term-slug: user-story
 
-file-name: user-story
-title: User story
+meta-description: A user story is a content development technique that helps writers produce copy in relation to user needs.
 
-description: A user story is a content development technique that helps writers produce copy in relation to user needs.
+tags: #skip tags for now
 
 summary: A user story is a content planning and development technique that helps writers focus on the scenarios and criteria of user needs, which in turn informs how to write content that fulfulls those needs. The model also helps ensure stakeholder alignment on the scenarios and criteria, as well benefits collaborative writing situations.
 
-tags:
-
-figname: fig-user-story
-figalt: The user story model.
-figcaption: The user story is a 3-clause statement that pinpoints user type, task, and need fulfilled.
+collaborators:
+  - who: First Last
+    affiliation: Entity Name
+    affiliation-url: https://content-strategy-forum.github.io/csf-glossary/{{term-slug}}.html
+		 
 ---
 
-<h1 class="term-title">{{page.title}}</h1>
+<h1 class="term-title">{{page.term}}</h1>
 
 <p class="summary">{{page.summary}}</p>
 
-<!-- {% include authors.html ref="{{page.contributors}}" %} -->
+<!-- 
+<section class="contributors">
+	{% include writers.html ref="{{page.collaborators}}" %}
+</section> 
+-->
 
 <section class="contributors">
 	<ul class="authors nomark">
@@ -36,9 +47,14 @@ figcaption: The user story is a 3-clause statement that pinpoints user type, tas
 
 A user story is a content development (or revision) technique for information-as-product situations (versus information-as-persuasion). They help writers produce copy that supports the needs of users more effectively.
 
-<figure><img alt="{{page.figalt}}" src="{% include domain.html %}/csf-glossary/assets/images/{{page.figname}}.png">
-	<figcaption>{{page.figcaption}}</figcaption>
+
+{% include figure.html ref="{{page.figure}}" %}
+
+<!--
+<figure><img alt="{{page.alt}}" src="{% include domain.html %}/csf-glossary/assets/images/{{page.fig-slug}}.png">
+	<figcaption>{{page.caption}}</figcaption>
 </figure>
+-->
 
 The process begins with a phase of audience inventigation to understand what user needs are, and how users think and talk about them. Then user stories are employed to capture each need scenario as a succinct statement. The statements inform the copy to be developed or revised. 
 

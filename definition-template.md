@@ -1,33 +1,43 @@
 ---
+##### Variables for repo managers only!
+
 published: false
 layout: definition
-category:
 
-file-name: 
-title: 
+figure:
+	- fig-slug: placeholder
+	- alt: Placeholder image.
+	- caption: Candidate for a custom figure?
 
-description: 
+##### Variables that must get values when new file is created.
+
+issue-id:
+term:
+term-slug:
+
+##### Variables that must get values before definition can be published.
 
 summary: 
 
-tags:
+meta-description: 
 
-figname: placeholder
-figalt: Placeholder
-figcaption: Candidate for a custom figure?
+tags: #skip tags for now
+
+collaborators:
+  - who: First Last
+    affiliation: Entity Name
+    affiliation-url: https://content-strategy-forum.github.io/csf-glossary/{{term-slug}}.html 
+
+
+###### Don't accidently remove the following 3-hyphen line, which terminates the front matter.
 ---
 
-<h1 class="term-title">{{page.title}}</h1>
+<h1 class="term-title">{{page.term}}</h1>
 
 <p class="summary">{{page.summary}}</p>
 
 <section class="contributors">
-	<ul class="authors nomark">
-		<li>Last First<sup>1</sup></li>
-	</ul>
-	<ol class="affiliations nomark">
-		<li><sup>1</sup> <a href="#">Affiliation Name</a></li>
-	</ol>
+	{% include writers.html ref="{{page.collaborators}}" %}
 </section>
 
 <!-- PRIMARY PARAGRAPH(S) OF DEFINITION -->
@@ -42,9 +52,7 @@ Use multiple paragraphs, if needed.
 Somewhere in relation to the primary explanation might be a figure.
 
 <!-- FIGURE (REMOVE CODE IF NOT NEEDED) -->
-<figure><img alt="{{page.figalt}}" src="{% include domain.html %}/csf-glossary/assets/images/{{page.figname}}.png">
-	<figcaption>{{page.figcaption}}</figcaption>
-</figure>
+{% include figure.html ref="{{page.figure}}" %}
 
 <!-- EXAMPLE(S) -->
 
