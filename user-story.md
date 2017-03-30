@@ -17,11 +17,9 @@ collaborators:
     affiliation: "Content Strategy Forum"
     affiliation_url: "https://csf.community"
 
-figure: 
-  - 
-    fig_slug: fig-user-story 
-    fig_alt: "The user story model."
-    fig_caption: "The user story is a 3-clause statement that pinpoints user type, task, and need fulfilled."	 
+fig_slug: fig-user-story 
+fig_alt: "The user story model."
+fig_caption: "The user story is a 3-clause statement that pinpoints user type, task, and need fulfilled."	 
 ---
 
 <h1 class="term-title">{{ page.title }}</h1>
@@ -47,18 +45,8 @@ figure:
 
 A user story is a content development (or revision) technique for information-as-product situations (versus information-as-persuasion). They help writers produce copy that supports the needs of users more effectively.
 
-{% include figure.html %}
-
-<!--
-{% if ref="{{ page.figure }} %}
-	<figure>
-		<img alt="{{ item.fig_alt }}" src="{{ site.github.url }}/assets/images/{{ item.fig_slug }}.png">
-		<figcaption>
-			{{ item.fig_caption }}
-		</figcaption>
-	</figure>
-{% endif %}
--->
+<!-- FIGURE – You can move this line to position among paras, but never delete it! -->
+{% if ref="{{ page.fig_slug }} %}{% include figure.html %}{% endif %}
 
 The process begins with a phase of audience inventigation to understand what user needs are, and how users think and talk about them. Then user stories are employed to capture each need scenario as a succinct statement. The statements inform the copy to be developed or revised. 
 

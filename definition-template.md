@@ -15,17 +15,14 @@ summary:
 
 ###### Add your own name/affiliation details.
 collaborators:
-  - 
-	  who: "First Last"
+  - who: "First Last"
     affiliation: "Entity Name"
     affiliation_url: "{{ page.url | prepend: site.github.url }}" 
 
 ###### Only 1 figure, if at all.
-figure: 
-  - 
-    fig_alt: "A placeholder. Huzza!"
-    fig_caption: "A belle figure of mysterious nature."
-    fig_slug: placeholder
+fig_slug: placeholder 
+fig_alt: "A placeholder. Huzza!"
+fig_caption: "A belle figure of mysterious nature."
 ---
 
 <h1 class="term-title">{{ page.term }}</h1>
@@ -48,7 +45,7 @@ Use multiple paragraphs, if needed.
 Somewhere in relation to the primary explanation might be a figure.
 
 <!-- FIGURE – You can move this line to position among paras, but never delete it! -->
-{% if ref="{{ page.figure }} %}{% include figure.html %}{% endif %}
+{% if ref="{{ page.fig_slug }} %}{% include figure.html %}{% endif %}
 
 <!-- EXAMPLE(S) -->
 
