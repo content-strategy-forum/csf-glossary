@@ -1,16 +1,16 @@
 <header class="site-header">
 	<h1 class="identity">
 		<a rel="home" href="https://csf.community" title="Fly to the CSF website!">
-			<img src="{% include domain.html %}/csf-glossary/assets/brand/CSF-icon-48px.png">
+			<img src="{{ site.github.url }}/assets/brand/CSF-icon-48px.png">
 		</a>
 	</h1>
-	<meta content="{% include domain.html %}/csf-glossary/assets/brand/CSF-icon-48px.png">
+	<meta content="{{ site.github.url }}/assets/brand/CSF-icon-48px.png">
 
 		<!-- {% if page.layout != "default" and page.layout != "search" %}
 		<div>
-			<meta content="{% include domain.html %}">
-			<form class="search-form" role="search" action="{% include domain.html %}/csf-glossary/search" data-search-form>
-				<meta content="{% include domain.html %}/csf-glossary/search/?q={q}">
+			<meta content="{{ site.github.url }}">
+			<form class="search-form" role="search" action="{{ site.github.url }}/search" data-search-form>
+				<meta content="{{ site.github.url }}/search/?q={q}">
 				<input class="form-search-input" id="q" name="q" type="search" size="32" placeholder="Search glossary…" data-search-input>
 			</form>
 		</div>
@@ -19,7 +19,7 @@
 
 <!-- ><nav class="global">
 	<ul>
-		<li><a href="https://github.com/content-strategy-forum/csf-glossary/wiki">Documentation</a></li>
+		<li><a href="">Hubba</a></li>
 		<li class="active"><a href="">Bubba</a></li>
 		<li><a href="">Dubba</a></li>
 	</ul>

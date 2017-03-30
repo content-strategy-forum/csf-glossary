@@ -11,28 +11,32 @@ description: "Short strings of text (1-5 words) used in digital interfaces to gu
 
 summary: "The auxiliary text elements used in interface design — headers, labels, feedback messages, menu items, et cetera — that help people navigate and use application interfaces, whether for websites, mobile applications, kiosks, wearable devices, appliance panels, analog/digital dashboards or what have you."
 
+###### Add your own name/affiliation details. 
 collaborators: 
   - 
-    affiliation: "Marit Letnes Media SA"
-    affiliation_url: "https://maritletnes.no"
     who: "Marit Letnes"
+		affiliation: "Marit Letnes Media SA"
+    affiliation_url: "https://maritletnes.no"
   - 
-    affiliation: "Content Strategy Forum"
-    affiliation_url: "https://csf.community"
     who: "Destry Wion"
+		affiliation: "Content Strategy Forum"
+    affiliation_url: "https://csf.community"
 
-fig_alt: "A placeholder. Huzza!"
-fig_caption: "A belle figure of mysterious nature."
-fig_slug: placeholder
+###### Only 1 figure, if at all.
+figure: 
+  - 
+    fig_alt: "A placeholder. Huzza!"
+    fig_caption: "A belle figure of mysterious nature."
+    fig_slug: placeholder
 ---
 
-<h1 class="term-title">{{page.title}}</h1>
+<h1 class="term-title">{{ page.title }}</h1>
 
-<p class="summary">{{page.summary}}</p>
+<p class="summary">{{ page.summary }}</p>
 
 <!-- 
 <section class="contributors">
-	{% include writers.html ref="{{page.collaborators}}" %}
+	{% include writers.html ref="{{ page.collaborators }}" %}
 </section> 
 -->
 
@@ -55,9 +59,14 @@ Interface text refers to all the bits and pieces of text used in a given product
 {% include figure.html %}
 
 <!--
-<figure><img alt="{{page.fig_alt}}" src="{% include domain.html %}/csf-glossary/assets/images/{{page.fig_slug}}.png">
-	<figcaption>{{page.fig_caption}}</figcaption>
-</figure>
+{% if ref="{{ page.figure }} %}
+	<figure>
+		<img alt="{{ item.fig_alt }}" src="{{ site.github.url }}/assets/images/{{ item.fig_slug }}.png">
+		<figcaption>
+			{{ item.fig_caption }}
+		</figcaption>
+	</figure>
+{% endif %}
 -->
 
 Interface copy should be the epitome of plain language writing; specific, concise, jargon-free, and void of any abbreviations, colloquialisms, clear in meaning (i.e., specific, jargon-free, keywords are put first, doesn't use abbreviations…), free of brand personality, clearly called out (e.g., the purpose of a list is made clear with a lead statement), and is real (i.e., no lorem ipsum or other fake text used in a [[wireframe]] or [[prototype]]).

@@ -13,18 +13,20 @@ summary: "A user story is a content planning and development technique that help
 
 collaborators:
   - 
-		who: "First Last"
-    affiliation: "Entity Name"
-    affiliation_url: "https://content-strategy-forum.github.io/csf-glossary/{{term_slug}}.html"
+		who: "Destry Wion"
+    affiliation: "Content Strategy Forum"
+    affiliation_url: "https://csf.community"
 
-fig_slug: fig-user-story
-fig_alt: "The user story model."
-fig_caption: "The user story is a 3-clause statement that pinpoints user type, task, and need fulfilled."	 
+figure: 
+  - 
+    fig_slug: fig-user-story 
+    fig_alt: "The user story model."
+    fig_caption: "The user story is a 3-clause statement that pinpoints user type, task, and need fulfilled."	 
 ---
 
-<h1 class="term-title">{{page.title}}</h1>
+<h1 class="term-title">{{ page.title }}</h1>
 
-<p class="summary">{{page.summary}}</p>
+<p class="summary">{{ page.summary }}</p>
 
 <!-- 
 <section class="contributors">
@@ -48,9 +50,14 @@ A user story is a content development (or revision) technique for information-as
 {% include figure.html %}
 
 <!--
-<figure><img alt="{{page.fig_alt}}" src="{% include domain.html %}/csf-glossary/assets/images/{{page.fig_slug}}.png">
-	<figcaption>{{page.fig_caption}}</figcaption>
-</figure>
+{% if ref="{{ page.figure }} %}
+	<figure>
+		<img alt="{{ item.fig_alt }}" src="{{ site.github.url }}/assets/images/{{ item.fig_slug }}.png">
+		<figcaption>
+			{{ item.fig_caption }}
+		</figcaption>
+	</figure>
+{% endif %}
 -->
 
 The process begins with a phase of audience inventigation to understand what user needs are, and how users think and talk about them. Then user stories are employed to capture each need scenario as a succinct statement. The statements inform the copy to be developed or revised. 

@@ -2,7 +2,7 @@
 <html lang="en-GB-oxendict">
 	<head>
     <meta charset="utf-8">
-    <title>{{page.title}} | UX Content Glossary</title>
+    <title>{{ page.title }} | UX Content Glossary</title>
     {% include head-meta.html %}
     <meta name="robots" content="index, follow, noodp, noydir">
 	</head>
@@ -14,9 +14,9 @@
 					
     			<nav class="breadcrumb">
         		<ol>
-            	<li><a href="{% include domain.html %}/csf-glossary/index.html">Index</a></li>
-            	<!--<li><a>{{page.categories}}</a></li> -->
-            	<li><a class="active">{{page.title}}</a></li>
+            	<li><a href="{{ site.github.url }}/index.html">Index</a></li>
+            	<!--<li><a>{{ page.categories }}</a></li> -->
+            	<li><a class="active">{{ page.title }}</a></li>
         		</ol>
     			</nav>
 
@@ -30,7 +30,10 @@
 		</main>
 		<footer>
 			<div class="holdfast">
-				<p class="draft"><a href="https://github.com/content-strategy-forum/csf-glossary/blob/master/{{page.title_slug}}.md">Source file</a> and <a href="https://github.com/content-strategy-forum/csf-glossary/issues/{{page.issue_id}}">Issue</a></p>
+				<p class="draft">
+					<a href="https://github.com/content-strategy-forum/csf-glossary/blob/master/{{ page.title | slugify }}.md">Source file</a> and 
+					<a href="https://github.com/content-strategy-forum/csf-glossary/issues/{{ page.issue_id }}">Issue</a>
+				</p>
 				{% include legal.html %}
 			</div>
 		</footer>

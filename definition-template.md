@@ -13,25 +13,27 @@ description:
 
 summary:
 
-###### Authors & affiliations
+###### Add your own name/affiliation details.
 collaborators:
   - 
 	  who: "First Last"
     affiliation: "Entity Name"
-    affiliation_url: "https://content-strategy-forum.github.io/csf-glossary/{{title_slug}}.html" 
+    affiliation_url: "{{ page.url | prepend: site.github.url }}" 
 
-###### Figure 
-fig_slug: placeholder
-fig_alt: "Placeholder image."
-fig_caption: "Candidate for a custom figure?"
+###### Only 1 figure, if at all.
+figure: 
+  - 
+    fig_alt: "A placeholder. Huzza!"
+    fig_caption: "A belle figure of mysterious nature."
+    fig_slug: placeholder
 ---
 
-<h1 class="term-title">{{page.term}}</h1>
+<h1 class="term-title">{{ page.term }}</h1>
 
-<p class="summary">{{page.summary}}</p>
+<p class="summary">{{ page.summary }}</p>
 
 <section class="contributors">
-	{% include writers.html ref="{{page.collaborators}}" %}
+	{% include writers.html ref="{{ page.collaborators }}" %}
 </section>
 
 <!-- PRIMARY PARAGRAPH(S) OF DEFINITION -->
@@ -45,8 +47,8 @@ Use multiple paragraphs, if needed.
 
 Somewhere in relation to the primary explanation might be a figure.
 
-<!-- FIGURE (REMOVE CODE IF NOT NEEDED) -->
-{% include figure.html ref="{{page.figure}}" %}
+<!-- FIGURE – You can move this line to position among paras, but never delete it! -->
+{% if ref="{{ page.figure }} %}{% include figure.html %}{% endif %}
 
 <!-- EXAMPLE(S) -->
 
