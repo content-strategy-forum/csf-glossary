@@ -1,4 +1,9 @@
 <figure>
-  <img alt="{{ include.figure_info[fig_alt] }}" src="{{ site_info.url }}/assets/images/{{ include.figure_info[fig_slug] }}.png">
-  <figcaption>{{ include.figure_info[fig_caption] }}</figcaption>
+  <img alt="{{ include.figure[fig_alt] }}" src="{{ site.github.url }}/assets/images/{{ include.figure[fig_slug] }}.png">
+  <figcaption>{{ include.figure[fig_caption] }}</figcaption>
 </figure>
+
+<!-- <figure>
+  <img alt="{{ include.figure_info[fig_alt] }}" src="{{ site.github.url }}/assets/images/{{ include.figure_info[fig_slug] }}.png">
+  <figcaption>{{ include.figure_info[fig_caption] }}</figcaption>
+</figure> -->
