@@ -22,10 +22,11 @@ collaborators:
 		affiliation: "Content Strategy Forum"
     affiliation_url: "https://csf.community"
 
-###### Only 1 figure, if at all.
-fig_alt: "A placeholder. Huzza!"
-fig_caption: "A belle figure of mysterious nature."
-fig_slug: placeholder
+###### Figure
+figure:
+  fig_alt: "A placeholder. Huzza!"
+  fig_caption: "A belle figure of mysterious nature."
+  fig_slug: placeholder
 ---
 
 <h1 class="term-title">{{ page.title }}</h1>
@@ -54,7 +55,7 @@ fig_slug: placeholder
 Interface text refers to all the bits and pieces of text used in a given product's user interface (UI). Such text includes navigation items, headers, labels, system feedback messages, pop-up help dialog, title attributes, and so on.
 
 <!-- FIGURE – You can move this line to position among paras, but never delete it! -->
-{% if ref="{{ page.fig_slug }} %}{% include figure.html %}{% endif %}
+{% if ref="{{ page.figure }} %}{% include figure.html figure_info=page.figure site_info=site.github %}{% endif %}
 
 Interface copy should be the epitome of plain language writing; specific, concise, jargon-free, and void of any abbreviations, colloquialisms, clear in meaning (i.e., specific, jargon-free, keywords are put first, doesn't use abbreviations…), free of brand personality, clearly called out (e.g., the purpose of a list is made clear with a lead statement), and is real (i.e., no lorem ipsum or other fake text used in a [[wireframe]] or [[prototype]]).
 

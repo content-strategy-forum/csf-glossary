@@ -1,6 +1,4 @@
 <figure>
-	<img alt="{{ page.fig_alt }}" src="{{ site.github.url }}/assets/images/{{ page.fig_slug }}.png">
-	<figcaption>
-		{{ page.fig_caption }}
-	</figcaption>
+  <img alt="{{ include.figure_info[fig_alt] }}" src="{{ site_info.url }}/assets/images/{{ include.figure_info[fig_slug] }}.png">
+  <figcaption>{{ include.figure_info[fig_caption] }}</figcaption>
 </figure>

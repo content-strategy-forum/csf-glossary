@@ -1,11 +1,13 @@
 ---
 published: true
 layout: default
-title: UX Content Glossary
-description: 
+
+title: "UX Content Glossary"
+
+description: "The content glossary by and for collaborators across digital fields."
 ---
 
-<h1 style="text-align:ceter;">{{page.title}}</h1>
+<h1 style="text-align:ceter;">{{ page.title }}</h1>
 
 * [Interface text](interface-text.html "blank")
 * Interface writing (see _[Interface text](interface-text.html)_)

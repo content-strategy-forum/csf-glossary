@@ -21,9 +21,10 @@ collaborators:
     affiliation_url: "https://content-strategy-forum.github.io/csf-glossary/{{title_slug}}.html" 
 
 ###### Figure
-fig_slug:  
-fig_alt: 
-fig_caption:
+figure:
+  fig_slug:  
+  fig_alt: 
+  fig_caption:
 ---
 
 <h1 class="term-title">{{ page.title }}</h1>
@@ -49,8 +50,8 @@ fig_caption:
 
 An overall strategy that enables people to have seamless interactions with brands anytime, anyplace with little thought of the channel being used. Unlike multichannel where multiple touchpoints operate separately, omnichannel prepares for a seamless integration of touch-points and a continuous user experience from the web to a brick and mortar store. The omni-channel approach is customer-centric and so it ensures a personalized content experience for all users.<sup class="ref">1</sup>
 
-<!-- Figure code – You can move this line, but never delete it! -->
-{% if ref="{{ page.fig_slug }} %}{% include figure.html %}{% endif %}
+<!-- FIGURE – You can move this line to position among paras, but never delete it! -->
+{% if ref="{{ page.figure }} %}{% include figure.html figure_info=page.figure site_info=site.github %}{% endif %}
 
 <!-- EXAMPLES? -->
 
