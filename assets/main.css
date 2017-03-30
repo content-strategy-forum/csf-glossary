@@ -16,7 +16,7 @@ label, input[type="checkbox"], input[type="radio"], input[type="submit"] { curso
 html { overflow-y: scroll; }
 
 body {
-  background: #fff url({% include domain.html %}/csf-glossary/assets/brand/stripe.jpg) 78% -15px repeat-x;
+  background: #fff url({{ site.github.url }}/assets/brand/stripe.jpg) 78% -15px repeat-x;
 	font-size: 100%;
   font-family: 'Crimson Text', serif;
   line-height: 1.5;
@@ -255,12 +255,28 @@ footer {
   padding-top: 5em;
 	padding-bottom: 5em;
   margin-top: 5em;
-  background: #e7e7dd url({% include domain.html %}/csf-glossary/assets/brand/stripe.jpg) 75% -10px repeat-x;
+  background: #e7e7dd url({{ site.github.url }}/assets/brand/stripe.jpg) 75% -10px repeat-x;
+}
+
+.draft {
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+  list-style: none;
+}
+
+.draft li { 
+	display: inline; 
+	width: auto;
+	margin-left: .5em;
+	margin-right: .5em;	
 }
 
 .draft a {
-	padding: .5em;
-	border: 2px solid #CDC8B1;
+  display: inline-block;
+	padding-left: .5em;
+	padding-right: .5em;
+	border: 2px solid #cdc8b1;
 	border-radius: 4px;
 }
 

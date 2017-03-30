@@ -30,10 +30,10 @@
 		</main>
 		<footer>
 			<div class="holdfast">
-				<p class="draft">
-					<a href="https://github.com/content-strategy-forum/csf-glossary/blob/master/{{ page.title | slugify }}.md">Source file</a> and 
-					<a href="https://github.com/content-strategy-forum/csf-glossary/issues/{{ page.issue_id }}">Issue</a>
-				</p>
+				<ul class="draft">
+					<li><a href="{% include repo-path.html %}/blob/master/{{ page.title | slugify }}.md">Source file</a></li> 
+					<li><a href="{% include repo-path.html %}/issues/{{ page.issue_id }}">Issue #{{ page.issue_id }}</a></li>
+				</ul>
 				{% include legal.html %}
 			</div>
 		</footer>
