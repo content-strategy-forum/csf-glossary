@@ -1,16 +1,13 @@
 ---
 published: true
 layout: definition
-
-fig_slug: fig-user-story
-fig_alt: "The user story model."
-fig_caption: "The user story is a 3-clause statement that pinpoints user type, task, and need fulfilled."
-	
 issue_id: 30
-term: "User story"
-term_slug: user-story
 
-meta_description: "A user story is a content development technique that helps writers produce copy in relation to user needs."
+title: "User story"
+title_slug: user-story
+
+tags:
+description: "A user story is a content development technique that helps writers produce copy in relation to user needs."
 
 summary: "A user story is a content planning and development technique that helps writers focus on the scenarios and criteria of user needs, which in turn informs how to write content that fulfulls those needs. The model also helps ensure stakeholder alignment on the scenarios and criteria, as well benefits collaborative writing situations."
 
@@ -20,10 +17,12 @@ collaborators:
     affiliation: "Entity Name"
     affiliation_url: "https://content-strategy-forum.github.io/csf-glossary/{{term_slug}}.html"
 
-tags: #skip tags for now		 
+fig_slug: fig-user-story
+fig_alt: "The user story model."
+fig_caption: "The user story is a 3-clause statement that pinpoints user type, task, and need fulfilled."	 
 ---
 
-<h1 class="term-title">{{page.term}}</h1>
+<h1 class="term-title">{{page.title}}</h1>
 
 <p class="summary">{{page.summary}}</p>
 
@@ -49,8 +48,8 @@ A user story is a content development (or revision) technique for information-as
 {% include figure.html %}
 
 <!--
-<figure><img alt="{{page.alt}}" src="{% include domain.html %}/csf-glossary/assets/images/{{page.fig-slug}}.png">
-	<figcaption>{{page.caption}}</figcaption>
+<figure><img alt="{{page.fig_alt}}" src="{% include domain.html %}/csf-glossary/assets/images/{{page.fig_slug}}.png">
+	<figcaption>{{page.fig_caption}}</figcaption>
 </figure>
 -->
 

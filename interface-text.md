@@ -1,16 +1,13 @@
 ---
 published: true
 layout: definition
-
-fig_alt: "A placeholder. Huzza!"
-fig_caption: "A belle figure of mysterious nature."
-fig_slug: placeholder
-
 issue_id: 9
-term: "Interface text"
-term_slug: interface-text
 
-meta_description: "Short strings of text (1-5 words) used in digital interfaces to guide exploration, text input, personalization, and the like. Not the same as microcopy."
+title: "Interface text"
+title_slug: interface-text
+
+tags:
+description: "Short strings of text (1-5 words) used in digital interfaces to guide exploration, text input, personalization, and the like. Not the same as microcopy."
 
 summary: "The auxiliary text elements used in interface design — headers, labels, feedback messages, menu items, et cetera — that help people navigate and use application interfaces, whether for websites, mobile applications, kiosks, wearable devices, appliance panels, analog/digital dashboards or what have you."
 
@@ -24,10 +21,12 @@ collaborators:
     affiliation_url: "https://csf.community"
     who: "Destry Wion"
 
-tags:
+fig_alt: "A placeholder. Huzza!"
+fig_caption: "A belle figure of mysterious nature."
+fig_slug: placeholder
 ---
 
-<h1 class="term-title">{{page.term}}</h1>
+<h1 class="term-title">{{page.title}}</h1>
 
 <p class="summary">{{page.summary}}</p>
 
@@ -56,8 +55,8 @@ Interface text refers to all the bits and pieces of text used in a given product
 {% include figure.html %}
 
 <!--
-<figure><img alt="{{page.alt}}" src="{% include domain.html %}/csf-glossary/assets/images/{{page.fig-slug}}.png">
-	<figcaption>{{page.caption}}</figcaption>
+<figure><img alt="{{page.fig_alt}}" src="{% include domain.html %}/csf-glossary/assets/images/{{page.fig_slug}}.png">
+	<figcaption>{{page.fig_caption}}</figcaption>
 </figure>
 -->
 

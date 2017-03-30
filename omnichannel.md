@@ -1,35 +1,32 @@
 ---
-##### Managers' use
-
 published: false
 layout: definition
-
-fig_slug: placeholder
-fig_alt: "Placeholder image."
-fig_caption: "Candidate for a custom figure?"
-
-##### File-starter's use
-
 issue_id: 13
-term: Omnichannel
-term_slug: omnichannel
 
-##### Collaborators' use
+###### Term
+title: Omnichannel
+title_slug: omnichannel
 
-meta_description: 
+###### Meta
+tags: 
+description: 
 
 summary: "Yipes! Summary needed"
 
+###### Authors & affiliations
 collaborators:
   - 
 	  who: "First Last"
     affiliation: "Entity Name"
-    affiliation_url: "https://content-strategy-forum.github.io/csf-glossary/{{term_slug}}.html" 
+    affiliation_url: "https://content-strategy-forum.github.io/csf-glossary/{{title_slug}}.html" 
 
-tags: #skip tags for now
+###### Figure
+fig_slug: placeholder
+fig_alt: "Placeholder image."
+fig_caption: "Candidate for a custom figure?"
 ---
 
-<h1 class="term-title">{{page.term}}</h1>
+<h1 class="term-title">{{page.title}}</h1>
 
 <p class="summary">{{page.summary}}</p>
 
