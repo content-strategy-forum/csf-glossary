@@ -15,9 +15,10 @@ summary:
 
 ###### Add your own name/affiliation details.
 collaborators:
-  - who: "First Last"
+  -
+    who: "First Last"
     affiliation: "Entity Name"
-    affiliation_url: "{{ page.url | prepend: site.github.url }}" 
+    affiliation_url: "http://domain.tld" 
 
 ###### Only 1 figure, if at all.
 figure:

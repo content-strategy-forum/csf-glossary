@@ -16,9 +16,9 @@ summary: "Yipes! Summary needed"
 ###### Authors & affiliations
 collaborators:
   - 
-	  who: "First Last"
+    who: "First Last"
     affiliation: "Entity Name"
-    affiliation_url: "https://content-strategy-forum.github.io/csf-glossary/{{title_slug}}.html" 
+    affiliation_url: "https://content-strategy-forum.github.io/csf-glossary/{{ page.title | slugify }}.html" 
 
 ###### Figure
 figure:

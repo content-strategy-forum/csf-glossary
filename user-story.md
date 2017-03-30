@@ -13,7 +13,7 @@ summary: "A user story is a content planning and development technique that help
 
 collaborators:
   - 
-		who: "Destry Wion"
+    who: "Destry Wion"
     affiliation: "Content Strategy Forum"
     affiliation_url: "https://csf.community"
 

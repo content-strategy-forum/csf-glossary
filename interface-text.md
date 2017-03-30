@@ -15,11 +15,11 @@ summary: "The auxiliary text elements used in interface design — headers, labe
 collaborators: 
   - 
     who: "Marit Letnes"
-		affiliation: "Marit Letnes Media SA"
+    affiliation: "Marit Letnes Media SA"
     affiliation_url: "https://maritletnes.no"
   - 
     who: "Destry Wion"
-		affiliation: "Content Strategy Forum"
+    affiliation: "Content Strategy Forum"
     affiliation_url: "https://csf.community"
 
 ###### Figure
