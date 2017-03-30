@@ -28,20 +28,8 @@ figure:
 
 <p class="summary">{{ page.summary }}</p>
 
-<!-- 
-<section class="contributors">
-	{% include writers.html ref="{{page.collaborators}}" %}
-</section> 
--->
-
-<section class="contributors">
-	<ul class="authors nomark">
-		<li>Destry Wion<sup>1</sup></li>
-	</ul>
-	<ol class="affiliations nomark">
-		<li><sup>1</sup> <a href="https://csf.community">Content Strategy Forum</a></li>
-	</ol>
-</section>
+<!-- COLLABORATORS – This must not move nor be deleted -->
+{% include writers.html authors_info=page.collaborators %}
 
 <!-- DEFINITION BEGINS -->
 

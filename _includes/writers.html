@@ -1,14 +1,16 @@
-<ul class="authors nomark">
+<section class="contributors">
+	<ul class="authors nomark">
     {% assign counter = 1 %}
     {% for item in include.ref %}
-        <li>{{ item.who }}<sup>{{ counter }}</sup></li>
+        <li>{{ include.authors_info[who] }}<sup>{{ counter }}</sup></li>
         {% assign counter = counter | plus:1 %}
     {% endfor %}
-</ul>
-<ol class="affiliations nomark">
+	</ul>
+	<ol class="affiliations nomark">
     {% assign counter = 1 %}
     {% for item in include.ref %}
-        <li><sup>{{ counter }}</sup><a href="{{ item.affiliation_url }}">{{ item.affiliation }}</a></li>
+        <li><sup>{{ counter }}</sup><a href="{{ include.authors_info[affiliation_url] }}">{{ include.authors_info[affiliation] }}</a></li>
         {% assign counter = counter | plus:1 %}
     {% endfor %}
-</ol>
+	</ol>
+</section>

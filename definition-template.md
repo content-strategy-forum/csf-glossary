@@ -30,9 +30,8 @@ figure:
 
 <p class="summary">{{ page.summary }}</p>
 
-<section class="contributors">
-	{% include writers.html ref="{{ page.collaborators }}" %}
-</section>
+<!-- COLLABORATORS – This must not move nor be deleted -->
+{% include writers.html authors_info=page.collaborators %}
 
 <!-- PRIMARY PARAGRAPH(S) OF DEFINITION -->
 
@@ -45,8 +44,12 @@ Use multiple paragraphs, if needed.
 
 Somewhere in relation to the primary explanation might be a figure.
 
-<!-- FIGURE – You can move this line to position among paras, but never delete it! -->
+
+
+<!-- FIGURE – You can move this to position it between paras as desired, but never delete it! -->
 {% if ref="{{ page.figure }} %}{% include figure.html figure_info=page.figure site_info=site.github %}{% endif %}
+
+
 
 <!-- EXAMPLE(S) -->
 

@@ -33,22 +33,8 @@ figure:
 
 <p class="summary">{{ page.summary }}</p>
 
-<!-- 
-<section class="contributors">
-	{% include writers.html ref="{{ page.collaborators }}" %}
-</section> 
--->
-
-<section class="contributors">
-	<ul class="authors wrap nomark">
-		<li>Marit Letnes<sup>1</sup></li>
-		<li>Destry Wion<sup>2</sup></li>
-	</ul>
-	<ol class="affiliations nomark">
-		<li><sup>1</sup> <a href="https://maritletnes.no">Marit Letnes Media SA</a></li>
-		<li><sup>2</sup> <a href="https://csf.community">Content Strategy Forum</a></li>
-	</ol>
-</section>
+<!-- COLLABORATORS – This must not move nor be deleted -->
+{% include writers.html authors_info=page.collaborators %}
 
 <!-- DEFINITION BEGINS -->
 
