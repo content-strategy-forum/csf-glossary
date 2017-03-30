@@ -4,7 +4,6 @@ layout: definition
 issue_id: 30
 
 title: "User story"
-title_slug: user-story
 
 tags:
 description: "A user story is a content development technique that helps writers produce copy in relation to user needs."

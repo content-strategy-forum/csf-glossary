@@ -4,7 +4,6 @@ layout: definition
 issue_id: 9
 
 title: "Interface text"
-title_slug: interface-text
 
 tags:
 description: "Short strings of text (1-5 words) used in digital interfaces to guide exploration, text input, personalization, and the like. Not the same as microcopy."

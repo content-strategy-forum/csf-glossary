@@ -5,7 +5,6 @@ issue_id:
 
 ###### Term
 title:
-title_slug:
 
 ###### Meta
 tags: 
@@ -18,7 +17,7 @@ collaborators:
   -
     who: "First Last"
     affiliation: "Entity Name"
-    affiliation_url: "http://domain.tld" 
+    affiliation_url: "{{ page.url | prepend: site.github.url }}" 
 
 ###### Only 1 figure, if at all.
 figure:

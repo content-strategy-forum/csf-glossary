@@ -5,7 +5,6 @@ issue_id: 13
 
 ###### Term
 title: Omnichannel
-title_slug: omnichannel
 
 ###### Meta
 tags: 
