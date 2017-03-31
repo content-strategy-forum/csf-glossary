@@ -15,12 +15,6 @@ collaborators:
     who: "Destry Wion"
     affiliation: "Content Strategy Forum"
     affiliation_url: "https://csf.community"
-
-###### Figure
-figure:
-  fig_slug: fig-user-story 
-  fig_alt: "The user story model."
-  fig_caption: "The user story is a 3-clause statement that pinpoints user type, task, and need fulfilled."	 
 ---
 
 <h1 class="term-title">{{ page.title }}</h1>
