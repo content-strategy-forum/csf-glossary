@@ -1,9 +1,7 @@
-{% for image in include.figure_info %}
 <figure>
-  <img alt="{{ image.fig_alt }}" src="http://content-strategy-forum.github.io/csf-glossary/assets/images/{{ image.fig_slug }}.png">
-  <figcaption>{{ image.fig_caption }}</figcaption>
+  <img alt="Alt text" src="http://content-strategy-forum.github.io/csf-glossary/assets/images/placeholder.png">
+  <figcaption>{{ image.page.figure[fig_caption] }}</figcaption>
 </figure>
-{% endfor %}
 
 
 <!-- These variations do not work

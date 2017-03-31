@@ -8,6 +8,14 @@
 </section>
 
 <!--
+{% for loopvar in include.myvar %}
+   // now each value in your structure is available via loopvar.name
+   // e.g. {{loopvar.who}}
+   // {{loopvar.affiliation}}
+   // etc
+{% endfor %}
+
+
 <section class="contributors">
 	<ul class="authors nomark">
     {% assign counter = 1 %}
