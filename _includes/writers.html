@@ -1,11 +1,21 @@
+{% for loopvar in include.author_info %}
 <section class="contributors">
 	<ul class="authors nomark">
-    <li>First Last<sup>1</sup></li>
+    {% assign counter = 1 %}
+    {% for item in include.ref %}
+        <li>{{ loopvar.who }}<sup>{{ counter }}</sup></li>
+        {% assign counter = counter | plus:1 %}
+    {% endfor %}
 	</ul>
 	<ol class="affiliations nomark">
-    <li><sup>1</sup><a href="#">Some Plage</a></li>
+    {% assign counter = 1 %}
+    {% for item in include.ref %}
+        <li><sup>{{ counter }}</sup><a href="{{ loopvar.affiliation_url }}">{{ loopvar.affiliation }}</a></li>
+        {% assign counter = counter | plus:1 %}
+    {% endfor %}
 	</ol>
 </section>
+{% endfor %}
 
 <!--
 {% for loopvar in include.myvar %}
@@ -18,18 +28,10 @@
 
 <section class="contributors">
 	<ul class="authors nomark">
-    {% assign counter = 1 %}
-    {% for item in include.ref %}
-        <li>{{ include.authors_info[who] }}<sup>{{ counter }}</sup></li>
-        {% assign counter = counter | plus:1 %}
-    {% endfor %}
+    <li>First Last<sup>1</sup></li>
 	</ul>
 	<ol class="affiliations nomark">
-    {% assign counter = 1 %}
-    {% for item in include.ref %}
-        <li><sup>{{ counter }}</sup><a href="{{ include.authors_info[affiliation_url] }}">{{ include.authors_info[affiliation] }}</a></li>
-        {% assign counter = counter | plus:1 %}
-    {% endfor %}
+    <li><sup>1</sup><a href="#">Some Plage</a></li>
 	</ol>
 </section>
 -->
