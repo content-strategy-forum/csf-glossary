@@ -28,7 +28,7 @@ figure:
 <p class="summary">{{ page.summary }}</p>
 
 <!-- COLLABORATORS – This must not move nor be deleted -->
-{% include writers.html authors_info="{{page.collaborators}}" %}
+{% include writers.html authors_info="page.collaborators" %}
 
 <!-- DEFINITION BEGINS -->
 

@@ -45,8 +45,8 @@ Use multiple paragraphs, if needed.
 Somewhere in relation to the primary explanation might be a figure.
 
 
-<!-- FIGURE – You can move this line to position among paras, but never delete it! -->
-{% if ref="{{ page.figure }}" %}{% include figure.html figure_info="page.figure" site_info="site.github" %}{% endif %}
+<!-- FIGURE – You can move this line to position among paras, but never delete it!
+{% if ref="{{ page.figure }}" %}{% include figure.html figure_info="page.figure" site_info="site.github" %}{% endif %}  -->
 
 
 <!-- EXAMPLE(S) -->
