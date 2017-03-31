@@ -36,7 +36,7 @@ A user story is a content development (or revision) technique for information-as
 
 <!-- FIGURE – You can move this line to position among paras, but never delete it! -->
 {% if page.figure %}
-{% include figure.html figslug="figure_slug" figalt="fig_alt" figcap=page.fig_caption %}
+{% include figure.html figslug="figure_slug" figalt="fig_alt" figcap={{page.fig_caption}} %}
 {% endif %}
 
 The process begins with a phase of audience inventigation to understand what user needs are, and how users think and talk about them. Then user stories are employed to capture each need scenario as a succinct statement. The statements inform the copy to be developed or revised. 
