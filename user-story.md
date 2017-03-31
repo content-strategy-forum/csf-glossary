@@ -28,14 +28,14 @@ figure:
 <p class="summary">{{ page.summary }}</p>
 
 <!-- COLLABORATORS – This must not move nor be deleted -->
-{% include writers.html authors_info="page.collaborators" %}
+{% include writers.html authors_info="{{page.collaborators}}" %}
 
 <!-- DEFINITION BEGINS -->
 
 A user story is a content development (or revision) technique for information-as-product situations (versus information-as-persuasion). They help writers produce copy that supports the needs of users more effectively.
 
-<!-- FIGURE – You can move this line to position among paras, but never delete it! -->
-{% if ref="{{ page.figure }}" %}{% include figure.html figure_info="page.figure" site_info="site.github" %}{% endif %}
+<!-- FIGURE – You can move this line to position among paras, but never delete it!
+{% if ref="{{ page.figure }}" %}{% include figure.html figure_info="page.figure" site_info="site.github" %}{% endif %}  -->
 
 The process begins with a phase of audience inventigation to understand what user needs are, and how users think and talk about them. Then user stories are employed to capture each need scenario as a succinct statement. The statements inform the copy to be developed or revised. 
 
