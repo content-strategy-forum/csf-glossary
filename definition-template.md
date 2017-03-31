@@ -31,7 +31,7 @@ figure:
 <p class="summary">{{ page.summary }}</p>
 
 <!-- COLLABORATORS – This must not move nor be deleted -->
-{% include writers.html authors_info=page.collaborators %}
+{% include writers.html authors_info="page.collaborators" %}
 
 <!-- PRIMARY PARAGRAPH(S) OF DEFINITION -->
 
@@ -46,7 +46,7 @@ Somewhere in relation to the primary explanation might be a figure.
 
 
 <!-- FIGURE – You can move this line to position among paras, but never delete it! -->
-{% if ref="{{ page.figure }}" %}{% include figure.html figure_info=page.figure site_info=site.github %}{% endif %}
+{% if ref="{{ page.figure }}" %}{% include figure.html figure_info="page.figure" site_info="site.github" %}{% endif %}
 
 
 <!-- EXAMPLE(S) -->
