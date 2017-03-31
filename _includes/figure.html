@@ -1,9 +1,21 @@
+{% for image in include.figure_info %}
+<figure>
+  <img alt="{{ image.fig_alt }}" src="http://content-strategy-forum.github.io/csf-glossary/assets/images/{{ image.fig_slug }}.png">
+  <figcaption>{{ image.fig_caption }}</figcaption>
+</figure>
+{% endfor %}
+
+
+<!-- These variations do not work
+
+<figure>
+  <img alt="{{ include.figure_info[fig_alt] }}" src="{{ site.github.url }}/assets/images/{{ include.figure_info[fig_slug] }}.png">
+  <figcaption>{{ include.figure_info[fig_caption] }}</figcaption>
+</figure>
+
 <figure>
   <img alt="{{ include.figure_info.fig_alt }}" src="http://content-strategy-forum.github.io/csf-glossary/assets/images/{{ include.figure_info.fig_slug }}.png">
   <figcaption>{{ include.figure_info.fig_caption }}</figcaption>
 </figure>
 
-<!-- <figure>
-  <img alt="{{ include.figure_info[fig_alt] }}" src="{{ site.github.url }}/assets/images/{{ include.figure_info[fig_slug] }}.png">
-  <figcaption>{{ include.figure_info[fig_caption] }}</figcaption>
-</figure> -->
+-->
