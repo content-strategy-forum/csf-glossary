@@ -2,14 +2,14 @@
     <ul class="authors nomark">
       {% for collaborator in page.collaborators %}
 				{% assign counter = 1 %}
-        <li>{{ collaborator.who }}<sup>{{ index }}</sup></li>
+        <li>{{ collaborator.who }}<sup>{{ counter }}</sup></li>
 				{% assign counter = counter | plus:1 %}
       {% endfor %}
     </ul>
     <ol class="affiliations nomark">
       {% for collaborator in page.collaborators %}
 				{% assign counter = 1 %}
-        <li><sup>{{ index }}</sup><a href="{{ collaborator.affiliation_url }}">{{ collaborator.affiliation }}</a></li>
+        <li><sup>{{ counter }}</sup><a href="{{ collaborator.affiliation_url }}">{{ collaborator.affiliation }}</a></li>
 				{% assign counter = counter | plus:1 %}
       {% endfor %}
     </ol>
