@@ -1,38 +1,29 @@
 <section class="contributors">
-	<ul class="authors nomark">
-    <li>First Last<sup>1</sup></li>
-	</ul>
-	<ol class="affiliations nomark">
-    <li><sup>1</sup><a href="#">Some Plage</a></li>
-	</ol>
+    <ul class="authors nomark">
+      {% for collaborator in page.collaborators %}
+         <li>{{ collaborator.who }}<sup>{{ index }}</sup></li>
+      {% endfor %}
+    </ul>
+    <ol class="affiliations nomark">
+      {% for collaborator in page.collaborators %}
+         <li><sup>{{ index }}</sup><a href="{{ collaborator.affiliation_url }}">{{ collaborator.affiliation }}</a></li>
+      {% endfor %}
+    </ol>
 </section>
 
 <!--
-{% for loopvar in include.author_info %}
 <section class="contributors">
-	<ul class="authors nomark">
-    {% assign counter = 1 %}
-    {% for item in include.ref %}
-        <li>{{ loopvar.who }}<sup>{{ counter }}</sup></li>
-        {% assign counter = counter | plus:1 %}
-    {% endfor %}
-	</ul>
-	<ol class="affiliations nomark">
-    {% assign counter = 1 %}
-    {% for item in include.ref %}
-        <li><sup>{{ counter }}</sup><a href="{{ loopvar.affiliation_url }}">{{ loopvar.affiliation }}</a></li>
-        {% assign counter = counter | plus:1 %}
-    {% endfor %}
-	</ol>
+  {% if page.collaborators %}
+    <ul class="authors nomark">
+      {% for collaborator in page.collaborators %}
+         <li>{{ collaborator.who }}<sup>{{ index }}</sup></li>
+      {% endfor %}
+    </ul>
+    <ol class="affiliations nomark">
+      {% for collaborator in page.collaborators %}
+         <li><sup>{{ index }}</sup><a href="{{ collaborator.affiliation_url }}">{{ collaborator.affiliation }}</a></li>
+      {% endfor %}
+    </ol>
+  {% endif %}
 </section>
-{% endfor %}
-
-
-{% for loopvar in include.myvar %}
-   // now each value in your structure is available via loopvar.name
-   // e.g. {{loopvar.who}}
-   // {{loopvar.affiliation}}
-   // etc
-{% endfor %}
-
 -->
