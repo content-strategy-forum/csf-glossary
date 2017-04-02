@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: definition
 issue_id: 9
 
@@ -33,7 +33,7 @@ figure:
 <p class="summary">{{ page.summary }}</p>
 
 <!-- COLLABORATORS – This must not move nor be deleted -->
-{% include writers.html authors_info="page.collaborators" %} 
+{% include writers.html %} 
 
 <!-- DEFINITION BEGINS -->
 
