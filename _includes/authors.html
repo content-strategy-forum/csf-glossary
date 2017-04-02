@@ -1,12 +1,16 @@
 <section class="contributors">
     <ul class="authors nomark">
       {% for collaborator in page.collaborators %}
-         <li>{{ collaborator.who }}<sup>{{ index }}</sup></li>
+				{% assign counter = 1 %}
+        <li>{{ collaborator.who }}<sup>{{ index }}</sup></li>
+				{% assign counter = counter | plus:1 %}
       {% endfor %}
     </ul>
     <ol class="affiliations nomark">
       {% for collaborator in page.collaborators %}
-         <li><sup>{{ index }}</sup><a href="{{ collaborator.affiliation_url }}">{{ collaborator.affiliation }}</a></li>
+				{% assign counter = 1 %}
+        <li><sup>{{ index }}</sup><a href="{{ collaborator.affiliation_url }}">{{ collaborator.affiliation }}</a></li>
+				{% assign counter = counter | plus:1 %}
       {% endfor %}
     </ol>
 </section>
@@ -26,4 +30,8 @@
     </ol>
   {% endif %}
 </section>
+
+{% assign counter = 1 %}
+    <li><sup>{{counter}}</sup> ... </li>
+    {% assign counter = counter | plus:1 %}
 -->
