@@ -10,20 +10,12 @@ description: "Short strings of text (1-5 words) used in digital interfaces to gu
 
 summary: "The auxiliary text elements used in interface design — headers, labels, feedback messages, menu items, et cetera — that help people navigate and use application interfaces, whether for websites, mobile applications, kiosks, wearable devices, appliance panels, analog/digital dashboards or what have you."
 
-###### Add your own name/affiliation details. 
-collaborators: 
-  - 
-    who: "Marit Letnes"
-    affiliation: "Marit Letnes Media SA"
-    affiliation_url: "https://maritletnes.no"
-  - 
-    who: "Destry Wion"
-    affiliation: "Content Strategy Forum"
-    affiliation_url: "https://csf.community"
+###### Add your own name in the brackets, [last_first, etc, etc]. 
+collaborators: [letnes_marit, wion_destry]
 
-###### Figure
+###### Manager use only
 figure:
-  fig_alt: "A placeholder. Huzza!"
+  fig_alt: "A placeholder."
   fig_caption: "A belle figure of mysterious nature."
   fig_slug: placeholder
 ---
@@ -40,7 +32,7 @@ figure:
 Interface text refers to all the bits and pieces of text used in a given product's user interface (UI). Such text includes navigation items, headers, labels, system feedback messages, pop-up help dialog, title attributes, and so on.
 
 <!-- FIGURE – You can move this line to position among paras, but never delete it! -->
-<!-- {% if ref="{{ page.figure }}" %}{% include figure.html figure_info="page.figure" site_info="site.github" %}{% endif %} -->
+{% include figure.html %}
 
 Interface copy should be the epitome of plain language writing; specific, concise, jargon-free, and void of any abbreviations, colloquialisms, clear in meaning (i.e., specific, jargon-free, keywords are put first, doesn't use abbreviations…), free of brand personality, clearly called out (e.g., the purpose of a list is made clear with a lead statement), and is real (i.e., no lorem ipsum or other fake text used in a [[wireframe]] or [[prototype]]).
 

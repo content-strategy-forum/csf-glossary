@@ -12,12 +12,8 @@ description:
 
 summary:
 
-###### Add your own name/affiliation details.
-collaborators:
-  -
-    who: "First Last"
-    affiliation: "Entity Name"
-    affiliation_url: "{{ page.url | prepend: site.github.url }}" 
+###### Add your own name in brackets, [last_first, etc, etc]. 
+collaborators: 
 
 ###### Only 1 figure, if at all.
 figure:

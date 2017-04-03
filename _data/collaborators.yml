@@ -1,0 +1,49 @@
+---
+andrews_michael:
+  who: "Michael Andrews"
+  affiliation: "Story Needle"
+  affiliation_url: "http://storyneedle.com/"
+  where: "India"
+
+colman_jonathan:
+#  who: "Vinish Garg"
+#  affiliation: ""
+#  affiliation_url: ""
+#  where: "US"
+
+# garg_vinish:
+#  who: "Vinish Garg"
+#  affiliation: ""
+#  affiliation_url: ""
+#  where: "India"
+
+letnes_marit_:	
+  who: "Marit Letnes"
+  affiliation: "Marit Letnes Media SA"
+  affiliation_url: "https://maritletnes.no"
+  where: "Norway"
+
+marsh_hilary:
+  who: "Hilary Marsh"
+  affiliation: "Content Company"
+  affiliation_url: "http://www.contentcompany.biz/"
+  where: "US"
+
+# shaw_natalie:
+#  who: "Natalie Shaw"
+#  affiliation: ""
+#  affiliation_url: ""
+#  where: "UK"
+
+# trager_lisa:
+#  who: "Lisa Trager"
+#  affiliation: ""
+#  affiliation_url: ""
+#  where: ""	
+
+wion_destry:
+  who: "Destry Wion"
+	affiliation: "Wion Media"
+	affiliation_url: "https://wion.media"
+  where: "France"
+---
