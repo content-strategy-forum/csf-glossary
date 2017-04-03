@@ -176,7 +176,9 @@ article p {
 .summary,
 .authors { margin-bottom: 1.5em; }
 
-.contributors { margin-bottom: 3em; }
+.contributors-index { margin-top: 3em;}
+
+.contributors-definition { margin-bottom: 3em; }
 
 .authors li:after { content: ","; } /*Inserts a comma after each name.*/
 .authors li:last-child:after { content: ""; } /*Removes comma from last name in list.*/
