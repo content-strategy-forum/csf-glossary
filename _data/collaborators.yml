@@ -1,53 +1,54 @@
 ---
-# last_first:
+-
+#  last_first:
 #  name: "First Last"
 #  affiliation: "Name of Place"
 #  affiliation_url: "url"
 #  country: "Country"
-
-andrews_michael:
+-
+  andrews_michael:
   name: "Michael Andrews"
   affiliation: "Story Needle"
   affiliation_url: "http://storyneedle.com/"
   country: "India"
-
-# colman_jonathan:
+#-
+#  colman_jonathan:
 #  name: "Vinish Garg"
 #  affiliation: ""
 #  affiliation_url: ""
 #  country: "US"
-
-# garg_vinish:
+#-
+#  garg_vinish:
 #  name: "Vinish Garg"
 #  affiliation: ""
 #  affiliation_url: ""
 #  country: "India"
-
-letnes_marit_:	
+-
+  letnes_marit_:	
   name: "Marit Letnes"
   affiliation: "Marit Letnes Media SA"
   affiliation_url: "https://maritletnes.no"
   country: "Norway"
-
-marsh_hilary:
+-
+  marsh_hilary:
   name: "Hilary Marsh"
   affiliation: "Content Company"
   affiliation_url: "http://www.contentcompany.biz/"
   country: "US"
-
-# shaw_natalie:
+-
+#  shaw_natalie:
 #  name: "Natalie Shaw"
 #  affiliation: ""
 #  affiliation_url: ""
 #  country: "UK"
-
-# trager_lisa:
+-
+#  trager_lisa:
 #  name: "Lisa Trager"
 #  affiliation: ""
 #  affiliation_url: ""
 #  country: ""	
-
-wion_destry:
+-
+  wion_destry:
   name: "Destry Wion"
   affiliation: "Wion Media"
   affiliation_url: "https://wion.media"
