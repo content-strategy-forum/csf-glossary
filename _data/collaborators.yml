@@ -43,7 +43,7 @@ marsh_hilary:
 
 wion_destry:
   who: "Destry Wion"
-	affiliation: "Wion Media"
-	affiliation_url: "https://wion.media"
+  affiliation: "Wion Media"
+  affiliation_url: "https://wion.media"
   where: "France"
 ---
