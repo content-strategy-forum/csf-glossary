@@ -2,9 +2,9 @@
 #-
 #  last_first:
 #  name: "First Last"
-#  affiliation: "Name of Place"
+#  affiliation: ""
 #  affiliation_url: "url"
-#  country: "Country"
+#  country: ""
 -
   andrews_michael:
   name: "Michael Andrews"
@@ -13,10 +13,16 @@
   country: "India"
 #-
 #  colman_jonathan:
-#  name: "Vinish Garg"
+#  name: "Jonathan Colman"
 #  affiliation: ""
 #  affiliation_url: ""
 #  country: "US"
+-
+  dawson_stef:
+  name: "Stef Dawson"
+  affiliation: "Name of Place"
+  affiliation_url: "https://stefdawson.com/"
+  country: "UK"
 #-
 #  garg_vinish:
 #  name: "Vinish Garg"
@@ -46,7 +52,7 @@
 #  name: "Lisa Trager"
 #  affiliation: ""
 #  affiliation_url: ""
-#  country: ""	
+#  country: "US"	
 -
   wion_destry:
   name: "Destry Wion"
