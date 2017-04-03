@@ -47,8 +47,10 @@ h1.term-title { font-size: 3rem }
 
 .summary { font-size: 1.7rem; }
 
-.contributors { font-size: 1rem; }
+.contributors-index,
+.contributors-definition { font-size: 1rem; }
 
+.breadcrumb li:after,
 figcaption { font-size: 1.1rem; }
 
 .pitch,
@@ -123,18 +125,18 @@ nav a {
   text-decoration: none;
 }
 
-/* nav.global */
+/* nav.superior */
 
-.global a {
+.superior a {
   border-right: 1px solid #ccc;
   line-height: 30px;
   color: #666;
   text-align: center;
 }
 
-.global.nlast a { border: none; }
+.superior.nlast a { border: none; }
 
-.global a:hover { 
+.superior a:hover { 
 	background: #444;
 	color: #555;
 }
@@ -159,10 +161,7 @@ article p {
 }
 
 
-.breadcrumb li:after {
-	font-size: 1.1rem;
-	content: "\203A"; /*Inserts a guillemet after each path link.*/
-}
+.breadcrumb li:after { content: "\203A"; } /*Inserts a guillemet after each path link.*/
 
 .breadcrumb li:last-child { 
 	font-weight: bold; 
@@ -182,6 +181,13 @@ article p {
 
 .authors li:after { content: ","; } /*Inserts a comma after each name.*/
 .authors li:last-child:after { content: ""; } /*Removes comma from last name in list.*/
+
+.authors li {
+	display: inline; 
+	width: auto;
+}
+
+.nomark { list-style: none; }
 
 /* References */
 
@@ -307,18 +313,6 @@ a:hover .ethics {
 	border-bottom: 0;
 	background: transparent;
 }
-
-
-/* ----------------------------------
-   LISTS
----------------------------------- */
-	
-.wrap li {
-	display: inline; width: auto;
-}
-
-.nomark { list-style: none; }
-
 
 
 /* ---------------------
@@ -488,33 +482,3 @@ button {
   color: #000;
 }
 
-
-/* ------------------------ 
-   MEDIA QUERIES
---------------------------*/
-
-/**************  > 480px  **************/
-@media only screen and (min-width: 480px) {
-
-
-}/* <-keep, closes media query */
-
-/**************  > 700px  **************/
-@media only screen and (min-width: 700px) {
-
-
-}/* <-keep, closes media query */
-
-/**************  > 960px  **************/
-@media only screen and (min-width: 960px) {
-
-		
-}/* <-keep */
-
-/* ----------------------------------
-Tool Kit
----------------------------------- */
-
-.hide-completely { display: none !important; visibility: hidden; }
-.hide-visually { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
-.hide-text { text-indent: 100%; white-space: nowrap; overflow: hidden; }

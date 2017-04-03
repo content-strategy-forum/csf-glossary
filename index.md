@@ -19,6 +19,7 @@ description: "The content glossary by and for collaborators across digital field
 * UX writing (see _[Interface text](interface-text.html)_)
 
 <section class="contributors-index">
+	<p>Contributions by:</p>
     <ul class="authors nomark">
       {% for author in site.data.collaborators %}
         <li>{{ author.name }} ({{ author.country }})</li>
