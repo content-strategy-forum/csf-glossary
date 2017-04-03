@@ -1,5 +1,4 @@
 ---
-
 # last_first:
 #  who: "First Last"
 #  affiliation: "Name of Place"
@@ -10,7 +9,7 @@ andrews_michael:
   who: "Michael Andrews"
   affiliation: "Story Needle"
   affiliation_url: "http://storyneedle.com/"
-#  where: "India"
+  where: "India"
 
 # colman_jonathan:
 #  who: "Vinish Garg"
@@ -28,13 +27,13 @@ letnes_marit_:
   who: "Marit Letnes"
   affiliation: "Marit Letnes Media SA"
   affiliation_url: "https://maritletnes.no"
-#  where: "Norway"
+  where: "Norway"
 
 marsh_hilary:
   who: "Hilary Marsh"
   affiliation: "Content Company"
   affiliation_url: "http://www.contentcompany.biz/"
-#  where: "US"
+  where: "US"
 
 # shaw_natalie:
 #  who: "Natalie Shaw"
@@ -52,5 +51,5 @@ wion_destry:
   who: "Destry Wion"
   affiliation: "Wion Media"
   affiliation_url: "https://wion.media"
-#  where: "France"
+  where: "France"
 ---
