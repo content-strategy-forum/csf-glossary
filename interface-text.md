@@ -11,7 +11,7 @@ description: "Short strings of text (1-5 words) used in digital interfaces to gu
 summary: "The auxiliary text elements used in interface design — headers, labels, feedback messages, menu items, et cetera — that help people navigate and use application interfaces, whether for websites, mobile applications, kiosks, wearable devices, appliance panels, analog/digital dashboards or what have you."
 
 ###### Add your own name in the brackets, [last_first, etc, etc]. 
-collaborators: [letnes_marit, wion_destry]
+authors: [letnes_marit, wion_destry]
 
 ###### Manager use only
 figure:

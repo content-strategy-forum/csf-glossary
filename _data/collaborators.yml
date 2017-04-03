@@ -1,4 +1,11 @@
 ---
+
+# last_first:
+#  who: "First Last"
+#  affiliation: "Name of Place"
+#  affiliation_url: "url"
+#  where: "Country"
+
 andrews_michael:
   who: "Michael Andrews"
   affiliation: "Story Needle"

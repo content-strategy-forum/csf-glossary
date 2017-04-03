@@ -13,7 +13,7 @@ description:
 summary: "Yipes! Summary needed"
 
 ###### Add your own name in brackets, [last_first, etc, etc]. 
-collaborators: 
+authors: 
 
 ###### Figure
 figure:
