@@ -18,10 +18,10 @@ description: "The content glossary by and for collaborators across digital field
 * [User story](user-story.html "A user story is a content planning technique that helps writers produce copy in relation to user needs.")
 * UX writing (see _[Interface text](interface-text.html)_)
 
-<section class="contributors">
+<section class="contributors global">
     <ul class="authors nomark">
       {% for author in site.data.collaborators %}
-        <li>{{ author.who }} ({{ author.where }})</li>
+        <li>{{ author.name }} ({{ author.country }})</li>
 			{% endfor %}
     </ul>
 </section>

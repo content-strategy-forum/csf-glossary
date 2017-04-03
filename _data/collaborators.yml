@@ -1,55 +1,55 @@
 ---
 # last_first:
-#  who: "First Last"
+#  name: "First Last"
 #  affiliation: "Name of Place"
 #  affiliation_url: "url"
-#  where: "Country"
+#  country: "Country"
 
 andrews_michael:
-  who: "Michael Andrews"
+  name: "Michael Andrews"
   affiliation: "Story Needle"
   affiliation_url: "http://storyneedle.com/"
-  where: "India"
+  country: "India"
 
 # colman_jonathan:
-#  who: "Vinish Garg"
+#  name: "Vinish Garg"
 #  affiliation: ""
 #  affiliation_url: ""
-#  where: "US"
+#  country: "US"
 
 # garg_vinish:
-#  who: "Vinish Garg"
+#  name: "Vinish Garg"
 #  affiliation: ""
 #  affiliation_url: ""
-#  where: "India"
+#  country: "India"
 
 letnes_marit_:	
-  who: "Marit Letnes"
+  name: "Marit Letnes"
   affiliation: "Marit Letnes Media SA"
   affiliation_url: "https://maritletnes.no"
-  where: "Norway"
+  country: "Norway"
 
 marsh_hilary:
-  who: "Hilary Marsh"
+  name: "Hilary Marsh"
   affiliation: "Content Company"
   affiliation_url: "http://www.contentcompany.biz/"
-  where: "US"
+  country: "US"
 
 # shaw_natalie:
-#  who: "Natalie Shaw"
+#  name: "Natalie Shaw"
 #  affiliation: ""
 #  affiliation_url: ""
-#  where: "UK"
+#  country: "UK"
 
 # trager_lisa:
-#  who: "Lisa Trager"
+#  name: "Lisa Trager"
 #  affiliation: ""
 #  affiliation_url: ""
-#  where: ""	
+#  country: ""	
 
 wion_destry:
-  who: "Destry Wion"
+  name: "Destry Wion"
   affiliation: "Wion Media"
   affiliation_url: "https://wion.media"
-  where: "France"
+  country: "France"
 ---
