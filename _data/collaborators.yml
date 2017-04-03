@@ -1,5 +1,5 @@
 ---
--
+#-
 #  last_first:
 #  name: "First Last"
 #  affiliation: "Name of Place"
@@ -35,13 +35,13 @@
   affiliation: "Content Company"
   affiliation_url: "http://www.contentcompany.biz/"
   country: "US"
--
+#-
 #  shaw_natalie:
 #  name: "Natalie Shaw"
 #  affiliation: ""
 #  affiliation_url: ""
 #  country: "UK"
--
+#-
 #  trager_lisa:
 #  name: "Lisa Trager"
 #  affiliation: ""
