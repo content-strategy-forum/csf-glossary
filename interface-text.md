@@ -10,8 +10,16 @@ description: "Short strings of text (1-5 words) used in digital interfaces to gu
 
 summary: "The auxiliary text elements used in interface design — headers, labels, feedback messages, menu items, et cetera — that help people navigate and use application interfaces, whether for websites, mobile applications, kiosks, wearable devices, appliance panels, analog/digital dashboards or what have you."
 
-###### Add your own name in the brackets, [last_first, etc, etc]. 
-authors: [letnes_marit, wion_destry]
+###### Add your own 4 lines of data (use spaces to align parameters, not tabs). 
+authors:
+  - name: "Marit Letnes"
+    affiliation: "Wion Media"
+    affiliation_url: "https://wion.media"
+    country: "France"
+  - name: "Marit Letnes"
+    affiliation: "Marit Letnes Media SA"
+    affiliation_url: "https://maritletnes.no"
+    country: "Norway"
 
 ###### Manager use only
 figure:

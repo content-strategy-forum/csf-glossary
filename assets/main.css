@@ -175,7 +175,10 @@ article p {
 .summary,
 .authors { margin-bottom: 1.5em; }
 
-.contributors-index { margin-top: 3em;}
+.contributors-index {
+	text-align: center; 
+	margin-top: 3em;
+}
 
 .contributors-definition { margin-bottom: 3em; }
 

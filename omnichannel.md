@@ -12,8 +12,12 @@ description:
 
 summary: "Yipes! Summary needed"
 
-###### Add your own name in brackets, [last_first, etc, etc]. 
-authors: 
+###### Add your own 4 lines of data (use spaces to align parameters, not tabs). 
+authors:
+  - name:
+    affiliation:
+    affiliation_url:
+    country: 
 
 ###### Figure
 figure:

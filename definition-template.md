@@ -12,8 +12,12 @@ description:
 
 summary:
 
-###### Add your own name in brackets, [last_first, etc, etc]. 
-collaborators:  
+###### Add your own 4 lines of data (use spaces, not tabs, to align parameters). 
+authors:
+  - name:
+    affiliation:
+    affiliation_url:
+    country:
 
 ###### Managers user only.
 figure:
