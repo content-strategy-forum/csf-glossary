@@ -2,11 +2,9 @@
     <ul class="authors nomark">
       {% assign author = site.data.collaborators[page.authors] %}
         <li>{{ author.who }}<sup>{{ forloop.index }}</sup></li>
-      {% endfor %}
     </ul>
     <ol class="affiliations nomark">
       {% assign author = site.data.collaborators[page.authors] %}
         <li><sup>{{ forloop.index }}</sup><a href="{{ author.affiliation_url }}">{{ author.affiliation }}</a></li>
-      {% endfor %}
     </ol>
 </section>
