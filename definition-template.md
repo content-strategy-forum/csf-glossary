@@ -13,9 +13,9 @@ description:
 summary:
 
 ###### Add your own name in brackets, [last_first, etc, etc]. 
-collaborators: 
+collaborators:  
 
-###### Only 1 figure, if at all.
+###### Managers user only.
 figure:
   fig_slug: placeholder 
   fig_alt: "A placeholder. Huzza!"
@@ -27,7 +27,7 @@ figure:
 <p class="summary">{{ page.summary }}</p>
 
 <!-- COLLABORATORS – This must not move nor be deleted -->
-{% include writers.html authors_info="page.collaborators" %}
+{% include authors.html %}
 
 <!-- PRIMARY PARAGRAPH(S) OF DEFINITION -->
 
@@ -41,8 +41,8 @@ Use multiple paragraphs, if needed.
 Somewhere in relation to the primary explanation might be a figure.
 
 
-<!-- FIGURE – You can move this line to position among paras, but never delete it!
-{% if ref="{{ page.figure }}" %}{% include figure.html figure_info="page.figure" site_info="site.github" %}{% endif %}  -->
+<!-- FIGURE – You can move this line to position among paras, but never delete it! -->
+{% include figure.html %}
 
 
 <!-- EXAMPLE(S) -->
