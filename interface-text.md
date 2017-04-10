@@ -12,13 +12,11 @@ summary: "The auxiliary text elements used in interface design — headers, labe
 
 ###### Writers=Authors. If writer, add your own 4 lines of data. Use spaces, not tabs, to align parameter keys. 
 writers:
-  - 
-    name: "Destry Wion"
+  - name: "Destry Wion"
     affiliation: "Wion Media"
     affiliation_url: "https://wion.media"
     country: France
-  -
-    name: "Marit Letnes"
+  - name: "Marit Letnes"
     affiliation: "Marit Letnes Media SA"
     affiliation_url: "https://maritletnes.no"
     country: Norway
