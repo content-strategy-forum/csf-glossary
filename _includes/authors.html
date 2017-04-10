@@ -1,11 +1,11 @@
 <section class="contributors-definition">
     <ul class="authors nomark">
-      {% for item in page.authors %}
+      {% for item in page.writers %}
         <li>{{ item.name }}<sup>{{ forloop.index }}</sup></li>
 			{% endfor %}
     </ul>
     <ol class="affiliations nomark">
-      {% for item in page.authors %}
+      {% for item in page.writers %}
         <li><sup>{{ forloop.index }}</sup><a href="{{ item.affiliation_url }}">{{ item.affiliation }}</a>, {{item.country}}</li>
 			{% endfor %}
     </ol>

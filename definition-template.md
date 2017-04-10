@@ -12,17 +12,24 @@ description:
 
 summary:
 
-###### Add your own 4 lines of data (use spaces, not tabs, to align parameters). 
-authors:
+###### Writers=Authors. If writer, add your own 4 lines of data. Use spaces, not tabs, to align parameter keys. 
+writers:
   - name:
     affiliation:
     affiliation_url:
     country:
 
-###### Managers user only.
+###### Reviewers=Editors. If reviewer, add your own 4 lines of data. Use spaces, not tabs, to align parameter keys. 
+reviewers:
+  - name: 
+    affiliation: 
+    affiliation_url: 
+    country: 
+
+###### Glossary managers use only.
 figure:
   fig_slug: placeholder 
-  fig_alt: "A placeholder. Huzza!"
+  fig_alt: "Alt text for placeholder image."
   fig_caption: "A belle figure of mysterious nature."
 ---
 

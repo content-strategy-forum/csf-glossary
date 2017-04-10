@@ -13,10 +13,17 @@ description:
 summary: "Yipes! Summary needed"
 
 ###### Add your own 4 lines of data (use spaces to align parameters, not tabs). 
-authors:
+writers:
   - name:
     affiliation:
     affiliation_url:
+    country: 
+
+###### Reviewers=Editors. Add your own 4 lines of data. Use spaces, not tabs, to align parameter keys. 
+reviewers:
+  - name: 
+    affiliation: 
+    affiliation_url: 
     country: 
 
 ###### Figure
