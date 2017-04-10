@@ -19,13 +19,6 @@ writers:
     affiliation_url:
     country: 
 
-###### Reviewers=Editors. Add your own 4 lines of data. Use spaces, not tabs, to align parameter keys. 
-reviewers:
-  - name: 
-    affiliation: 
-    affiliation_url: 
-    country: 
-
 ###### Figure
 figure:
   fig_slug:  

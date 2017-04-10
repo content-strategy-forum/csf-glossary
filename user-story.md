@@ -17,13 +17,6 @@ writers:
     affiliation_url: "https://wion.media"
     country: "France"
 
-###### Reviewers=Editors. If reviewer, add your own 4 lines of data. Use spaces, not tabs, to align parameter keys. 
-reviewers:
-  - name: 
-    affiliation: 
-    affiliation_url: 
-    country: 
-
 ###### Glossary managers use only.
 figure:
   fig_slug: fig-user-story 
