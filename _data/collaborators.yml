@@ -8,19 +8,19 @@
 -
   colman_jonathan:
   name: "Jonathan Colman"
-  affiliation: "Facebook"
+  affiliation: Facebook
   affiliation_url: "https://facebook.com"
   country: US
 -
   dawson_stef:
   name: "Stef Dawson"
-  affiliation: "Name of Place"
+  affiliation: "Dawson's White Lightning Distillery"
   affiliation_url: "https://stefdawson.com/"
   country: UK
 -
   garg_vinish:
   name: "Vinish Garg"
-  affiliation: "Vhite"
+  affiliation: Vhite
   affiliation_url: "http://www.vhite.com/"
   country: India
 -
@@ -38,7 +38,7 @@
 -
   shaw_natalie:
   name: "Natalie Shaw"
-  affiliation: "Facebook"
+  affiliation: Facebook
   affiliation_url: "https://facebook.com"
   country: UK
 -
