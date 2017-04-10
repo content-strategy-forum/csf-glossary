@@ -21,8 +21,8 @@ description: "The content glossary by and for collaborators across digital field
 <section class="contributors-index">
 	<p>Contributions by:</p>
     <ul class="authors nomark">
-      {% for author in site.data.collaborators %}
-        <li>{{ author.name }} ({{ author.country }})</li>
+      {% for collaborator in site.data.collaborators %}
+        <li>{{ collaborator.name }} ({{ collaborator.country }})</li>
 			{% endfor %}
     </ul>
 </section>
