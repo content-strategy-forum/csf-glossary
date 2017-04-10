@@ -4,53 +4,53 @@
   name: "Michael Andrews"
   affiliation: "Story Needle"
   affiliation_url: "http://storyneedle.com/"
-  country: "India"
+  country: India
 -
   colman_jonathan:
   name: "Jonathan Colman"
   affiliation: "Facebook"
   affiliation_url: "https://facebook.com"
-  country: "US"
+  country: US
 -
   dawson_stef:
   name: "Stef Dawson"
   affiliation: "Name of Place"
   affiliation_url: "https://stefdawson.com/"
-  country: "UK"
+  country: UK
 -
   garg_vinish:
   name: "Vinish Garg"
   affiliation: "Vhite"
   affiliation_url: "http://www.vhite.com/"
-  country: "India"
+  country: India
 -
   letnes_marit_:	
   name: "Marit Letnes"
   affiliation: "Marit Letnes Media SA"
   affiliation_url: "https://maritletnes.no"
-  country: "Norway"
+  country: Norway
 -
   marsh_hilary:
   name: "Hilary Marsh"
   affiliation: "Content Company"
   affiliation_url: "http://www.contentcompany.biz/"
-  country: "US"
+  country: US
 -
   shaw_natalie:
   name: "Natalie Shaw"
   affiliation: "Facebook"
   affiliation_url: "https://facebook.com"
-  country: "UK"
+  country: UK
 -
   trager_lisa:
   name: "Lisa Trager"
   affiliation: "Verizon Wireless"
   affiliation_url: "https://www.verizonwireless.com/"
-  country: "US"	
+  country: US	
 -
   wion_destry:
   name: "Destry Wion"
   affiliation: "Wion Media"
   affiliation_url: "https://wion.com"
-  country: "France"
+  country: France
 ---
