@@ -12,7 +12,8 @@ summary: "A user story is a content planning and development technique that help
 
 ###### Writers=Authors. If writer, add your own 4 lines of data. Use spaces, not tabs, to align parameter keys. 
 writers:
-  - name: "Destry Wion"
+  -
+    name: "Destry Wion"
     affiliation: "Wion Media"
     affiliation_url: "https://wion.media"
     country: France
