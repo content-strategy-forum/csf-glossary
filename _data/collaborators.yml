@@ -1,62 +1,75 @@
 ---
+### This file provides people data for contributor attributions and linked data.
+### The 'writer' key should be changed to 'true' if a person contributes copy to a definition.
+
 #-
 #  last_first:
 #  name: "First Last"
-#  affiliation: ""
+#  affiliation: "Name of Place"
 #  affiliation_url: "url"
-#  country: ""
+#  country: "Your Country"
+#  writer: false
 -
   andrews_michael:
   name: "Michael Andrews"
   affiliation: "Story Needle"
   affiliation_url: "http://storyneedle.com/"
   country: "India"
+  writer: false
 #-
 #  colman_jonathan:
 #  name: "Jonathan Colman"
 #  affiliation: ""
 #  affiliation_url: ""
 #  country: "US"
+#  writer: false
 -
   dawson_stef:
   name: "Stef Dawson"
   affiliation: "Name of Place"
   affiliation_url: "https://stefdawson.com/"
   country: "UK"
+  writer: false
 #-
 #  garg_vinish:
 #  name: "Vinish Garg"
 #  affiliation: ""
 #  affiliation_url: ""
 #  country: "India"
+#  writer: true
 -
   letnes_marit_:	
   name: "Marit Letnes"
   affiliation: "Marit Letnes Media SA"
   affiliation_url: "https://maritletnes.no"
   country: "Norway"
+  writer: true
 -
   marsh_hilary:
   name: "Hilary Marsh"
   affiliation: "Content Company"
   affiliation_url: "http://www.contentcompany.biz/"
   country: "US"
+  writer: true
 #-
 #  shaw_natalie:
 #  name: "Natalie Shaw"
 #  affiliation: ""
 #  affiliation_url: ""
 #  country: "UK"
+#  writer: false
 #-
 #  trager_lisa:
 #  name: "Lisa Trager"
 #  affiliation: ""
 #  affiliation_url: ""
-#  country: "US"	
+#  country: "US"
+#  writer: false	
 -
   wion_destry:
   name: "Destry Wion"
   affiliation: "Wion Media"
   affiliation_url: "https://wion.media"
   country: "France"
+  writer: true
 ---
