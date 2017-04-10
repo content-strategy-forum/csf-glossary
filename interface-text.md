@@ -15,11 +15,11 @@ writers:
   - name: "Destry Wion"
     affiliation: "Wion Media"
     affiliation_url: "https://wion.media"
-    country: "France"
+    country: France
   - name: "Marit Letnes"
     affiliation: "Marit Letnes Media SA"
     affiliation_url: "https://maritletnes.no"
-    country: "Norway"
+    country: Norway
 
 ###### Glossary managers use only.
 figure:

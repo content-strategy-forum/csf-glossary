@@ -15,7 +15,7 @@ writers:
   - name: "Destry Wion"
     affiliation: "Wion Media"
     affiliation_url: "https://wion.media"
-    country: "France"
+    country: France
 
 ###### Glossary managers use only.
 figure:
