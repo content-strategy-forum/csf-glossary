@@ -5,9 +5,16 @@
     <title>{{ page.title }} | UX Content Glossary</title>
     {% include head-meta.html %}
     <meta name="robots" content="index, follow, noodp, noydir">
+		{% 
+			include jsonld-articles.html 
+			headline=page.title
+			author=page.writers
+			editor=page.reviewers
+		  link=page.permalink
+		%}
 	</head>
 
-	<body>
+	<body vocab="http://schema.org/">
 		{% include header.html %}		
 		<main aria-label="Main content">
 				<div class="container">
@@ -20,7 +27,9 @@
         		</ol>
     			</nav>
 
-    			<article>
+    			<article id="definition">
+						
+						{{ page.path }}
 
         		{{ content }}
 
