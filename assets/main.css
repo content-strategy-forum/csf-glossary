@@ -103,9 +103,15 @@ h1.term-title {
 }
 
 .identity {
-	width: 48px; height: 48px;
 	background-color: #fff;
   transition: transform 2s;
+	line-height: 1;
+}
+
+.identity,
+.identity a {
+	width: 48px; 
+	height: 48px;
 }
 
 .identity:hover { 
@@ -147,8 +153,8 @@ nav a {
 
 .container,
 .holdfast {
-	width: 78%;
-	max-width: 60em;
+	width: 80%;
+	max-width: 56em;
 	margin-left: auto;
 	margin-right: auto;
 }

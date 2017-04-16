@@ -33,14 +33,14 @@ figure:
 <p class="summary">{{ page.summary }}</p>
 
 <!-- COLLABORATORS – This must not move nor be deleted -->
-{% include authors.html %} 
+<!--{% include authors.html %} -->
 
 <!-- DEFINITION BEGINS -->
 
 Interface text refers to all the bits and pieces of text used in a given product's user interface (UI). Such text includes navigation items, headers, labels, system feedback messages, pop-up help dialog, title attributes, and so on.
 
 <!-- FIGURE – You can move this line to position among paras, but never delete it! -->
-{% include figure.html %}
+<!--{% include figure.html %}-->
 
 Interface copy should be the epitome of plain language writing; specific, concise, jargon-free, and void of any abbreviations, colloquialisms, clear in meaning (i.e., specific, jargon-free, keywords are put first, doesn't use abbreviations…), free of brand personality, clearly called out (e.g., the purpose of a list is made clear with a lead statement), and is real (i.e., no lorem ipsum or other fake text used in a [[wireframe]] or [[prototype]]).
 

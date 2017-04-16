@@ -9,6 +9,19 @@ tags:
 description: "A user story is a content development technique that helps writers produce copy in relation to user needs."
 
 summary: "A user story is a content planning and development technique that helps writers focus on the scenarios and criteria of user needs, which in turn informs how to write content that fulfulls those needs. The model also helps ensure stakeholder alignment on the scenarios and criteria, as well benefits collaborative writing situations."
+
+###### Writers=Authors. If writer, add your own 4 lines of data. Use spaces, not tabs, to align parameter keys. 
+writers:
+  - name: "Destry Wion"
+    affiliation: "Wion Media"
+    affiliation_url: "https://wion.media"
+    country: France
+
+###### Glossary managers use only.
+figure:
+  fig_slug: fig-user-story
+  fig_alt: "The user story model."
+  fig_caption: "The user story is a 3-clause statement that pinpoints user type, task, and need fulfilled."	
 ---
 
 <h1 class="term-title">{{ page.title }}</h1>
@@ -16,14 +29,14 @@ summary: "A user story is a content planning and development technique that help
 <p class="summary">{{ page.summary }}</p>
 
 <!-- COLLABORATORS – This must not move nor be deleted -->
-<!--{% include authors.html %} -->
+{% include authors.html %}
 
 <!-- DEFINITION BEGINS -->
 
 A user story is a content development (or revision) technique for information-as-product situations (versus information-as-persuasion). They help writers produce copy that supports the needs of users more effectively.
 
 <!-- FIGURE – You can move this line to position among paras, but never delete it! -->
-<!-- {% include figure.html %} -->
+{% include figure.html %}
 
 The process begins with a phase of audience inventigation to understand what user needs are, and how users think and talk about them. Then user stories are employed to capture each need scenario as a succinct statement. The statements inform the copy to be developed or revised. 
 

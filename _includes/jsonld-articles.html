@@ -1,0 +1,20 @@
+<script type="application/ld+json">
+{ 
+	"@context" : "http://schema.org/",
+	"@type" : "Article",
+	"mainEntityOfPage" : {
+			"@type" : "Article"
+			"@id" : "https://content-strategy-forum.github.io/csf-glossary{{ include.link }}#definition"
+			}
+	"headline" : "{{ include.title }}",
+	"url" : "https://content-strategy-forum.github.io/csf-glossary{{ include.link }}",
+	"genre" : "Definition"	 
+	"author" : {  
+			"@type" : "Person",
+			"name" : "{{ include.writers }}",
+	"image" : {
+			"@type" : "imageObject",
+			"url": "https://content-strategy-forum.github.io/csf-glossary/assets/images/{{ include.figure[fig_slug]}}.png"
+			}
+ }
+ </script>
