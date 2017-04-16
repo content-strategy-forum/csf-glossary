@@ -1,4 +1,11 @@
 *~
 
-# Ignore local OS .DS_Store files:
+# OS files
+######################
 .DS_Store
+
+# Jekyl files
+######################
+_site/*
+.jekyll-metadata
+Gemfile.lock
