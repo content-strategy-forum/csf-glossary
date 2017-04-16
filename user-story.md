@@ -14,7 +14,7 @@ summary: "A user story is a content planning and development technique that help
 writers:
   - name: "Destry Wion"
     affiliation: "Wion Media"
-    affiliation_url: "https://wion.media"
+    affiliation_url: "https://wion.com"
     country: France
 
 ###### Glossary managers use only.

@@ -16,7 +16,7 @@ label, input[type="checkbox"], input[type="radio"], input[type="submit"] { curso
 html { overflow-y: scroll; }
 
 body {
-  background: #fff url({{ site.github.url }}/assets/brand/stripe.jpg) 78% -15px repeat-x;
+  background: #fff url({{ site.baseurl }}/assets/brand/stripe.jpg) 78% -15px repeat-x;
 	font-size: 100%;
   font-family: 'Crimson Text', serif;
   line-height: 1.5;
@@ -276,7 +276,7 @@ footer {
   padding-top: 5em;
 	padding-bottom: 5em;
   margin-top: 5em;
-  background: #e7e7dd url({{ site.github.url }}/assets/brand/stripe.jpg) 75% -10px repeat-x;
+  background: #e7e7dd url({{ site.baseurl }}/assets/brand/stripe.jpg) 75% -10px repeat-x;
 }
 
 .draft {

@@ -14,7 +14,7 @@ summary: "The auxiliary text elements used in interface design — headers, labe
 writers:
   - name: "Destry Wion"
     affiliation: "Wion Media"
-    affiliation_url: "https://wion.media"
+    affiliation_url: "https://wion.com"
     country: France
   - name: "Marit Letnes"
     affiliation: "Marit Letnes Media SA"
