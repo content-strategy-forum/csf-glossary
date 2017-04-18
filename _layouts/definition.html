@@ -7,37 +7,25 @@
     <meta name="robots" content="index, follow, noodp, noydir">
 		<!-- {% include jsonld-articles.html %} -->
 	</head>
-
 	<body vocab="http://schema.org/">
-		{% include header.html %}		
+		<div id="global-grid">
+		{% include masthead.html %}		
 		<main aria-label="Main content">
-				<div class="container">
-					
-    			<nav class="breadcrumb">
-        		<ol>
-            	<li><a href="{{ site.baseurl }}/index.html">Index</a></li>
-            	<!--<li><a>{{ page.categories }}</a></li> -->
-            	<li><a class="active">{{ page.title }}</a></li>
-        		</ol>
-    			</nav>
-
-    			<article id="definition">
+			<article id="definition">
 
         		{{ content }}
 
-    			</article>
-
-				</div><!-- e/o container -->
+    	</article>
 		</main>
 		<footer>
-			<div class="holdfast">
+
 				<ul class="draft">
 					<li><a href="{% include repo-path.html %}/blob/master/{{ page.title | slugify }}.md">Source file</a></li> 
 					<li><a href="{% include repo-path.html %}/issues/{{ page.issue_id }}">Term issue</a></li>
 				</ul>
 				{% include legal.html %}
-			</div>
-		</footer>
 
+		</footer>
+	</div><!-- e/of #definition-grid -->
 	</body>
 </html>
