@@ -2,27 +2,24 @@
 <html lang="en-GB-oxendict">
 	<head>
     <meta charset="utf-8">
-    <title>UX Content Glossary</title>
+    <title>About | UX Content Glossary</title>
     {% include head-meta.html %}
     <meta name="robots" content="index, follow, noodp, noydir">
-		{% include jsonld-index.html %}
+		<!-- {% include jsonld-articles.html %} -->
 	</head>
-
-	<body id="index">
-		<div id="global-grid" class="index-masthead">
-			{% include masthead.html %}
+	<body vocab="http://schema.org/">
+		<div id="global-grid">
+			{% include masthead.html %}	
 			<main aria-label="Main content">
-    			<article id="definition">
+				<article id="definition">
 
-        	{{ content }}
+        		{{ content }}
 
     			</article>
-			</main>
-			<footer>
-				<div class="holdfast">
+				</main>
+				<footer>
 					{% include legal.html %}
-				</div>
-			</footer>
+				</footer>
 		</div><!-- e/of #definition-grid -->
 	</body>
 </html>

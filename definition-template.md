@@ -33,7 +33,7 @@ figure:
   fig_caption: "A belle figure of mysterious nature."
 ---
 
-<h1 class="term-title">{{ page.term }}</h1>
+<h1 class="term-title">{{ page.title }}</h1>
 
 <p class="summary">{{ page.summary }}</p>
 
